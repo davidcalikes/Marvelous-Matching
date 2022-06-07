@@ -41,3 +41,27 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
+
+.menu-info-row {
+    width: 100%;
+    padding-top:  1%;
+    padding-bottom: 1%;
+    font-size: 90%;
+    background-color: #1d5cc9;
+    background-image: url("../images/swirl.webp");
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    margin-left: 0%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.menu-info-row h2{
+    color: #ffffff;
+}
