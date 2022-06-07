@@ -165,3 +165,12 @@ button i {
 .footer-base p {
     margin-bottom: 5%;
 }
+
+footer i {
+    color:#42526e;
+}
+
+footer p {
+    font-family: Helvetica, sans-serif;
+    color: #42526e;
+}
