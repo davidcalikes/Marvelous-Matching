@@ -122,3 +122,6 @@ h2 {
     cursor: pointer;
 }
 
+button:hover { 
+    border: 5px solid yellow;
+}
