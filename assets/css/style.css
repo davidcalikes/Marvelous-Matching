@@ -25,6 +25,8 @@ h2 {
 
 /* *** MENU PAGE STYLING *** */
 
+/* First Nav section */
+
 .logo-container {
     align-items: center;
     display: flex;
@@ -76,3 +78,26 @@ h2 {
 .menu-info-row h2{
     color: #ffffff;
 }
+
+/* Main Nav section */
+
+.menu-window {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.menu-button {
+    padding: 25px;
+    border-radius: 10px;
+    width: 100%;
+    border: 5px solid white;
+    font-family: Schoolbell, sans-serif;
+    font-size: 1.7rem;
+    margin: 1%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    
+}
+
