@@ -125,3 +125,18 @@ h2 {
 button:hover { 
     border: 5px solid yellow;
 }
+
+button i {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.menu-window li {
+    margin: 1rem;
+}
+
+.menu-window ul {
+    list-style: none;
+    width: 70%;
+    max-width: 600px;
+}
