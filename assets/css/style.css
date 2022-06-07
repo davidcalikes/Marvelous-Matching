@@ -26,3 +26,18 @@ body {
     width: 90%;  
     max-width: 600px;
 }
+
+.container {
+    display: block;
+    width: 100%;
+}
+
+.menu-row {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
