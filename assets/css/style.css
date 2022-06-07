@@ -6,3 +6,7 @@
     padding: 0;
     border: none;
 }
+
+body {
+    background: linear-gradient(to bottom, #ffffff, #80c7f0, #ffffff);
+}
