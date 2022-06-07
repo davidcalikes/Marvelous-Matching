@@ -24,4 +24,16 @@ function playShapes() {
     });
   }
 
-  
+  /** 
+ * Plays colours button sound when button is clicked and loads animals game page
+ * Called from the DOM via onclick event
+ * Waits until sound has ended before loading page to prevent audio clipping
+ * */
+function playColours() {
+    let sound = document.getElementById("colours");
+    sound.play();
+    sound.addEventListener('ended', function () {
+      location.href = 'colours.html';
+    });
+  }
+
