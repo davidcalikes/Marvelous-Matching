@@ -11,6 +11,17 @@ body {
     background: linear-gradient(to bottom, #ffffff, #80c7f0, #ffffff);
 }
 
+h1 {
+    font-size: 300%;
+    text-align: center;
+    color: #42526e;
+    font-family: Schoolbell, sans-serif;
+}
+h2 {
+    color: #42526e;
+    font-family: Schoolbell, sans-serif;
+}
+
 
 /* *** MENU PAGE STYLING *** */
 
