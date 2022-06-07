@@ -10,3 +10,19 @@
 body {
     background: linear-gradient(to bottom, #ffffff, #80c7f0, #ffffff);
 }
+
+
+/* *** MENU PAGE STYLING *** */
+
+.logo-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.menu-logo {
+    width: 90%;  
+    max-width: 600px;
+}
