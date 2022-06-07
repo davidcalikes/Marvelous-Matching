@@ -101,3 +101,24 @@ h2 {
     
 }
 
+#animals-button {
+    background-color:  orangered;
+    background-image: url(../images/carbon.webp);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#shapes-button {
+    background-color:  rgb(61, 226, 36);
+    background-image: url(../images/carbon.webp);
+    color: oldlace;
+    cursor: pointer;
+}
+
+#colors-button {
+    background-color: rgb(133, 13, 193);
+    background-image: url(../images/carbon.webp);
+    color: antiquewhite;
+    cursor: pointer;
+}
+
