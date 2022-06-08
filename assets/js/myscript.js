@@ -150,7 +150,15 @@ function testToggle() {
     let quizList = animals.slice(0,4);
     
     document.getElementById("q-thumb").src = quizList[Math.floor(Math.random()* quizList.length)];
+    let quizPic = document.getElementById("q-thumb").getAttribute('src');
+    console.log(quizPic);
 
+    // Uses quizzPic variable to duplicate image to floating congratsBox element"
+    document.getElementById("float-pic").src = quizPic;
+    
+     let question = document.getElementById("question-txt").innerHTML;
+     question;
+     console.log(question);
 
  }
 
