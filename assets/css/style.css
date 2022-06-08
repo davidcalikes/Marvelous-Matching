@@ -112,6 +112,17 @@ h2 {
     
 }
 
+.back-link {
+    font-size: 200%;
+    padding: 5px;
+}
+
+.back-link:hover{
+    border-radius: 10px;
+    background: yellow;
+    cursor: pointer;
+}
+
 #animals-button {
     background-color:  orangered;
     background-image: url(../images/carbon.webp);
