@@ -220,8 +220,8 @@ function testToggle() {
      }
    }
  }
+ makeMatch();
 }
- runGame();
 
  /** 
  * Creates active flash card that matches thumbnail image. 
@@ -268,6 +268,8 @@ function makeMatch() {
     }  
   }     
 }
+
+runGame();
 
  function thumbSound() {
   const thumbSound = document.getElementById("thumb-sound");
