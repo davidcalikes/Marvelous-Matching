@@ -434,6 +434,41 @@ function chkGame() {
 }
 
 /** 
+ * Checks the 3rd flashcard in response to user click event to see if it is the "active" card that matches the card below. 
+ * */
+function checkCard4 () {
+  
+  congratsBox();  
+
+  let box4 = document.getElementById("box-4").getAttribute('class');
+  console.log(box4);
+  let testOnOff = document.getElementById("test-on-off");
+
+  let activeBox = "box active";
+
+  if (box4 === activeBox) {
+    playRight();
+    congratsBox();
+    addScore();
+    addAttempt();
+   
+  } else {
+    if (testOnOff.innerHTML === "ON") {
+      addAttempt();
+      chkGame();
+      tenCheck();
+      playWrong();
+  
+  } else {
+  console.log("Try again!");
+  document.getElementById("box-4").src = "assets/images/try_again.webp";
+  playWrong();
+
+  }
+}
+}
+
+/** 
  * Sets hidden congratulations modal display to flex 
  * */ 
 function congratsBox() {
