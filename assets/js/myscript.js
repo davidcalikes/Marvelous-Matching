@@ -173,6 +173,18 @@ function testToggle() {
      document.getElementById("thumb-sound").src = "assets/audio/thumb_duck.mp3";
    } else {
 
+    if (quizPic === "assets/images/horse.png") {
+      document.getElementById("question-txt").innerHTML = "Where is the horse?";
+      document.getElementById("q-sound").src = "assets/audio/q_horse.mp3";
+      document.getElementById("thumb-sound").src = "assets/audio/thumb_horse.mp3";
+     } else {
+
+       if (quizPic === "assets/images/pig.png") {
+        document.getElementById("question-txt").innerHTML = "Where is the pig?";
+        document.getElementById("q-sound").src = "assets/audio/q_pig.mp3";
+        document.getElementById("thumb-sound").src = "assets/audio/thumb_pig.mp3";
+     } else {
+
 
 
  runGame();
