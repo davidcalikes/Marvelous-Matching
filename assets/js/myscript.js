@@ -46,3 +46,35 @@ function playColours() {
   sound.play();
 }
 
+/** 
+ * Switches all audio elements between muted and unmuted states
+ * */
+function soundToggle() {
+  let soundOnOff = document.getElementById("sound-on-off");
+  let soundIcon = document.getElementById("sound-icon");
+  let sndBtnIcon = document.getElementById("snd-btn-icon");
+  
+  if (soundOnOff.innerHTML === "OFF") {
+      soundOnOff.innerHTML = "ON";
+      soundIcon.className = "fa-solid fa-volume-low";
+      sndBtnIcon.className = "fa-solid fa-volume-low";
+      const sounds = document.querySelectorAll("audio");
+      for (const sound of sounds) {
+      sound.muted = false;
+      localStorage.setItem("toggle", "ON");
+      let sndToggleState = localStorage.getItem("toggle")
+      sndToggleState;
+    }
+      
+  } else {
+    soundOnOff.innerHTML = "OFF";
+    soundIcon.className = "fa-solid fa-volume-xmark";
+    sndBtnIcon.className = "fa-solid fa-volume-xmark";
+    const sounds = document.querySelectorAll("audio");
+    for (const sound of sounds) {
+    sound.muted = true;
+    localStorage.setItem("toggle", "OFF");
+    sndToggleState = localStorage.getItem("toggle");
+    }
+  }
+}
