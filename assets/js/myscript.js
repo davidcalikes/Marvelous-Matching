@@ -269,7 +269,11 @@ function makeMatch() {
   }     
 }
 
-runGame();
+function startGame() {
+  let modal = document.getElementById("modal-box").style.display = "none";
+  modal;
+  runGame();
+}
 
  function thumbSound() {
   const thumbSound = document.getElementById("thumb-sound");
