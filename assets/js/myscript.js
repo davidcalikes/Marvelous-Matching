@@ -103,6 +103,15 @@ function playColours() {
 }
 
 /** 
+ * Plays alert sound
+ * Called from the DOM via onclick event
+ * */
+ function playWrong () {
+  const incorrect = document.getElementById("incorrect-sound");
+  incorrect.play();
+}
+
+/** 
  * Plays question button sound when button is clicked
  * Called from the DOM via onclick event
  * */
@@ -315,10 +324,7 @@ function startGame() {
 // Checks the 1st flashcard in response to user click event to see if it is the "active" card that matches the card below.
 function checkCard1 () {
   
-  function congratsBox() {
-  let congrats = document.getElementById("congrats-box").style.display = "flex";
-  congrats;
-  } 
+  congratsBox(); 
 
   let box1 = document.getElementById("box-1").getAttribute('class');
   console.log(box1);
@@ -331,7 +337,6 @@ function checkCard1 () {
     addScore();
     addAttempt();
     
-  
   } else {
     if (testOnOff.innerHTML === "ON") {
       addAttempt();
@@ -357,7 +362,10 @@ function chkGame() {
   }
 }
 
-function congratsBox() {
+/** 
+ * Sets hidden congratulations modal display to flex 
+ * */ 
+function congratsBox(); {
   let congrats = document.getElementById("congrats-box").style.display = "flex";
   congrats;
   }
