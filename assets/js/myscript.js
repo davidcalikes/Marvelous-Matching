@@ -303,6 +303,27 @@ function startGame() {
   runGame();
 }
 
+// Checks the 1st flashcard in response to user click event to see if it is the "active" card that matches the card below.
+function checkCard1 () {
+  
+  function congratsBox() {
+  let congrats = document.getElementById("congrats-box").style.display = "flex";
+  congrats;
+  } 
+
+  let box1 = document.getElementById("box-1").getAttribute('class');
+  console.log(box1);
+  let testOnOff = document.getElementById("test-on-off");
+  
+  const activeBox = "box active";
+}
+
+
+
+
+
+
+
 function resetBoxClassNames() {
   document.getElementById("box-1").className = "box";
   document.getElementById("box-2").className = "box";
