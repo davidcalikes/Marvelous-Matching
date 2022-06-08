@@ -21,6 +21,17 @@ function setToggle() {
   }
 }
 
+// Mutes all Audio elements on page //
+/** 
+ * Mutes all Audio elements on page
+ * Site is muted by default
+ * */
+ function muteAudio() {
+  const sounds = document.querySelectorAll("audio");
+  for (const sound of sounds)
+    sound.muted = true 
+  }
+
 /** 
  * Plays animals button sound when button is clicked and loads animals game page
  * Called from the DOM via onclick event
