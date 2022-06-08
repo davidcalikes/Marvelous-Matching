@@ -162,3 +162,8 @@ function testToggle() {
   thumbSound.play();
   }
 
+  function thumbHint() {
+    const thumbHint = document.getElementById("thumb-hint").style.display = "flex";
+    thumbHint;
+  }
+
