@@ -223,6 +223,22 @@ function testToggle() {
 }
  runGame();
 
+ /** 
+ * Creates active flash card that matches thumbnail image. 
+ * */      
+function makeMatch() {
+      
+  let box1 = document.getElementById("box-1").getAttribute('src');
+  let box2 = document.getElementById("box-2").getAttribute('src');
+  let box3 = document.getElementById("box-3").getAttribute('src');
+  let box4 = document.getElementById("box-4").getAttribute('src');
+  
+  let answerBox = document.getElementById("q-thumb").getAttribute('src');
+  
+  console.log(answerBox);
+     
+}
+
  function thumbSound() {
   const thumbSound = document.getElementById("thumb-sound");
   thumbSound;
