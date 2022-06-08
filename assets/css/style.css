@@ -301,6 +301,10 @@ footer p {
     
 }
 
+#modal-button:hover {
+    border: 5px solid yellow;
+}
+
 .game-menu-row {
 
     display: flex;
