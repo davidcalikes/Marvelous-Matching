@@ -199,3 +199,31 @@ footer p {
     font-family: Helvetica, sans-serif;
     color: #42526e;
 }
+
+/* *** GAME PAGE STYLING *** */
+
+/* Style rules for modal element that explains how to play and then dissapears on button click */
+#modal-box {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 75vh;
+    position: fixed;
+    z-index: 999; 
+    left: 0; 
+    right: 0; 
+    top: 5vh;
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: #1d5cc9;
+    background-image: url("../images/swirl.png");
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid white;
+    font-family: Schoolbell, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
+    align-items: center;
+}
