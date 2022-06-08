@@ -323,5 +323,21 @@ footer p {
     width: 100%;
     justify-content: center;
     margin-bottom: 2%;
-    
+
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-right {
+    justify-content: right;
+}
+.align-left {
+    justify-content: left;
+
 }
