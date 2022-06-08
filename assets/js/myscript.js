@@ -167,3 +167,8 @@ function testToggle() {
     thumbHint;
   }
 
+  function hideHint() {
+    const hideHint = document.getElementById("thumb-hint").style.display = "none";
+    hideHint;
+  }
+
