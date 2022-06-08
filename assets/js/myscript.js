@@ -37,3 +37,12 @@ function playColours() {
     });
   }
 
+/** 
+ * Plays pop button sound when button is clicked
+ * Called from the DOM via onclick event
+ * */
+ function playPop() {
+  let sound = document.getElementById("start-btn");
+  sound.play();
+}
+
