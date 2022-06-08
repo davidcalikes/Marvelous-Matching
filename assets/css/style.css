@@ -374,6 +374,16 @@ footer p {
     
 }
 
+#score-board {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: #ffffff;
+    font-family: Schoolbell, sans-serif;
+    display: none;
+
+}
+
 /* Style rules for main game area that contains question button and hint thumbnail elements */
 
 .question-container {
