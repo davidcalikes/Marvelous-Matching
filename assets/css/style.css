@@ -341,3 +341,16 @@ footer p {
     justify-content: left;
 
 }
+.box {
+    border-radius: 10px;
+    border: 5px solid whitesmoke;
+    margin: 1rem;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    width: 175px;
+    height: 175px;
+    cursor: pointer;
+}
+
+.box:hover { 
+    border: 5px solid yellow;
+}
