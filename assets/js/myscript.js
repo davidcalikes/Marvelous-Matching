@@ -221,9 +221,6 @@ function testToggle() {
    }
  }
 }
-
-
-
  runGame();
 
  function thumbSound() {
