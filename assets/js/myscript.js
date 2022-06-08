@@ -338,6 +338,15 @@ function checkCard1 () {
    }
 }
 
+function chkGame() {
+  let gameType = document.getElementById("game-type").innerHTML
+
+  if (gameType === "Animals") {
+  resetBoxClassNames();
+  console.log(gameType);
+  playAgain();
+  }
+}
 
 
 
