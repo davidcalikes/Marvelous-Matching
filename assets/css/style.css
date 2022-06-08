@@ -306,7 +306,6 @@ footer p {
 }
 
 .game-menu-row {
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -315,4 +314,14 @@ footer p {
     width: 80%;
     margin-left: 10%;
 
+}
+
+/* Style rules for main game area that contains clickable flashcards */
+
+.game-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2%;
+    
 }
