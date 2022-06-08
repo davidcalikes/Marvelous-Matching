@@ -150,16 +150,17 @@ function testToggle() {
     let quizList = animals.slice(0,4);
     
     document.getElementById("q-thumb").src = quizList[Math.floor(Math.random()* quizList.length)];
+    
     let quizPic = document.getElementById("q-thumb").getAttribute('src');
     console.log(quizPic);
 
     // Uses quizzPic variable to duplicate image to floating congratsBox element"
     document.getElementById("float-pic").src = quizPic;
+    console.log(quizPic)
     
      let question = document.getElementById("question-txt").innerHTML;
      question;
-     console.log(question);
-
+     
      if (quizPic === "assets/images/sheep.webp") {
       document.getElementById("question-txt").innerHTML = "Where is the sheep?";
       document.getElementById("q-sound").src = "assets/audio/q_sheep.mp3";
@@ -173,42 +174,42 @@ function testToggle() {
      document.getElementById("thumb-sound").src = "assets/audio/thumb_duck.mp3";
    } else {
 
-    if (quizPic === "assets/images/horse.png") {
+    if (quizPic === "assets/images/horse.webp") {
       document.getElementById("question-txt").innerHTML = "Where is the horse?";
       document.getElementById("q-sound").src = "assets/audio/q_horse.mp3";
       document.getElementById("thumb-sound").src = "assets/audio/thumb_horse.mp3";
       
       } else {
 
-       if (quizPic === "assets/images/pig.png") {
+       if (quizPic === "assets/images/pig.webp") {
         document.getElementById("question-txt").innerHTML = "Where is the pig?";
         document.getElementById("q-sound").src = "assets/audio/q_pig.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_pig.mp3";
       
       } else {
 
-      if (quizPic === "assets/images/rooster.png") {
+      if (quizPic === "assets/images/rooster.webp") {
         document.getElementById("question-txt").innerHTML = "Where is the rooster?";
         document.getElementById("q-sound").src = "assets/audio/q_rooster.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_rooster.mp3";
         
         } else {
 
-         if (quizPic === "assets/images/cat.png") {
+         if (quizPic === "assets/images/cat.webp") {
           document.getElementById("question-txt").innerHTML = "Where is the cat?";     
           document.getElementById("q-sound").src = "assets/audio/q_cat.mp3";
           document.getElementById("thumb-sound").src = "assets/audio/thumb_cat.mp3";
          
         } else {
         
-          if (quizPic === "assets/images/dog.png") {
+          if (quizPic === "assets/images/dog.webp") {
             document.getElementById("question-txt").innerHTML = "Where is the dog?";
             document.getElementById("q-sound").src = "assets/audio/q_dog.mp3";
             document.getElementById("thumb-sound").src = "assets/audio/thumb_dog.mp3";
            
           } else {
 
-             if (quizPic === "assets/images/cow.png") {
+             if (quizPic === "assets/images/cow.webp") {
               document.getElementById("question-txt").innerHTML = "Where is the cow?";
               document.getElementById("q-sound").src = "assets/audio/q_cow.mp3";
               document.getElementById("thumb-sound").src = "assets/audio/thumb_cow.mp3";
@@ -270,9 +271,22 @@ function makeMatch() {
 }
 
 function startGame() {
+  
+  resetBoxClassNames();
+  
   let modal = document.getElementById("modal-box").style.display = "none";
   modal;
   runGame();
+}
+
+
+
+function resetBoxClassNames() {
+  document.getElementById("box-1").className = "box";
+  document.getElementById("box-2").className = "box";
+  document.getElementById("box-3").className = "box";
+  document.getElementById("box-4").className = "box";
+  console.log("reset is working")
 }
 
  function thumbSound() {
