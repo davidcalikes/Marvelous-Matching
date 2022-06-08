@@ -275,3 +275,20 @@ footer p {
     line-height: 10px;
     
 }
+
+#modal-button {
+    
+    background-color:  orangered;
+    background-image: url(../images/carbon.webp);
+    color: white;
+    padding: 20px;
+    width: 10rem;
+    border-radius: 10px;
+    border: 5px solid white;
+    font-family: Schoolbell, sans-serif;
+    font-size: 1.4rem;
+    margin-top: 3%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    
+}
