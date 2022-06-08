@@ -373,3 +373,19 @@ footer p {
     display: block;
     
 }
+
+/* Style rules for main game area that contains question button and hint thumbnail elements */
+
+.question-container {
+
+    display: block;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+#question-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
