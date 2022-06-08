@@ -94,6 +94,15 @@ function playColours() {
 }
 
 /** 
+ * Plays question button sound when button is clicked
+ * Called from the DOM via onclick event
+ * */
+ function qSound() {
+  let sound = document.getElementById("q-sound");
+  sound.play();
+}
+
+/** 
  * Switches all audio elements between muted and unmuted states
  * */
 function soundToggle() {
@@ -143,26 +152,6 @@ function testToggle() {
   }
 }
 
-
-/**
- * Returns random elements from array using Fisher-Yates Shuffle Algorithm. 
- * (Credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
- */
- function shuffle(array) {
-  let currentIndex = array.length,  randomIndex;
-
-  while (currentIndex != 0) {
-
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    [array[currentIndex], array[randomIndex]] = 
-    [array[randomIndex], array[currentIndex]];
-  }
-
-  return array;
-}
-
 // *** RUNGAME FUNCTIONS ***
 
 /** 
@@ -194,56 +183,57 @@ function testToggle() {
     
      let question = document.getElementById("question-txt").innerHTML;
      question;
+     console.log(question)
      
-     if (quizPic === "assets/images/sheep.webp") {
+     if (quizPic === "assets/images/animal_sheep.webp") {
       document.getElementById("question-txt").innerHTML = "Where is the sheep?";
       document.getElementById("q-sound").src = "assets/audio/q_sheep.mp3";
       document.getElementById("thumb-sound").src = "assets/audio/thumb_sheep.mp3";
     
      } else {
 
-    if (quizPic === "assets/images/duck.webp") {
+    if (quizPic === "assets/images/animal_duck.webp") {
      document.getElementById("question-txt").innerHTML = "Where is the duck?";
      document.getElementById("q-sound").src = "assets/audio/q_duck.mp3";
      document.getElementById("thumb-sound").src = "assets/audio/thumb_duck.mp3";
    } else {
 
-    if (quizPic === "assets/images/horse.webp") {
+    if (quizPic === "assets/images/animal_horse.webp") {
       document.getElementById("question-txt").innerHTML = "Where is the horse?";
       document.getElementById("q-sound").src = "assets/audio/q_horse.mp3";
       document.getElementById("thumb-sound").src = "assets/audio/thumb_horse.mp3";
       
       } else {
 
-       if (quizPic === "assets/images/pig.webp") {
+       if (quizPic === "assets/images/animal_pig.webp") {
         document.getElementById("question-txt").innerHTML = "Where is the pig?";
         document.getElementById("q-sound").src = "assets/audio/q_pig.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_pig.mp3";
       
       } else {
 
-      if (quizPic === "assets/images/rooster.webp") {
+      if (quizPic === "assets/images/animal_rooster.webp") {
         document.getElementById("question-txt").innerHTML = "Where is the rooster?";
         document.getElementById("q-sound").src = "assets/audio/q_rooster.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_rooster.mp3";
         
         } else {
 
-         if (quizPic === "assets/images/cat.webp") {
+         if (quizPic === "assets/images/animal_cat.webp") {
           document.getElementById("question-txt").innerHTML = "Where is the cat?";     
           document.getElementById("q-sound").src = "assets/audio/q_cat.mp3";
           document.getElementById("thumb-sound").src = "assets/audio/thumb_cat.mp3";
          
         } else {
         
-          if (quizPic === "assets/images/dog.webp") {
+          if (quizPic === "assets/images/animal_dog.webp") {
             document.getElementById("question-txt").innerHTML = "Where is the dog?";
             document.getElementById("q-sound").src = "assets/audio/q_dog.mp3";
             document.getElementById("thumb-sound").src = "assets/audio/thumb_dog.mp3";
            
           } else {
 
-             if (quizPic === "assets/images/cow.webp") {
+             if (quizPic === "assets/images/aniaml_cow.webp") {
               document.getElementById("question-txt").innerHTML = "Where is the cow?";
               document.getElementById("q-sound").src = "assets/audio/q_cow.mp3";
               document.getElementById("thumb-sound").src = "assets/audio/thumb_cow.mp3";
@@ -336,4 +326,23 @@ function resetBoxClassNames() {
     const hideHint = document.getElementById("thumb-hint").style.display = "none";
     hideHint;
   }
+
+/**
+ * Returns random elements from array using Fisher-Yates Shuffle Algorithm. 
+ * (Credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
+ */
+ function shuffle(array) {
+  let currentIndex = array.length,  randomIndex;
+
+  while (currentIndex != 0) {
+
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    [array[currentIndex], array[randomIndex]] = 
+    [array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+}
 
