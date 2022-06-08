@@ -177,13 +177,28 @@ function testToggle() {
       document.getElementById("question-txt").innerHTML = "Where is the horse?";
       document.getElementById("q-sound").src = "assets/audio/q_horse.mp3";
       document.getElementById("thumb-sound").src = "assets/audio/thumb_horse.mp3";
-     } else {
+      
+      } else {
 
        if (quizPic === "assets/images/pig.png") {
         document.getElementById("question-txt").innerHTML = "Where is the pig?";
         document.getElementById("q-sound").src = "assets/audio/q_pig.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_pig.mp3";
-     } else {
+      
+      } else {
+
+      if (quizPic === "assets/images/rooster.png") {
+        document.getElementById("question-txt").innerHTML = "Where is the rooster?";
+        document.getElementById("q-sound").src = "assets/audio/q_rooster.mp3";
+        document.getElementById("thumb-sound").src = "assets/audio/thumb_rooster.mp3";
+        
+        } else {
+
+         if (quizPic === "assets/images/cat.png") {
+          document.getElementById("question-txt").innerHTML = "Where is the cat?";     
+          document.getElementById("q-sound").src = "assets/audio/q_cat.mp3";
+          document.getElementById("thumb-sound").src = "assets/audio/thumb_cat.mp3";
+         } else {
 
 
 
