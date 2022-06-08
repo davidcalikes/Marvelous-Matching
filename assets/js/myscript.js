@@ -547,3 +547,10 @@ function addAttempt() {
   document.getElementById("attempts").innerText = ++testAttempts;
 }
 
+function tenCheck() {
+  const maxAttempts = document.getElementById("attempts").innerHTML;
+  const testState = document.getElementById("test-on-off");
+  if (maxAttempts === "10" && testState.innerHTML === "ON") {
+    endTest();
+  }
+}
