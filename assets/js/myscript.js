@@ -357,6 +357,11 @@ function chkGame() {
   }
 }
 
+function congratsBox() {
+  let congrats = document.getElementById("congrats-box").style.display = "flex";
+  congrats;
+  }
+
 
 
 
