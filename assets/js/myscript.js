@@ -313,8 +313,6 @@ function startGame() {
   runGame();
 }
 
-
-
 function resetBoxClassNames() {
   document.getElementById("box-1").className = "box";
   document.getElementById("box-2").className = "box";
