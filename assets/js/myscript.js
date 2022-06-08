@@ -1,3 +1,11 @@
+// Functions and statements relating to site sounds
+
+// Statement that retrieves the position of the sound toggle switch from local storage and stores it in a variable
+let sndToggleState = localStorage.getItem("toggle")
+      console.log("Sound =",sndToggleState);
+
+      setToggle();
+
 /** 
  * Plays animals button sound when button is clicked and loads animals game page
  * Called from the DOM via onclick event
