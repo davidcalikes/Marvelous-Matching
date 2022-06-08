@@ -7,6 +7,21 @@ let sndToggleState = localStorage.getItem("toggle")
       setToggle();
 
 /** 
+ * Maintains the toggle state of the sound toggle button across all pages of the site
+ * Gets state of switch from sndToggleState variable
+ * */
+function setToggle() {
+  if (sndToggleState === "ON") {
+  soundToggle();
+
+} else {
+  if (sndToggleState === "OFF") {
+  muteAudio();
+    }
+  }
+}
+
+/** 
  * Plays animals button sound when button is clicked and loads animals game page
  * Called from the DOM via onclick event
  * Waits until sound has ended before loading page to prevent audio clipping
