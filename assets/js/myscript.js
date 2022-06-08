@@ -345,7 +345,7 @@ function checkCard1 () {
       playWrong();
   
     } else {
-    document.getElementById("box-1").src = "assets/images/try_again.png";
+    document.getElementById("box-1").src = "assets/images/try_again.webp";
     playWrong();
     console.log("Try again!");
     }     
@@ -365,15 +365,10 @@ function chkGame() {
 /** 
  * Sets hidden congratulations modal display to flex 
  * */ 
-function congratsBox(); {
+function congratsBox() {
   let congrats = document.getElementById("congrats-box").style.display = "flex";
   congrats;
   }
-
-
-
-
-
 
 function resetBoxClassNames() {
   document.getElementById("box-1").className = "box";
