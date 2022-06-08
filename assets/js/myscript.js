@@ -539,3 +539,11 @@ function addScore() {
   document.getElementById("add-score").innerText = ++getScore;
 }
 
+/**
+ * Increments number of attempts by 1 and adds to score board in info container  
+ */
+function addAttempt() {
+  let testAttempts = parseInt(document.getElementById("attempts").innerText);
+  document.getElementById("attempts").innerText = ++testAttempts;
+}
+
