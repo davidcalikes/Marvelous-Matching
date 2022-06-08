@@ -241,3 +241,16 @@ footer p {
     display: block;
     width: 100%;
 }
+
+.modal-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.modal-unit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
