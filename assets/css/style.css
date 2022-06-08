@@ -254,3 +254,24 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+
+.rules-pic1{
+    border-radius: 10px;
+    border: 3px solid whitesmoke;
+    margin: 1rem;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    width: 30%;
+    line-height: 10px;
+    margin-top: 3%;
+    
+}
+
+.rules-pic2{
+    border-radius: 10px;
+    border: 3px solid whitesmoke;
+    margin: 1rem;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    width: 30%;
+    line-height: 10px;
+    
+}
