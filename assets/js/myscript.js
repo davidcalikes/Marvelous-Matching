@@ -316,6 +316,26 @@ function checkCard1 () {
   let testOnOff = document.getElementById("test-on-off");
   
   const activeBox = "box active";
+  if (box1 === activeBox) {
+    playRight();
+    congratsBox();
+    addScore();
+    addAttempt();
+    
+  
+  } else {
+    if (testOnOff.innerHTML === "ON") {
+      addAttempt();
+      chkGame();
+      tenCheck();
+      playWrong();
+  
+    } else {
+    document.getElementById("box-1").src = "assets/images/try_again.png";
+    playWrong();
+    console.log("Try again!");
+    }     
+   }
 }
 
 
