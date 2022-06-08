@@ -400,7 +400,7 @@ footer p {
 
 #question-button {
     background-color:  orangered;
-    background-image: url(../images/carbon.png);
+    background-image: url(../images/carbon.webp);
     color: white;
     padding-left: 30px;
     padding-right: 30px;
@@ -418,6 +418,13 @@ footer p {
 #question-button:hover { 
     border: 3px solid yellow;
 }
+
+#thumb-container{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
 #q-thumb{ 
     position: relative;
     top: 0;
