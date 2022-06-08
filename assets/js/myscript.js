@@ -326,8 +326,6 @@ function startGame() {
  * Checks the 1st flashcard in response to user click event to see if it is the "active" card that matches the card below. 
  * */
 function checkCard1 () {
-  
-  congratsBox(); 
 
   let box1 = document.getElementById("box-1").getAttribute('class');
   console.log(box1);
@@ -360,8 +358,6 @@ function checkCard1 () {
  * */
 function checkCard2 () {
 
-  congratsBox();
-
   let box2 = document.getElementById("box-2").getAttribute('class');
   console.log(box2);
   let testOnOff = document.getElementById("test-on-off");
@@ -393,8 +389,6 @@ function checkCard2 () {
  * Checks the 3rd flashcard in response to user click event to see if it is the "active" card that matches the card below. 
  * */
 function checkCard3 () {
-
-  congratsBox();
 
   let box3 = document.getElementById("box-3").getAttribute('class');
   console.log(box3);
@@ -437,9 +431,7 @@ function chkGame() {
  * Checks the 4th flashcard in response to user click event to see if it is the "active" card that matches the card below. 
  * */
 function checkCard4 () {
-  
-  congratsBox();  
-
+   
   let box4 = document.getElementById("box-4").getAttribute('class');
   console.log(box4);
   let testOnOff = document.getElementById("test-on-off");
@@ -553,4 +545,22 @@ function tenCheck() {
   if (maxAttempts === "10" && testState.innerHTML === "ON") {
     endTest();
   }
+}
+
+function runTest() {
+  
+  resetBoxClassNames();
+  
+  let hidePlayInfo = document.getElementById("play-info").style.display = "none";
+  hidePlayInfo;
+  let showScore = document.getElementById("score-board").style.display = "block";
+  showScore;
+  let hideTestModal = document.getElementById("end-test").style.display = "none";
+  hideTestModal;
+  let resetScore = document.getElementById("add-score").innerHTML = "0";
+  resetScore;
+  let resetAttempts = document.getElementById("attempts").innerHTML = "0";
+  resetAttempts;
+
+  makeMatch();
 }
