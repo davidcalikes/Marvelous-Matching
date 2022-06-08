@@ -418,3 +418,18 @@ footer p {
 #question-button:hover { 
     border: 3px solid yellow;
 }
+#q-thumb{ 
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid whitesmoke;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    margin-left: 3%;
+    width: 92.5px;
+    cursor: pointer;
+}
+
+#q-thumb:hover{ 
+    border: 3px solid yellow;
+}
