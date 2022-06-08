@@ -389,3 +389,11 @@ footer p {
     align-items: center;
     margin-top: 1.5rem;
 }
+
+.q-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
