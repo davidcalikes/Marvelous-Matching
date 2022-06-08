@@ -564,3 +564,13 @@ function runTest() {
 
   makeMatch();
 }
+
+function endTest() {
+  const endModal = document.getElementById("end-test").style.display = "flex";
+  endModal;
+
+  const getFinalScr = document.getElementById("add-score").innerText;
+  console.log("Final Score =",getFinalScr,"/10")
+  const dspFinalScr = document.getElementById("final-score").innerHTML = getFinalScr;
+  dspFinalScr;
+}
