@@ -181,6 +181,10 @@ button i {
     display: none;
 }
 
+.button-spacer {
+    margin-left: 3%;
+}
+
 /* Footer Section Styling */
 
 .footer-window {
@@ -295,4 +299,16 @@ footer p {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     
+}
+
+.game-menu-row {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+
 }
