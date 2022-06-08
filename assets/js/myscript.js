@@ -156,4 +156,9 @@ function testToggle() {
 
  runGame();
 
+ function thumbSound() {
+  const thumbSound = document.getElementById("thumb-sound");
+  thumbSound;
+  thumbSound.play();
+  }
 
