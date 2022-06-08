@@ -360,10 +360,7 @@ function checkCard1 () {
  * */
 function checkCard2 () {
 
-  function congratsBox() {
-  let congrats = document.getElementById("congrats-box").style.display = "flex";
-  congrats;
-  } 
+  congratsBox();
 
   let box2 = document.getElementById("box-2").getAttribute('class');
   console.log(box2);
@@ -387,6 +384,40 @@ function checkCard2 () {
   } else {
   console.log("Try again!");
   document.getElementById("box-2").src = "assets/images/try_again.webp";
+  playWrong();
+  }
+}
+}
+
+/** 
+ * Checks the 3rd flashcard in response to user click event to see if it is the "active" card that matches the card below. 
+ * */
+function checkCard3 () {
+
+  congratsBox();
+
+  let box3 = document.getElementById("box-3").getAttribute('class');
+  console.log(box3);
+  let testOnOff = document.getElementById("test-on-off");
+
+  let activeBox = "box active";
+
+  if (box3 === activeBox) {
+    playRight();
+    congratsBox();
+    addScore();
+    addAttempt();
+
+  } else {
+    if (testOnOff.innerHTML === "ON") {
+      addAttempt();
+      chkGame();
+      tenCheck();
+      playWrong();
+  
+  } else {
+  console.log("Try again!");
+  document.getElementById("box-3").src = "assets/images/try_again.webp";
   playWrong();
   }
 }
