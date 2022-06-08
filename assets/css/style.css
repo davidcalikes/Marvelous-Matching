@@ -177,6 +177,10 @@ button i {
     max-width: 600px;
 }
 
+#sound-state{
+    display: none;
+}
+
 /* Footer Section Styling */
 
 .footer-window {
