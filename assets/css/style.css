@@ -123,6 +123,20 @@ h2 {
     cursor: pointer;
 }
 
+.nav-link {
+    text-align: center;
+    color: #42526e;
+    font-family: Schoolbell, sans-serif;
+    font-size: 100%;
+    padding: 5px;
+}
+
+.nav-link:hover{
+    border-radius: 10px;
+    background: yellow;
+    cursor: pointer;
+}
+
 #animals-button {
     background-color:  orangered;
     background-image: url(../images/carbon.webp);
