@@ -467,7 +467,7 @@ footer p {
     margin-left: auto; 
     margin-right: auto; 
     background-color: #1d5cc9;
-    background-image: url("../images/swirl.png");
+    background-image: url("../images/swirl.webp");
     padding: 30px;
     border-radius: 10px;
     border: 5px solid white;
@@ -486,4 +486,11 @@ footer p {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     width: 170px;
     height: 170px;
+}
+
+.center-box {
+    margin-top: 3%;
+}
+.center-box h2 {
+    color: #ffffff;
 }
