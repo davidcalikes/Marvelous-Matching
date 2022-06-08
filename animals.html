@@ -66,6 +66,7 @@
 </nav>
 
 <!-- The Main Game Section contains four placeholder images to be changed at random using JS. The lower part of this section includes placeholders for a question and thumbnail hint image   -->   
+
 <section>
     <audio id="correct-sound" src="assets/audio/correct_answer.mp3"></audio>
     <audio id="incorrect-sound" src="assets/audio/try_again.mp3"></audio>
@@ -84,7 +85,19 @@
         <div id="play-info" >
          <H3>Click or tap the image above &nbsp <i class="fa-solid fa-hand-point-up"></i> &nbsp that matches the question and smaller image below &nbsp <i class="fa-solid fa-hand-point-down"></i></H3> 
         </div>
-    </div>    
+    </div> 
+    <div class="question-container">
+        <div id="question-row">
+            <div class="q-box">
+                
+            </div>
+            <div id="thumb-container">
+                <audio id="thumb-sound" src="assets/audio/thumb_cat.mp3"></audio>
+                <img id="q-thumb" src="assets/images/placeholder.webp" alt="A picture of a random farmyard animal">
+            </div>
+        </div> 
+    </div>
+</section>   
 
 <footer>
     <div class="footer-window">
