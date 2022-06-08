@@ -47,6 +47,19 @@ function playColours() {
 }
 
 /** 
+ * Plays pop button sound when button is clicked and returns to menu page
+ * Called from the DOM via onclick event
+ * Waits until sound has ended before loading page to prevent audio clipping
+ * */
+ function playBack() {
+  let sound = document.getElementById("back-btn");
+  sound.play();
+  sound.addEventListener("ended", function () {
+    location.href = "index.html";
+  });
+}
+
+/** 
  * Switches all audio elements between muted and unmuted states
  * */
 function soundToggle() {
@@ -79,6 +92,9 @@ function soundToggle() {
   }
 }
 
+/** 
+ * Switches between test and learning game modes
+ * */
 function soundToggle() {
   let soundOnOff = document.getElementById("sound-on-off");
   let soundIcon = document.getElementById("sound-icon");
