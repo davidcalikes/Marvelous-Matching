@@ -202,6 +202,11 @@ footer p {
 
 /* *** GAME PAGE STYLING *** */
 
+.game-logo {
+    width: 65%;  
+    max-width: 400px;
+}
+
 /* Style rules for modal element that explains how to play and then dissapears on button click */
 #modal-box {
     display: flex;
