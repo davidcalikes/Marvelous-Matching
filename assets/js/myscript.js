@@ -236,7 +236,37 @@ function makeMatch() {
   let answerBox = document.getElementById("q-thumb").getAttribute('src');
   
   console.log(answerBox);
-     
+
+  if (box1 === answerBox) {
+    let active = document.getElementById("box-1");
+    active.className += " active"; 
+    console.log("box1 winner");
+  
+  } else {
+    
+    if (box2 === answerBox) {
+      let active = document.getElementById("box-2");
+      active.className += " active"; 
+      console.log("box2 winner");
+    
+    } else {
+    
+      if (box3 === answerBox) {
+        let active = document.getElementById("box-3");
+        active.className += " active"; 
+        console.log("box3 winner");
+
+      } else {
+    
+        if (box4 === answerBox) {
+          let active = document.getElementById("box-4");
+          active.className += " active"; 
+          console.log("box4 winner");
+
+        }  
+      }
+    }  
+  }     
 }
 
  function thumbSound() {
