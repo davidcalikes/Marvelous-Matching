@@ -94,6 +94,15 @@ function playColours() {
 }
 
 /** 
+ * Plays jingle sound when correct answer is clicked
+ * Called from the DOM via onclick event
+ * */
+ function playRight() {
+  const correct = document.getElementById("correct-sound");
+  correct.play();
+}
+
+/** 
  * Plays question button sound when button is clicked
  * Called from the DOM via onclick event
  * */
