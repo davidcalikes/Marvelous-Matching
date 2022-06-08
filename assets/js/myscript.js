@@ -471,7 +471,7 @@ function checkCard4 () {
 function playAgain() {
 
   tenCheck();
-
+  
   resetBoxClassNames();
   
   let congratsBox = document.getElementById("congrats-box").style.display = "none";
