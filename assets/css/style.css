@@ -233,3 +233,11 @@ footer p {
     align-items: center;
 }
 
+#modal-box h2 {
+    color: #ffffff;
+}
+
+.modal-container {
+    display: block;
+    width: 100%;
+}
