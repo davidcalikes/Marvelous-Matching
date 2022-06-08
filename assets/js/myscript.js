@@ -198,7 +198,29 @@ function testToggle() {
           document.getElementById("question-txt").innerHTML = "Where is the cat?";     
           document.getElementById("q-sound").src = "assets/audio/q_cat.mp3";
           document.getElementById("thumb-sound").src = "assets/audio/thumb_cat.mp3";
-         } else {
+         
+        } else {
+        
+          if (quizPic === "assets/images/dog.png") {
+            document.getElementById("question-txt").innerHTML = "Where is the dog?";
+            document.getElementById("q-sound").src = "assets/audio/q_dog.mp3";
+            document.getElementById("thumb-sound").src = "assets/audio/thumb_dog.mp3";
+           
+          } else {
+
+             if (quizPic === "assets/images/cow.png") {
+              document.getElementById("question-txt").innerHTML = "Where is the cow?";
+              document.getElementById("q-sound").src = "assets/audio/q_cow.mp3";
+              document.getElementById("thumb-sound").src = "assets/audio/thumb_cow.mp3";
+             }
+             }
+           }
+         }
+       }
+     }
+   }
+ }
+}
 
 
 
