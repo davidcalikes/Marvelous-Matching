@@ -209,7 +209,7 @@ footer p {
 
 /* Style rules for modal element that explains how to play and then dissapears on button click */
 #modal-box {
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 70vw;
     height: 75vh;
