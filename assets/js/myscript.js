@@ -434,7 +434,7 @@ function chkGame() {
 }
 
 /** 
- * Checks the 3rd flashcard in response to user click event to see if it is the "active" card that matches the card below. 
+ * Checks the 4th flashcard in response to user click event to see if it is the "active" card that matches the card below. 
  * */
 function checkCard4 () {
   
@@ -466,6 +466,18 @@ function checkCard4 () {
 
   }
 }
+}
+
+function playAgain() {
+
+  tenCheck();
+
+  resetBoxClassNames();
+  
+  let congratsBox = document.getElementById("congrats-box").style.display = "none";
+  congratsBox;
+  hideHint();
+  runGame();
 }
 
 /** 
