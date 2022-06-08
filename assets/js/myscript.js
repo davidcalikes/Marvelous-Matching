@@ -160,7 +160,20 @@ function testToggle() {
      question;
      console.log(question);
 
- }
+     if (quizPic === "assets/images/sheep.webp") {
+      document.getElementById("question-txt").innerHTML = "Where is the sheep?";
+      document.getElementById("q-sound").src = "assets/audio/q_sheep.mp3";
+      document.getElementById("thumb-sound").src = "assets/audio/thumb_sheep.mp3";
+    
+     } else {
+
+    if (quizPic === "assets/images/duck.webp") {
+     document.getElementById("question-txt").innerHTML = "Where is the duck?";
+     document.getElementById("q-sound").src = "assets/audio/q_duck.mp3";
+     document.getElementById("thumb-sound").src = "assets/audio/thumb_duck.mp3";
+   } else {
+
+
 
  runGame();
 
