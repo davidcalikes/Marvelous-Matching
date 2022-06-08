@@ -531,3 +531,11 @@ function resetBoxClassNames() {
   return array;
 }
 
+/**
+ * Increments number of correct answers by 1 and adds to score board in info container  
+ */
+function addScore() {
+  let getScore = parseInt(document.getElementById("add-score").innerText);
+  document.getElementById("add-score").innerText = ++getScore;
+}
+
