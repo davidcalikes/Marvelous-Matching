@@ -645,3 +645,25 @@ footer p {
     margin-right: 14%;
     }   
 }
+
+@media screen and (max-width: 700px) {
+
+    .game-menu-row{
+    width: 100%;
+    margin-left: 0%;
+    }
+    .box {
+        width: 160px;
+        height: 160px;
+    }
+
+    .menu-row h1{
+        font-size: 175%;
+    }
+
+    .menu-row {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}
