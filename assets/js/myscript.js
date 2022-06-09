@@ -409,6 +409,7 @@ function startGame2() {
   modal;
 runGame2();
 }
+
 /** 
  * Checks the 1st flashcard in response to user click event to see if it is the "active" card that matches the card below. 
  * */
@@ -511,7 +512,14 @@ function chkGame() {
   resetBoxClassNames();
   console.log(gameType);
   playAgain();
+
+}else{
+  if (gameType === "Shapes") {
+  resetBoxClassNames();
+  console.log(gameType);
+  playAgain2();
   }
+}
 }
 
 /** 
@@ -569,6 +577,7 @@ function playAgain2() {
   congratsBox;
   hideHint();
   runGame2();
+  console.log("Hello from playAgain2")
 }
 
 /** 
