@@ -137,6 +137,10 @@ h2 {
     cursor: pointer;
 }
 
+.about-btn {
+    text-decoration: none;
+}
+
 #animals-button {
     background-color:  orangered;
     background-image: url(../images/background_carbon.webp);
