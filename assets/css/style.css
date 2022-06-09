@@ -523,6 +523,8 @@ footer p {
     border: 5px solid yellow;
 }
 
+
+
 /* Style rules for hidden end test modal div */
 
 #end-test {
@@ -594,6 +596,13 @@ footer p {
 
 #end-test-button:hover { 
     border: 5px solid yellow;
+}
+
+/* *** ABOUT PAGE STYLING *** */
+
+.menu-logo {
+    width: 40%;  
+    max-width: 400px;
 }
 
 /* *** MEDIA QUERIES *** */
