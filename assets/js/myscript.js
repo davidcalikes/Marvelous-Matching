@@ -489,7 +489,7 @@ function startGame2() {
 runGame2();
 }
 
-function startGame2() {
+function startGame3() {
   
   resetBoxClassNames();
   
