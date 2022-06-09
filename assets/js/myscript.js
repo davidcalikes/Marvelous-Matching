@@ -529,10 +529,10 @@ function chkGame() {
   playAgain2();
 
 }else{
-  if (gameType === "Shapes") {
+  if (gameType === "Colours") {
   resetBoxClassNames();
   console.log(gameType);
-  playAgain2();
+  playAgain3();
   }
 }
 }
