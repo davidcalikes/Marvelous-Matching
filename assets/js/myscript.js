@@ -417,18 +417,20 @@ function testToggle() {
 
         } else {
 
-          if (quizPic === "assets/images/colours_pink.webp") {
-            document.getElementById("question-txt").innerHTML = "Where is the colour pink?";
-            document.getElementById("q-sound").src = "assets/audio/q_pink.mp3";
-            document.getElementById("thumb-sound").src = "assets/audio/thumb_pink.mp3";
+          if (quizPic === "assets/images/colours_red.webp") {
+            document.getElementById("question-txt").innerHTML = "Where is the colour red?";
+            document.getElementById("q-sound").src = "assets/audio/q_red.mp3";
+            document.getElementById("thumb-sound").src = "assets/audio/thumb_red.mp3";
             
             } else {
     
-             if (quizPic === "assets/images/colours_purple.webp") {
-              document.getElementById("question-txt").innerHTML = "Where is the colour purple?";     
-              document.getElementById("q-sound").src = "assets/audio/q_purple.mp3";
-              document.getElementById("thumb-sound").src = "assets/audio/thumb_purple.mp3";
-
+             if (quizPic === "assets/images/colours_yellow.webp") {
+              document.getElementById("question-txt").innerHTML = "Where is the colour yellow?";     
+              document.getElementById("q-sound").src = "assets/audio/q_yellow.mp3";
+              document.getElementById("thumb-sound").src = "assets/audio/thumb_yellow.mp3";
+            
+            } 
+            }
            }
          }
        }
