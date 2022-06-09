@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Marvelous Matching: a matching game for infants and learning impaired children" />
+    <meta name="keywords" content="Marvelous Matching, early education, special education, animals, shapes, colours, differentiation, association, catagorisation, motor skills, children, learning games, school, whiteboard, ipad, sounds, ">
+    <script src="https://kit.fontawesome.com/b13bafb209.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="marvelous.ico">
+    <title>Colours -- Marvelous Matching</title>
+</head>
+
+<body>
+
+<!-- Shapes Page Header Section -->
+
+<header>
+    <div class="logo-container">
+        <img class="game-logo" src="assets/images/mm-header.webp" alt="A cartoon logo featuring stylised text that says marvelous matching and is surrounded by cartoon animals and colorful shapes">  
+    </div>
+</header>
+
+<!-- A modal-style element that explains to the user how to play and contains a button that triggers the JavaScript function to run the game -->
+
+<div id="modal-box">
+    <h2> Welcome to Marvelous Matching: <span id="game-type">Shapes</span> <i class="fa-solid fa-paw"></i></h2>
+    <div class="modal-container">
+        <div class="modal-row">
+            <div class="modal-unit">
+                <img class="rules-pic1" src="assets/images/rules_pic3.webp" alt="An image of four random farmyard animals">
+            </div> 
+        </div>
+        <div class="modal-row">
+            <div class="modal-unit">Click <span>&nbsp <i class="fa-solid fa-arrow-pointer"> </i> &nbsp;</span> or tap <span>&nbsp;<i class="fa-solid fa-hand-point-up"></i>&nbsp;</span> the picture...</div>
+        </div>
+        <div class="modal-row">
+            <div class="modal-unit"> 
+                <img class="rules-pic2" src="assets/images/rules_pic4.webp" alt="An explanitory image of a question and a small picture of a farmyard animal">
+            </div>
+        </div>
+        <div class="modal-row"> 
+            <div class="modal-unit">
+                ...that answers the question & matches the smaller image!
+            </div> 
+        </div> 
+        <div class="modal-row"> 
+            <div class="modal-unit">
+                <audio id="start-btn" src="assets/audio/pop.mp3"></audio>
+                <button id="modal-button" onclick="startGame2();playPop();"> Start Game </button>
+            </div> 
+        </div>
+    </div>
+</div>
+
+<nav>
+    <div class="container">
+        <div class="game-menu-row" >
+            <h2 class="nav-link" onclick="soundToggle()"><i id="sound-icon" class="fa-solid fa-volume-xmark"></i>&nbsp Sound: <span id="sound-on-off">OFF</span></h2>
+            <audio id="back-btn" src="assets/audio/pop.mp3"></audio>
+            <h1 class="back-link"  onclick="playBack()" ><i class="fa-solid fa-circle-left">&nbsp</i>Back to Menu</h1>
+            <h2 class="nav-link" onclick="testToggle()"><i class="fa-solid fa-graduation-cap"></i>&nbsp Test Mode: <span id="test-on-off">OFF</span></h2>
+        </div>
+    </div>
+</nav>
+
+<!-- The Main Game Section contains four placeholder images to be changed at random using JS. The lower part of this section includes placeholders for a question and thumbnail hint image   -->   
+
+<section>
+    <audio id="correct-sound" src="assets/audio/correct_answer.mp3"></audio>
+    <audio id="incorrect-sound" src="assets/audio/try_again.mp3"></audio>
+    <div class="game-container">
+        <div class="row align-right">
+            <img src="assets/images/placeholder.webp" alt="A question mark graphic" id="box-1" class="box" onclick="checkCard1()">
+            <img src="assets/images/placeholder.webp" alt="A question mark graphic" id="box-2" class="box" onclick="checkCard2()">
+        </div>
+        <div class="row align-left">
+            <img src="assets/images/placeholder.webp" alt="A question mark graphic" id="box-3" class="box" onclick="checkCard3()">
+            <img src="assets/images/placeholder.webp" alt="A question mark graphic" id="box-4" class="box" onclick="checkCard4()">
+        </div>
+    </div>
+
+    <div id="info-container">
+        <div id="play-info" >
+         <H3>Click or tap the image above &nbsp <i class="fa-solid fa-hand-point-up"></i> &nbsp that matches the question and smaller image below &nbsp <i class="fa-solid fa-hand-point-down"></i></H3> 
+        </div>
+        <div id="score-board" >
+            <H3>Score: <span id="add-score">0</span> / <span id="attempts">0</span> </H3> 
+        </div>
+
+
+    </div> 
+    <div class="question-container">
+        <div id="question-row">
+            <div class="q-box">
+                <audio id="q-sound" src="assets/audio/shapes_btn.mp3"></audio>
+                <button id="question-button" onclick="qSound();hideHint();"> <p id="question-txt"> Where is the animal?</p><i id="snd-btn-icon" class="fa-solid fa-volume-xmark"></i></button> 
+                <div id="thumb-container">
+                    <audio id="thumb-sound" src="assets/audio/thumb_cat.mp3"></audio>
+                    <img id="q-thumb" onclick="thumbSound();thumbHint();" src="assets/images/placeholder.webp" alt="A picture of a random farmyard animal">
+                    <img id="thumb-hint" src="assets/images/thumb_hint.webp" alt="A transparent image containing the text 'match me'">
+                </div>
+            </div>
+        </div> 
+    </div>
+</section> 
+
+<!-- A modal-style box that displays a message congratulating the user on a correct answer and also a button that loads the next question when clicked. -->
+    
+    <div id="congrats-box" >
+        <div class="center-box">
+            <h2> Well Done! </h2>
+            <div class="modal-row">
+                <img id="float-pic" src="assets/images/placeholder.webp" alt="placeholder alt text"  class="congrats-img">
+            </div>
+
+            <div class="container">
+                <H2>That's a marvelous match!</H2>
+                <div class="modal-row"> 
+                    <button id="congrats-button" onclick="playAgain2();playPop();"> Play Again </button>
+                </div> 
+            </div>
+        </div> 
+    </div>
+
+<!-- An modal-style box that displays a message containing the users final score out of 10 after the maximum attempts limit has been reached. Returns to game menu or resets the test game on button click. -->
+
+    <div id="end-test">
+        <div class="center-box">
+            <h2>Well Done!</h2>
+            
+
+            <div class="container">
+                <H2>You got...</H2>
+                <H2><span id="final-score">0</span> / 10 </H2>
+                <div class="modal-row"> 
+                    <button id="end-test-button" onclick="runTest()" > New Test  </button>
+                </div> 
+            </div>
+
+            <div class="container">
+                <div class="modal-row"> 
+                    <button id="back-button" onclick="playBack()" > Game Menu </button>
+                </div> 
+            </div>
+        </div> 
+    </div>
+
+<footer>
+    <div class="footer-window">
+        <p id="footer-info"> David Calikes &nbsp <i class="fa-brands fa-linkedin"></i> <span> </span> <i class="fa-brands fa-github"></i></p>
+    </div>
+
+    <div class="footer-window">
+        <p>&#169; 2022</p>
+    </div>
+</footer>
+
+<script src="assets/js/myscript.js" type="text/javascript"></script>
+</body>
