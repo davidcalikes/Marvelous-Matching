@@ -356,12 +356,12 @@ function testToggle() {
   let colours = ["assets/images/colours_black.webp","assets/images/colours_blue.webp","assets/images/colours_green.webp","assets/images/colours_orange.webp","assets/images/colours_pink.webp","assets/images/colours_purple.webp","assets/images/colours_red.webp","assets/images/colours_yellow.webp"];
   shuffle(colours);
 
-    document.getElementById("box-1").src = shapes[0];
-    document.getElementById("box-2").src = shapes[1];
-    document.getElementById("box-3").src = shapes[2];
-    document.getElementById("box-4").src = shapes[3];
+    document.getElementById("box-1").src = colours[0];
+    document.getElementById("box-2").src = colours[1];
+    document.getElementById("box-3").src = colours[2];
+    document.getElementById("box-4").src = colours[3];
 
-    let quizList = shapes.slice(0,4);
+    let quizList = colours.slice(0,4);
     
     document.getElementById("q-thumb").src = quizList[Math.floor(Math.random()* quizList.length)];
     
