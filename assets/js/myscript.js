@@ -472,6 +472,18 @@ function playAgain() {
   runGame();
 }
 
+function playAgain2() {
+
+  tenCheck();
+
+  resetBoxClassNames();
+  
+  let congratsBox = document.getElementById("congrats-box").style.display = "none";
+  congratsBox;
+  hideHint();
+  runGame2();
+}
+
 /** 
  * Sets hidden congratulations modal display to flex 
  * */ 
