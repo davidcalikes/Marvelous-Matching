@@ -410,6 +410,15 @@ function startGame2() {
 runGame2();
 }
 
+function startGame2() {
+  
+  resetBoxClassNames();
+  
+  let modal = document.getElementById("modal-box").style.display = "none";
+  modal;
+runGame3();
+}
+
 /** 
  * Checks the 1st flashcard in response to user click event to see if it is the "active" card that matches the card below. 
  * */
