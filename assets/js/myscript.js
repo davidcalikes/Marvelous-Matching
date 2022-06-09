@@ -277,12 +277,12 @@ function testToggle() {
   let shapes = ["assets/images/shapes_circle.webp","assets/images/shapes_oval.webp","assets/images/shapes_rectangle.webp","assets/images/shapes_square.webp","assets/images/shapes_star.webp","assets/images/shapes_triangle.webp"];
   shuffle(shapes);
 
-    document.getElementById("box-1").src = animals[0];
-    document.getElementById("box-2").src = animals[1];
-    document.getElementById("box-3").src = animals[2];
-    document.getElementById("box-4").src = animals[3];
+    document.getElementById("box-1").src = shapes[0];
+    document.getElementById("box-2").src = shapes[1];
+    document.getElementById("box-3").src = shapes[2];
+    document.getElementById("box-4").src = shapes[3];
 
-    let quizList = animals.slice(0,4);
+    let quizList = shapes.slice(0,4);
     
     document.getElementById("q-thumb").src = quizList[Math.floor(Math.random()* quizList.length)];
     
