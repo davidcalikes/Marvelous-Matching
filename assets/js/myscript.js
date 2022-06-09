@@ -403,17 +403,17 @@ function testToggle() {
       
       } else {
 
-      if (quizPic === "assets/images/shapes_star.webp") {
-        document.getElementById("question-txt").innerHTML = "Where is the star?";
-        document.getElementById("q-sound").src = "assets/audio/q_star.mp3";
-        document.getElementById("thumb-sound").src = "assets/audio/thumb_star.mp3";
+      if (quizPic === "assets/images/colours_pink.webp") {
+        document.getElementById("question-txt").innerHTML = "Where is the colour pink?";
+        document.getElementById("q-sound").src = "assets/audio/q_pink.mp3";
+        document.getElementById("thumb-sound").src = "assets/audio/thumb_pink.mp3";
         
         } else {
 
-         if (quizPic === "assets/images/shapes_triangle.webp") {
-          document.getElementById("question-txt").innerHTML = "Where is the triangle?";     
-          document.getElementById("q-sound").src = "assets/audio/q_triangle.mp3";
-          document.getElementById("thumb-sound").src = "assets/audio/thumb_triangle.mp3";
+         if (quizPic === "assets/images/colours_purple.webp") {
+          document.getElementById("question-txt").innerHTML = "Where is the colour purple?";     
+          document.getElementById("q-sound").src = "assets/audio/q_purple.mp3";
+          document.getElementById("thumb-sound").src = "assets/audio/thumb_purple.mp3";
 
            }
          }
