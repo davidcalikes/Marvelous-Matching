@@ -389,17 +389,17 @@ function testToggle() {
      document.getElementById("thumb-sound").src = "assets/audio/thumb_blue.mp3";
    } else {
 
-    if (quizPic === "assets/images/shapes_rectangle.webp") {
-      document.getElementById("question-txt").innerHTML = "Where is the rectangle?";
-      document.getElementById("q-sound").src = "assets/audio/q_rectangle.mp3";
-      document.getElementById("thumb-sound").src = "assets/audio/thumb_rectangle.mp3";
+    if (quizPic === "assets/images/colours_green.webp") {
+      document.getElementById("question-txt").innerHTML = "Where is the colour green?";
+      document.getElementById("q-sound").src = "assets/audio/q_green.mp3";
+      document.getElementById("thumb-sound").src = "assets/audio/thumb_green.mp3";
       
       } else {
 
-       if (quizPic === "assets/images/shapes_square.webp") {
-        document.getElementById("question-txt").innerHTML = "Where is the square?";
-        document.getElementById("q-sound").src = "assets/audio/q_square.mp3";
-        document.getElementById("thumb-sound").src = "assets/audio/thumb_square.mp3";
+       if (quizPic === "assets/images/colours_orange.webp") {
+        document.getElementById("question-txt").innerHTML = "Where is the colour orange?";
+        document.getElementById("q-sound").src = "assets/audio/q_orange.mp3";
+        document.getElementById("thumb-sound").src = "assets/audio/thumb_orange.mp3";
       
       } else {
 
