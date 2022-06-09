@@ -251,7 +251,7 @@ function testToggle() {
            
           } else {
 
-             if (quizPic === "assets/images/aniaml_cow.webp") {
+             if (quizPic === "assets/images/animal_cow.webp") {
               document.getElementById("question-txt").innerHTML = "Where is the cow?";
               document.getElementById("q-sound").src = "assets/audio/q_cow.mp3";
               document.getElementById("thumb-sound").src = "assets/audio/thumb_cow.mp3";
