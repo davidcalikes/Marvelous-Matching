@@ -9,6 +9,7 @@ let sndToggleState = localStorage.getItem("toggle")
       function muteOnload() {
       if (sndToggleState = null)
         muteAudio();
+        console.log("hello from muteOnload")
       }
 
 /** 
