@@ -733,3 +733,43 @@ footer p {
             width: 62.5px;
         }
     }
+
+    @media screen and (max-width: 400px) {
+
+        .menu-button {
+            font-size: 1.2rem;
+        }
+
+        .menu-info-row h2{
+            font-size: 70%;
+        }
+
+        .back-link {
+            font-size: 100%;
+        }
+        
+        .box{
+            width: 100px;
+            height: 100px;
+        }
+
+        #q-thumb {
+            width: 50px;
+        }
+
+        #thumb-hint {
+            width: 50px;
+        }
+
+        #play-info {
+            font-size: 70%;
+        }
+
+        #modal-box {
+            font-size: 85%;
+        }
+        
+        .button-spacer {
+            margin-left: 5%;
+        }
+    }
