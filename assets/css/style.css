@@ -629,3 +629,19 @@ footer p {
     }
     
 }
+
+@media screen and (max-width: 770px) {
+
+    h1 {
+    font-size: 200%;
+    }
+
+    h2 {
+    font-size: 100%;
+        }
+
+    #play-info {
+    margin-left: 14%;
+    margin-right: 14%;
+    }   
+}
