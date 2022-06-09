@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Marvelous Matching: a matching game for infants and learning impaired children" />
+    <meta name="keywords" content="Marvelous Matching, early education, special education, animals, shapes, colours, differentiation, association, catagorisation, motor skills, children, learning games, school, whiteboard, ipad, sounds, ">
+    <script src="https://kit.fontawesome.com/b13bafb209.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="marvelous.ico">
+    <title>About -- Marvelous Matching</title>
+</head>
+
+<body>
+
+<!-- Menu Page Header Section *** -->
+    
+    <header>
+        <div class="logo-container">
+            <img class="menu-logo" src="assets/images/mm-header.webp" alt="A cartoon logo featuring stylised text that says marvelous matching and is surrounded by cartoon animals and colorful shapes">  
+        </div>
+    </header>
+
+<!-- Menu Page First Nav Section -- Contains sound-toggle and link to about page for detailed information about the games available and how to play.  *** -->   
+    
+    <nav>
+        <div class="container">
+            <div class="menu-row">
+                <h2 class="nav-link" onclick="soundToggle()"><i id="sound-icon" class="fa-solid fa-volume-xmark"></i>&nbsp Sound: <span id="sound-on-off" >OFF</span></h2> 
+                <h1>Menu</h1> 
+                <h2 class="nav-link"><i class="fa-solid fa-circle-info"></i>&nbsp About&nbsp</h2>
+            </div> 
+
+            <div class="menu-info-row">
+                <h2>Click &nbsp <i class="fa-solid fa-arrow-pointer flash-prompt"> </i> &nbsp or tap &nbsp;<i class="fa-solid fa-hand-point-down flash-prompt"></i></i>&nbsp; on a button below to choose a game!</h2>
+            </div>  
+        </div>
+    </nav>
+
+<!-- Menu Page Main Nav Section -- Contains button links to all three games available. Each button border changes colour on hover and is textured to identify it as a link to the user.  *** -->
+    
+    <nav>
+        <div class="menu-window">
+            <UL>
+                <li> 
+                    <audio id="animals" src="assets/audio/animals_btn.mp3"></audio>
+                    <button id="animals-button" class="menu-button" onclick="playAnimals()"><span class="button-spacer"></span> Animals <i class="fa-solid fa-paw"></i></button>
+                </li>
+                
+                <li>
+                    <audio id="shapes" src="assets/audio/shapes_btn.mp3"></audio>
+                    <button id="shapes-button" class="menu-button" onclick="playShapes()"><span class="button-spacer"></span> Shapes <i class="fa-solid fa-shapes"></i></button>
+                </li>
+                
+                <li>
+                    <audio id="colours" src="assets/audio/colours_btn.mp3"></audio>
+                    <button id="colors-button" class="menu-button" onclick="playColours()"><span class="button-spacer"></span> Colours <i class="fa-solid fa-rainbow"></i></button>
+                </li>
+            </UL>
+        </div>
+        <div id="sound-state">Sound is...<i id="snd-btn-icon" class="fa-solid fa-volume-xmark"></i></div>
+    </nav>
+
+<!-- Menu Page footer section -- Conains information about the developer of the site. *** -->
+
+    <footer>
+        <div class="footer-window">
+            <p id="footer-info"> David Calikes &nbsp <i class="fa-brands fa-linkedin"></i> <span> </span> <i class="fa-brands fa-github"></i></p>
+        </div>
+
+        <div class="footer-window">
+            <p>&#169; 2022</p>
+        </div>
+    </footer>
+    <script src="assets/js/myscript.js" type="text/javascript"></script>
+</body>
+</html>
