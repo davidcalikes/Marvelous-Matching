@@ -595,3 +595,20 @@ footer p {
 #end-test-button:hover { 
     border: 5px solid yellow;
 }
+
+/* *** MEDIA QUERIES *** */
+
+@media screen and (max-width: 1250px) {
+    
+    .nav-row {
+    width: 100%;
+    margin-left: 0%;
+    }
+
+    .thumb-box {
+    text-align: center;
+    width: 50%;
+    margin-right: 15%;
+    }
+
+}
