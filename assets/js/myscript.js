@@ -6,6 +6,11 @@ let sndToggleState = localStorage.getItem("toggle")
 
       setToggle();
 
+      function muteOnload() {
+      if (sndToggleState = null)
+        muteAudio();
+      }
+
 /** 
  * Maintains the toggle state of the sound toggle button across all pages of the site
  * Gets state of switch from sndToggleState variable
