@@ -667,3 +667,35 @@ footer p {
     }
 
 }
+
+@media screen and (max-width: 515px) {
+
+    .back-link {
+        font-size: 150%;
+    }
+
+    #play-info {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .box{
+        width: 150px;
+        height: 150px;
+    }
+
+        #footer-info {
+            width: 100%;
+            text-align: center;
+        }
+
+        .menu-row {
+            width: 100%;
+            margin-left: 0%;
+        }
+
+        #modal-button {
+            font-size: .8rem;
+        }
+
+    }
