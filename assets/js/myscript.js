@@ -376,8 +376,8 @@ function testToggle() {
      question;
      console.log(question)
      
-     if (quizPic === "assets/images/shapes_circle.webp") {
-      document.getElementById("question-txt").innerHTML = "Where is the circle?";
+     if (quizPic === "assets/images/colours_black.webp") {
+      document.getElementById("question-txt").innerHTML = "Where is the colour Black?";
       document.getElementById("q-sound").src = "assets/audio/q_circle.mp3";
       document.getElementById("thumb-sound").src = "assets/audio/thumb_circle.mp3";
     
