@@ -409,8 +409,6 @@ function startGame2() {
   modal;
 runGame2();
 }
-
-
 /** 
  * Checks the 1st flashcard in response to user click event to see if it is the "active" card that matches the card below. 
  * */
