@@ -61,7 +61,7 @@ h2 {
     padding-bottom: 1%;
     font-size: 90%;
     background-color: #1d5cc9;
-    background-image: url("../images/swirl.webp");
+    background-image: url("../images/background_swirl.webp");
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     margin-left: 0%;
     margin-top: 1%;
@@ -139,21 +139,21 @@ h2 {
 
 #animals-button {
     background-color:  orangered;
-    background-image: url(../images/carbon.webp);
+    background-image: url(../images/background_carbon.webp);
     color: #ffffff;
     cursor: pointer;
 }
 
 #shapes-button {
     background-color:  rgb(61, 226, 36);
-    background-image: url(../images/carbon.webp);
+    background-image: url(../images/background_carbon.webp);
     color: oldlace;
     cursor: pointer;
 }
 
 #colors-button {
     background-color: rgb(133, 13, 193);
-    background-image: url(../images/carbon.webp);
+    background-image: url(../images/background_carbon.webp);
     color: antiquewhite;
     cursor: pointer;
 }
@@ -229,7 +229,7 @@ footer p {
     margin-left: auto; 
     margin-right: auto; 
     background-color: #1d5cc9;
-    background-image: url("../images/swirl.webp");
+    background-image: url("../images/background_swirl.webp");
     padding: 30px;
     border-radius: 10px;
     border: 5px solid white;
@@ -287,7 +287,7 @@ footer p {
 #modal-button {
     
     background-color:  orangered;
-    background-image: url(../images/carbon.webp);
+    background-image: url(../images/background_carbon.webp);
     color: white;
     padding: 20px;
     width: 10rem;
@@ -358,7 +358,7 @@ footer p {
 #info-container{
     
     background-color: #1d5cc9;
-    background-image: url("../images/swirl.webp");
+    background-image: url("../images/background_swirl.webp");
     border-top: 3px solid white;
     border-bottom: 3px solid white;
     box-shadow: 10px 10px 15px rgb(0 0 0 / 50%);
@@ -410,7 +410,7 @@ footer p {
 
 #question-button {
     background-color:  orangered;
-    background-image: url(../images/carbon.webp);
+    background-image: url(../images/background_carbon.webp);
     color: white;
     padding-left: 30px;
     padding-right: 30px;
@@ -477,7 +477,7 @@ footer p {
     margin-left: auto; 
     margin-right: auto; 
     background-color: #1d5cc9;
-    background-image: url("../images/swirl.webp");
+    background-image: url("../images/background_swirl.webp");
     padding: 30px;
     border-radius: 10px;
     border: 5px solid white;
@@ -507,7 +507,7 @@ footer p {
 
 #congrats-button {
     background-color:  red;
-    background-image: url(../images/carbon.webp);
+    background-image: url(../images/background_carbon.webp);
     color: white;
     padding: 20px;
     width: 14rem;
@@ -538,7 +538,7 @@ footer p {
     margin-left: auto; 
     margin-right: auto; 
     background-color: #1d5cc9;
-    background-image: url("../images/swirl.webp");
+    background-image: url("../images/background_swirl.webp");
     padding: 30px;
     border-radius: 10px;
     border: 5px solid white;
@@ -562,7 +562,7 @@ footer p {
 
 #back-button {
     background-color:  purple;
-    background-image: url(../images/carbon.webp);
+    background-image: url(../images/background_carbon.webp);
     color: white;
     padding: 20px;
     width: 14rem;
@@ -580,7 +580,7 @@ footer p {
 
 #end-test-button {
     background-color:  red;
-    background-image: url(../images/carbon.webp);
+    background-image: url(../images/background_carbon.webp);
     color: white;
     padding: 20px;
     width: 14rem;
