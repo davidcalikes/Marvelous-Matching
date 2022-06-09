@@ -346,11 +346,11 @@ function testToggle() {
 }
 
 /** 
- * Contains functions and statements required to run the SHAPES game one single game cycle.
+ * Contains functions and statements required to run the COLOURS game one single game cycle.
  * Including shuffling of Flashcards, creating a matching pair and congratulating the user for a correct answer.
  * Includes functions that provides the user audio and visual feedback.  
  * */
- function runGame2() {
+ function runGame3() {
 
   // Applies shuffle algorithm to animals array & pushes first four elements to the game area placeholeders.
   let shapes = ["assets/images/shapes_circle.webp","assets/images/shapes_oval.webp","assets/images/shapes_rectangle.webp","assets/images/shapes_square.webp","assets/images/shapes_star.webp","assets/images/shapes_triangle.webp"];
