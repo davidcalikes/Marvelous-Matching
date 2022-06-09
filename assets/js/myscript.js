@@ -586,7 +586,18 @@ function playAgain2() {
   congratsBox;
   hideHint();
   runGame2();
-  console.log("Hello from playAgain2")
+}
+
+function playAgain3() {
+
+  tenCheck();
+
+  resetBoxClassNames();
+  
+  let congratsBox = document.getElementById("congrats-box").style.display = "none";
+  congratsBox;
+  hideHint();
+  runGame3();
 }
 
 /** 
