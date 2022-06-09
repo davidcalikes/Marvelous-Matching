@@ -274,8 +274,8 @@ function testToggle() {
  function runGame2() {
 
   // Applies shuffle algorithm to animals array & pushes first four elements to the game area placeholeders.
-  let animals = ["assets/images/animal_cat.webp","assets/images/animal_dog.webp","assets/images/animal_pig.webp","assets/images/animal_horse.webp","assets/images/animal_sheep.webp","assets/images/animal_cow.webp","assets/images/animal_duck.webp","assets/images/animal_rooster.webp"];
-  shuffle(animals);
+  let shapes = ["assets/images/shapes_circle.webp","assets/images/shapes_oval.webp","assets/images/shapes_rectangle.webp","assets/images/shapes_square.webp","assets/images/shapes_star.webp","assets/images/shapes_triangle.webp"];
+  shuffle(shapes);
 
     document.getElementById("box-1").src = animals[0];
     document.getElementById("box-2").src = animals[1];
