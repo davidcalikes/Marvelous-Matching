@@ -527,7 +527,14 @@ function chkGame() {
   resetBoxClassNames();
   console.log(gameType);
   playAgain2();
+
+}else{
+  if (gameType === "Shapes") {
+  resetBoxClassNames();
+  console.log(gameType);
+  playAgain2();
   }
+}
 }
 }
 
