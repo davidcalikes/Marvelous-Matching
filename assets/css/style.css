@@ -612,3 +612,20 @@ footer p {
     }
 
 }
+
+@media screen and (max-width: 1000px) {
+
+    #play-info {
+    margin-left: 25%;
+    margin-right: 25%;
+    }
+
+    .rules-pic1 {
+        width: 50%;
+    }
+
+    .rules-pic2 {
+        width: 50%;
+    }
+    
+}
