@@ -22,10 +22,22 @@
         </div>
     </header>
 
+    <!-- About Page Nav bar *** -->
+    <nav>
+        <div class="container">
+            <div class="game-menu-row" >
+                <h2 class="nav-link" onclick="soundToggle()"><i id="sound-icon" class="fa-solid fa-volume-xmark"></i>&nbsp Sound: <span id="sound-on-off">OFF</span></h2>
+                <audio id="back-btn" src="assets/audio/pop.mp3"></audio>
+                <h1 class="back-link"  onclick="playBack()" ><i class="fa-solid fa-circle-left">&nbsp</i>Back to Menu</h1>
+            </div>
+        </div>
+    </nav>
+
     
 <!-- Main About Page info-text element *** -->
+
 <section>
-    <div id="modal-box">
+    <div id="about-box">
         <h2> Welcome to Marvelous Matching: <span id="game-type">Colours</span> <i class="fa-solid fa-rainbow"></i></h2>
         <div class="modal-container">
             <div class="modal-row">
@@ -46,12 +58,7 @@
                     ...that answers the question & matches the smaller image!
                 </div> 
             </div> 
-            <div class="modal-row"> 
-                <div class="modal-unit">
-                    <audio id="start-btn" src="assets/audio/pop.mp3"></audio>
-                    <button id="modal-button" onclick="startGame3();playPop();"> Start Game </button>
-                </div> 
-            </div>
+            
         </div>
     </div>
     </section>
