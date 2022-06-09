@@ -271,7 +271,7 @@ function testToggle() {
  * Including shuffling of Flashcards, creating a matching pair and congratulating the user for a correct answer.
  * Includes functions that provides the user audio and visual feedback.  
  * */
- function runGame() {
+ function runGame2() {
 
   // Applies shuffle algorithm to animals array & pushes first four elements to the game area placeholeders.
   let animals = ["assets/images/animal_cat.webp","assets/images/animal_dog.webp","assets/images/animal_pig.webp","assets/images/animal_horse.webp","assets/images/animal_sheep.webp","assets/images/animal_cow.webp","assets/images/animal_duck.webp","assets/images/animal_rooster.webp"];
