@@ -335,22 +335,7 @@ function testToggle() {
           document.getElementById("question-txt").innerHTML = "Where is the triangle?";     
           document.getElementById("q-sound").src = "assets/audio/q_triangle.mp3";
           document.getElementById("thumb-sound").src = "assets/audio/thumb_triangle.mp3";
-         
-        } else {
-        
-          if (quizPic === "assets/images/animal_dog.webp") {
-            document.getElementById("question-txt").innerHTML = "Where is the dog?";
-            document.getElementById("q-sound").src = "assets/audio/q_dog.mp3";
-            document.getElementById("thumb-sound").src = "assets/audio/thumb_dog.mp3";
-           
-          } else {
 
-             if (quizPic === "assets/images/animal_cow.webp") {
-              document.getElementById("question-txt").innerHTML = "Where is the cow?";
-              document.getElementById("q-sound").src = "assets/audio/q_cow.mp3";
-              document.getElementById("thumb-sound").src = "assets/audio/thumb_cow.mp3";
-             }
-             }
            }
          }
        }
@@ -359,6 +344,7 @@ function testToggle() {
  }
  makeMatch();
 }
+
 
  /** 
  * Creates active flash card that matches thumbnail image. 
