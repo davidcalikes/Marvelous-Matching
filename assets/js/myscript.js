@@ -345,6 +345,85 @@ function testToggle() {
  makeMatch();
 }
 
+/** 
+ * Contains functions and statements required to run the SHAPES game one single game cycle.
+ * Including shuffling of Flashcards, creating a matching pair and congratulating the user for a correct answer.
+ * Includes functions that provides the user audio and visual feedback.  
+ * */
+ function runGame2() {
+
+  // Applies shuffle algorithm to animals array & pushes first four elements to the game area placeholeders.
+  let shapes = ["assets/images/shapes_circle.webp","assets/images/shapes_oval.webp","assets/images/shapes_rectangle.webp","assets/images/shapes_square.webp","assets/images/shapes_star.webp","assets/images/shapes_triangle.webp"];
+  shuffle(shapes);
+
+    document.getElementById("box-1").src = shapes[0];
+    document.getElementById("box-2").src = shapes[1];
+    document.getElementById("box-3").src = shapes[2];
+    document.getElementById("box-4").src = shapes[3];
+
+    let quizList = shapes.slice(0,4);
+    
+    document.getElementById("q-thumb").src = quizList[Math.floor(Math.random()* quizList.length)];
+    
+    let quizPic = document.getElementById("q-thumb").getAttribute('src');
+    console.log(quizPic);
+
+    // Uses quizzPic variable to duplicate image to floating congratsBox element"
+    document.getElementById("float-pic").src = quizPic;
+    console.log(quizPic)
+    
+     let question = document.getElementById("question-txt").innerHTML;
+     question;
+     console.log(question)
+     
+     if (quizPic === "assets/images/shapes_circle.webp") {
+      document.getElementById("question-txt").innerHTML = "Where is the circle?";
+      document.getElementById("q-sound").src = "assets/audio/q_circle.mp3";
+      document.getElementById("thumb-sound").src = "assets/audio/thumb_circle.mp3";
+    
+     } else {
+
+    if (quizPic === "assets/images/shapes_oval.webp") {
+     document.getElementById("question-txt").innerHTML = "Where is the oval?";
+     document.getElementById("q-sound").src = "assets/audio/q_oval.mp3";
+     document.getElementById("thumb-sound").src = "assets/audio/thumb_oval.mp3";
+   } else {
+
+    if (quizPic === "assets/images/shapes_rectangle.webp") {
+      document.getElementById("question-txt").innerHTML = "Where is the rectangle?";
+      document.getElementById("q-sound").src = "assets/audio/q_rectangle.mp3";
+      document.getElementById("thumb-sound").src = "assets/audio/thumb_rectangle.mp3";
+      
+      } else {
+
+       if (quizPic === "assets/images/shapes_square.webp") {
+        document.getElementById("question-txt").innerHTML = "Where is the square?";
+        document.getElementById("q-sound").src = "assets/audio/q_square.mp3";
+        document.getElementById("thumb-sound").src = "assets/audio/thumb_square.mp3";
+      
+      } else {
+
+      if (quizPic === "assets/images/shapes_star.webp") {
+        document.getElementById("question-txt").innerHTML = "Where is the star?";
+        document.getElementById("q-sound").src = "assets/audio/q_star.mp3";
+        document.getElementById("thumb-sound").src = "assets/audio/thumb_star.mp3";
+        
+        } else {
+
+         if (quizPic === "assets/images/shapes_triangle.webp") {
+          document.getElementById("question-txt").innerHTML = "Where is the triangle?";     
+          document.getElementById("q-sound").src = "assets/audio/q_triangle.mp3";
+          document.getElementById("thumb-sound").src = "assets/audio/thumb_triangle.mp3";
+
+           }
+         }
+       }
+     }
+   }
+ }
+ makeMatch();
+}
+
 
  /** 
  * Creates active flash card that matches thumbnail image. 
