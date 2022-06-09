@@ -377,16 +377,16 @@ function testToggle() {
      console.log(question)
      
      if (quizPic === "assets/images/colours_black.webp") {
-      document.getElementById("question-txt").innerHTML = "Where is the colour Black?";
-      document.getElementById("q-sound").src = "assets/audio/q_circle.mp3";
-      document.getElementById("thumb-sound").src = "assets/audio/thumb_circle.mp3";
+      document.getElementById("question-txt").innerHTML = "Where is the colour black?";
+      document.getElementById("q-sound").src = "assets/audio/q_black.mp3";
+      document.getElementById("thumb-sound").src = "assets/audio/thumb_black.mp3";
     
      } else {
 
-    if (quizPic === "assets/images/shapes_oval.webp") {
-     document.getElementById("question-txt").innerHTML = "Where is the oval?";
-     document.getElementById("q-sound").src = "assets/audio/q_oval.mp3";
-     document.getElementById("thumb-sound").src = "assets/audio/thumb_oval.mp3";
+    if (quizPic === "assets/images/colours_blue.webp") {
+     document.getElementById("question-txt").innerHTML = "Where is the colour blue ?";
+     document.getElementById("q-sound").src = "assets/audio/q_blue.mp3";
+     document.getElementById("thumb-sound").src = "assets/audio/thumb_blue.mp3";
    } else {
 
     if (quizPic === "assets/images/shapes_rectangle.webp") {
