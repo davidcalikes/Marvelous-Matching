@@ -324,17 +324,17 @@ function testToggle() {
       
       } else {
 
-      if (quizPic === "assets/images/animal_rooster.webp") {
-        document.getElementById("question-txt").innerHTML = "Where is the rooster?";
-        document.getElementById("q-sound").src = "assets/audio/q_rooster.mp3";
-        document.getElementById("thumb-sound").src = "assets/audio/thumb_rooster.mp3";
+      if (quizPic === "assets/images/shapes_star.webp") {
+        document.getElementById("question-txt").innerHTML = "Where is the star?";
+        document.getElementById("q-sound").src = "assets/audio/q_star.mp3";
+        document.getElementById("thumb-sound").src = "assets/audio/thumb_star.mp3";
         
         } else {
 
-         if (quizPic === "assets/images/animal_cat.webp") {
-          document.getElementById("question-txt").innerHTML = "Where is the cat?";     
-          document.getElementById("q-sound").src = "assets/audio/q_cat.mp3";
-          document.getElementById("thumb-sound").src = "assets/audio/thumb_cat.mp3";
+         if (quizPic === "assets/images/shapes_triangle.webp") {
+          document.getElementById("question-txt").innerHTML = "Where is the triangle?";     
+          document.getElementById("q-sound").src = "assets/audio/q_triangle.mp3";
+          document.getElementById("thumb-sound").src = "assets/audio/thumb_triangle.mp3";
          
         } else {
         
