@@ -304,23 +304,23 @@ function testToggle() {
     
      } else {
 
-    if (quizPic === "assets/images/animal_duck.webp") {
-     document.getElementById("question-txt").innerHTML = "Where is the duck?";
-     document.getElementById("q-sound").src = "assets/audio/q_duck.mp3";
-     document.getElementById("thumb-sound").src = "assets/audio/thumb_duck.mp3";
+    if (quizPic === "assets/images/shapes_oval.webp") {
+     document.getElementById("question-txt").innerHTML = "Where is the oval?";
+     document.getElementById("q-sound").src = "assets/audio/q_oval.mp3";
+     document.getElementById("thumb-sound").src = "assets/audio/thumb_oval.mp3";
    } else {
 
-    if (quizPic === "assets/images/animal_horse.webp") {
-      document.getElementById("question-txt").innerHTML = "Where is the horse?";
-      document.getElementById("q-sound").src = "assets/audio/q_horse.mp3";
-      document.getElementById("thumb-sound").src = "assets/audio/thumb_horse.mp3";
+    if (quizPic === "assets/images/shapes_rectangle.webp") {
+      document.getElementById("question-txt").innerHTML = "Where is the rectangle?";
+      document.getElementById("q-sound").src = "assets/audio/q_rectangle.mp3";
+      document.getElementById("thumb-sound").src = "assets/audio/thumb_rectangle.mp3";
       
       } else {
 
-       if (quizPic === "assets/images/animal_pig.webp") {
-        document.getElementById("question-txt").innerHTML = "Where is the pig?";
-        document.getElementById("q-sound").src = "assets/audio/q_pig.mp3";
-        document.getElementById("thumb-sound").src = "assets/audio/thumb_pig.mp3";
+       if (quizPic === "assets/images/shapes_square.webp") {
+        document.getElementById("question-txt").innerHTML = "Where is the square?";
+        document.getElementById("q-sound").src = "assets/audio/q_square.mp3";
+        document.getElementById("thumb-sound").src = "assets/audio/thumb_square.mp3";
       
       } else {
 
