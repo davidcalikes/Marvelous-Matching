@@ -699,3 +699,37 @@ footer p {
         }
 
     }
+
+    @media screen and (max-width: 460px) {
+
+        #play-info {
+            margin-left: 11%;
+            margin-right: 11%;
+            font-size: 75%;
+        }
+
+        .box{
+            width: 125px;
+            height: 125px;
+        }
+
+        #q-thumb {
+            width: 62.5px;
+        }
+        
+        #thumb-hunt {
+            width: 62.5px;
+        }
+
+        .back-link h1 {
+            font-size: 175%;
+        }
+
+        .nav-link {
+            font-size: 70%;
+        }
+
+        #thumb-hint {
+            width: 62.5px;
+        }
+    }
