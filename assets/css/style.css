@@ -605,6 +605,15 @@ footer p {
     max-width: 400px;
 }
 
+.about-menu-row {
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
 #about-box {
     display: flex;
     flex-direction: column;
@@ -627,6 +636,10 @@ footer p {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     letter-spacing: 1px;
     align-items: center;
+}
+
+#about-box h2 {
+    color: #ffffff;
 }
 
 /* *** MEDIA QUERIES *** */
