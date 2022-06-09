@@ -36,6 +36,7 @@ function setToggle() {
   const sounds = document.querySelectorAll("audio");
   for (const sound of sounds)
     sound.muted = true 
+    console.log("muteAudio fired")
   }
 
 /** 
