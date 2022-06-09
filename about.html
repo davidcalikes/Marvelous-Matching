@@ -22,47 +22,41 @@
         </div>
     </header>
 
-<!-- Menu Page First Nav Section -- Contains sound-toggle and link to about page for detailed information about the games available and how to play.  *** -->   
     
-    <nav>
-        <div class="container">
-            <div class="menu-row">
-                <h2 class="nav-link" onclick="soundToggle()"><i id="sound-icon" class="fa-solid fa-volume-xmark"></i>&nbsp Sound: <span id="sound-on-off" >OFF</span></h2> 
-                <h1>Menu</h1> 
-                <h2 class="nav-link"><i class="fa-solid fa-circle-info"></i>&nbsp About&nbsp</h2>
+<!-- Main About Page info-text element *** -->
+<section>
+    <div id="modal-box">
+        <h2> Welcome to Marvelous Matching: <span id="game-type">Colours</span> <i class="fa-solid fa-rainbow"></i></h2>
+        <div class="modal-container">
+            <div class="modal-row">
+                <div class="modal-unit">
+                    <img class="rules-pic1" src="assets/images/rules_pic5.webp" alt="An image of four randomly coloured jigsaw pieces">
+                </div> 
+            </div>
+            <div class="modal-row">
+                <div class="modal-unit">Click <span>&nbsp <i class="fa-solid fa-arrow-pointer"> </i> &nbsp;</span> or tap <span>&nbsp;<i class="fa-solid fa-hand-point-up"></i>&nbsp;</span> the picture...</div>
+            </div>
+            <div class="modal-row">
+                <div class="modal-unit"> 
+                    <img class="rules-pic2" src="assets/images/rules_pic6.webp" alt="An explanitory image of a question and a small image of a randomly coloured jigsaw piece">
+                </div>
+            </div>
+            <div class="modal-row"> 
+                <div class="modal-unit">
+                    ...that answers the question & matches the smaller image!
+                </div> 
             </div> 
-
-            <div class="menu-info-row">
-                <h2>Click &nbsp <i class="fa-solid fa-arrow-pointer flash-prompt"> </i> &nbsp or tap &nbsp;<i class="fa-solid fa-hand-point-down flash-prompt"></i></i>&nbsp; on a button below to choose a game!</h2>
-            </div>  
+            <div class="modal-row"> 
+                <div class="modal-unit">
+                    <audio id="start-btn" src="assets/audio/pop.mp3"></audio>
+                    <button id="modal-button" onclick="startGame3();playPop();"> Start Game </button>
+                </div> 
+            </div>
         </div>
-    </nav>
-
-<!-- Menu Page Main Nav Section -- Contains button links to all three games available. Each button border changes colour on hover and is textured to identify it as a link to the user.  *** -->
-    
-    <nav>
-        <div class="menu-window">
-            <UL>
-                <li> 
-                    <audio id="animals" src="assets/audio/animals_btn.mp3"></audio>
-                    <button id="animals-button" class="menu-button" onclick="playAnimals()"><span class="button-spacer"></span> Animals <i class="fa-solid fa-paw"></i></button>
-                </li>
-                
-                <li>
-                    <audio id="shapes" src="assets/audio/shapes_btn.mp3"></audio>
-                    <button id="shapes-button" class="menu-button" onclick="playShapes()"><span class="button-spacer"></span> Shapes <i class="fa-solid fa-shapes"></i></button>
-                </li>
-                
-                <li>
-                    <audio id="colours" src="assets/audio/colours_btn.mp3"></audio>
-                    <button id="colors-button" class="menu-button" onclick="playColours()"><span class="button-spacer"></span> Colours <i class="fa-solid fa-rainbow"></i></button>
-                </li>
-            </UL>
-        </div>
-        <div id="sound-state">Sound is...<i id="snd-btn-icon" class="fa-solid fa-volume-xmark"></i></div>
-    </nav>
-
-<!-- Menu Page footer section -- Conains information about the developer of the site. *** -->
+    </div>
+    </section>
+      
+<!-- About Page footer section -- Conains information about the developer of the site. *** -->
 
     <footer>
         <div class="footer-window">
