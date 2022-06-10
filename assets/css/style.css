@@ -742,6 +742,15 @@ display: block;
         margin-left: 5%;
     }
 
+    .about-container {
+        width: 90%;
+    }
+
+    .about-image {
+    width: 250px;
+    height: 170px;
+    }
+
 }
 
 @media screen and (max-width: 515px) {
