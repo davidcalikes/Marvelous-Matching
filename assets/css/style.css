@@ -622,7 +622,7 @@ footer p {
     display: flex;
     flex-direction: column;
     width: 70vw;
-    height: 1200px;
+    height: auto;
     z-index: 999; 
     left: 0; 
     right: 0; 
@@ -640,6 +640,7 @@ footer p {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     letter-spacing: 1px;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 #about-box h2 {
@@ -651,8 +652,8 @@ footer p {
     border: 5px solid whitesmoke;
     margin: 1rem;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
-    width: 170px;
-    height: 170px;
+    width: 300px;
+    height: 220px;
 }
 
 /* *** MEDIA QUERIES *** */
