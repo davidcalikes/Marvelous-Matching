@@ -751,6 +751,12 @@ display: block;
     height: 170px;
     }
 
+    #about-back-button {
+        width: 55%;
+        margin-left: 22.5%;
+        margin-bottom: 3%;
+    }
+
 }
 
 @media screen and (max-width: 515px) {
@@ -782,7 +788,9 @@ display: block;
         #modal-button {
             font-size: .8rem;
         }
-
+        #about-box {
+        font-size: small;
+        }
     }
 
     @media screen and (max-width: 460px) {
@@ -816,6 +824,17 @@ display: block;
 
         #thumb-hint {
             width: 62.5px;
+        }
+
+        #about-sound-toggle {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #about-back-button {
+            width: 60%;
+            margin-left: 20%;
+            margin-bottom: 3%;
         }
     }
 
@@ -857,4 +876,5 @@ display: block;
         .button-spacer {
             margin-left: 5%;
         }
+
     }
