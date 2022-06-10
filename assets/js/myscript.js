@@ -74,7 +74,7 @@ function playColours() {
     let sound = document.getElementById("colours");
     sound.play();
     sound.addEventListener('ended', function () {
-      location.href = 'colours.html';
+      location.href = 'colours.html'; 
     });
   }
 
