@@ -617,6 +617,14 @@ footer p {
     margin-left: 10%;
 
 }
+#about-sound-toggle {
+    width: 100%;
+}
+
+#about-back-button {
+    width: 100%;
+}
+
 .about-container {
 display: block;
     width: 60%;
