@@ -618,11 +618,14 @@ footer p {
 
 }
 #about-sound-toggle {
-    width: 100%;
+    width: 20%;
+    margin-left: 40%;
 }
 
 #about-back-button {
-    width: 100%;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 3%;
 }
 
 .about-container {
