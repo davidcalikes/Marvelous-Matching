@@ -646,6 +646,15 @@ footer p {
     color: #ffffff;
 }
 
+.about-image {
+    border-radius: 10px;
+    border: 5px solid whitesmoke;
+    margin: 1rem;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    width: 170px;
+    height: 170px;
+}
+
 /* *** MEDIA QUERIES *** */
 
 @media screen and (max-width: 1250px) {
