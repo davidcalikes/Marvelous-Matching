@@ -111,39 +111,42 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
     * Users who are suffering with late-stage dementia.
 
-
-
 - __User Stories__
 
-    * As a user, I want to find out more about Cumasc Gael.
+    * As a user, I want to help pupils achive curriculum-linked learning outcomes.
  
-    * As a User, I want to find the most relevant information quickly and effortlessly.
+    * As a User, I want to access the game from different platforms.
     
-    * As a user, I want access to exclusive media content.
+    * As a user, I want to change matching catagories without leaving the application.
 
-    * As a user, I want to have a positive emotional experience.
-    
-    * As a user, I want to sign up to a mailing list to stay informed.
+    * As a user, I want to achieve learning outcomes.
+
+    * As a user, I want to be included in spite of my physical disability.
+
+    * As a user, I want to be stimulated and engaged by pictures and sounds.
+
+    * As a user, I want to help my pre school child learn
+
+    * As a user, I want to help patients suffering with late-stage dementia.
+
 
 - __Site Objectives__
 
-    * To make the band imediately recognisible. 
+    * To offer users a fun, responsive, cross platform matching game. 
     
     * To make the purpose of the site obvious to the user.
     
-    * To provide information to the band's target audience and industry professionals about upcoming dates.
+    * To make the game easy to use and the site easy to navigate.
 
-    * To communicate a charitible band ethos.
+    * To help users achieve learning outcomes and teaching goals.
     
-    * To promote the music of the band.
+    * To provide users a positive learning experience.
     
-    * To act as an EPK (electroninc press kit), for professional reference within the music industry.
+    * To make the game inclusive for people with disabilities.
     
-    * To provide exclusive media content to the user.
+    * To provide exclusive sound content to the user.
 
-    * To increase the fanbase of Cumasc Gael by providing users with a positive emotional experience.
-
-    * To provide users with the ability to subscribe to a mailing list. 
+    * To provide a game that has more than one matching catagory in a single application.
 
 - __Approach__
 
