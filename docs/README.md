@@ -260,7 +260,13 @@ Below are some features the site currently has to offer and also some features w
 
 ## Existing Features ##
 
+<img src="./readme_images/mm_logo.png">
+
 - __Main Logo__
+
+    
+
+
 
     * The Main Logo of the sight is colorful, indicative, and visually pleasing.
 
@@ -270,31 +276,41 @@ Below are some features the site currently has to offer and also some features w
     
     * The Main Logo contains bold easy to read text using cartoon images that will engage the intended user.
 
-    * The Main Logo contains the alternative (US) spelling of Marvelous to consistent with the "synthetic phonics" learning standard. 
+    * The Main Logo contains the alternative (US) spelling of Marvelous consistent with the "synthetic phonics" learning standard. 
+ 
+ <br>
 
- <img src="./readme_images/mm_logo.png">
-    
-    
-    
-    
-    
-    
-    * The Menu Page
 
-    * The section includes links to the Home, Media, About and Contact pages.
-    * Each navigation link has a hover feature providing visual feedback for the user. Each page has a separate active link which provides the user instant feedback regarding their location on the site.
+     
+<img src="./readme_images/nav1.png">
 
-<img src="assets/readme_images/nav_bar.png"> 
-
-- __Sticky Navigation Menu__   
-
-    * The Sticky Navigation Menu sticks to a fixed position at the top of the screen when a user scrolls below the navigation section.
+- __Menu Page Navigation Bar__
     
-    * This feature allows users to access any pages of the site without the requirement of scrolling back to the top of the page.
+    * The Menu Page Navigation Bar contains the sound toggle switch, a heading element and a link to the sites about page.
 
-    * The Sticky Navigation Menu takes up very little screen space and therefore doesn't obstruct any of the site's content.
+    * The Menu Page Navigation Bar establishes a clearly defined style that will be recognisable across the site.
+
+    * The Menu Page Navigation Bar is intuitively designed and instantly recognisable as an interactive feature of the page.
+
+    * The Menu Page Navigation Bar is fully responsive across various screen sizes.
+
+    * The Menu Page Navigation Bar links change background color when user moves a cursor over the element. This provides intuitive visual feedback for the user that the item can be clicked. 
+
+    * When the sound toggle switch is set to ON, Each button of the Menu Page Navigation Bar sounds a pleasing pop sound when clicked or tapped to provide audible feedback for the user.
+
+<img src="./readme_images/nav2.png"> 
+
+- __Game Navigation Bar__  
+
+    * The Menu Page Navigation Bar contains button links to the three different categories of matching game availiable to the user.
+
+    * The Buttons are brightly colored and color coded to each game.
+
+    * Each button contains a rounded border that changes color when user moves a cursor over the element. This provides intuitive visual feedback for the user that the item can be clicked.
+
+    * When the sound toggle switch is set to ON, Each button of the Game Navigation Bar sounds a pleasing pop sound when clicked or tapped to provide audible feedback for the user.
     
-    * This feature is intuitively designed with a recognisable 'burger' style icon and is easily accessible for the user.
+
 
     <img src="assets/readme_images/sticky_nav.png">
 
