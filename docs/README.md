@@ -38,19 +38,34 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 ## Planning & Development
 
 
-- __Business Strategy__
+- __Project Inception__
 
+    As far back as I can remember, I have always had a some-what innate, practical understanding of computing and technology. Having worked within the field of Special Education for the last 15 years I often feel and act upon a sense duty to assist pupils and staff members who are having difficulty operating, updating and integrating assitive technology.
 
-
-
-
-     
- 
-     The band have since recieved multiple invitations to perform globally, and have recently conducted a small American tour which was extremely well recieved.
+    Marvelous Matching, was developed in response to the following technical issues within St Mary's Special School: <br> 
     
-     Due to the growing popularity of the band, they now require an industry standard "Electronic Press Kit" to promote themselves and their exciting new direction.
-     
-     Focusing on user centered design, functionality, and exclusive media content, Cumasc Gael aims to provide its specified target audience with a positive and satisfying user experience.
+    1. Software reliant on the now defunct adobe flash player now no longer functional.
+    2. A significant number of pupils with physical and learning disabilitiess find most early-learning applications too difficult to interact with.
+    3. There are currently no resources available that offer pupils the chance to match multiple catagories in a single application.
+    4. There are no resources available that are compatible across multiple platforms. 
+    
+    
+    <br>
+
+    
+- __Mission Statement__
+    
+    Marvelous Matching will be a user friendly application that is easy to use and navigate.
+
+    The application will be functional across multiple devices, browsers and operating systems. 
+
+    The site will help children achieve thier educational goals by addressing key stage learning outcomes.  
+    
+    The site will also allow its users to access a stimulating and rewarding library of custom sounds to enhance the users educational experience. 
+    
+    These sounds will be user controlled and promote interaction and engagement.
+
+    The game offers users a choice of three separate categories: ‘Animals’, ‘Shapes’, and ‘Colours’ as well as a choice of two game modes: 'Learning' and 'Test'. 
      
 - __Target Audience__
 
