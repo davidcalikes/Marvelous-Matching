@@ -239,10 +239,6 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
     Due to the educational nature of the site and how the content contains multiple vibrant colors I have only included the those used relative to th design of the site framework or those that provide user feedback through consistency of use.
 
 
-
-
-
-
 - __Typography__
 
 *  There are two fonts used throughout the site.
@@ -289,8 +285,6 @@ Below are some features the site currently has to offer and also some features w
     * The Menu Page Navigation Bar is fully responsive across various screen sizes.
 
     * The Menu Page Navigation Bar links change background color when user moves a cursor over the element. This provides intuitive visual feedback for the user that the item can be clicked. 
-
-    * When the sound toggle switch is set to ON, Each button of the Menu Page Navigation Bar sounds a pleasing pop sound when clicked or tapped to provide audible feedback for the user.
     
     <br>
 
@@ -314,44 +308,35 @@ Below are some features the site currently has to offer and also some features w
 
     * The Footer is located at the bottom of all five pages of the site.
 
-    * The Footer section of the site provides developer information links social media pages. The links all open in a new tab and contain descriptive title attributes for accessibility. 
+    * The Footer section of the site provides copyright, developer information and links to relevant developer pages. The links open in a new tab and contain descriptive title attributes for accessibility. 
+
+    <br>
+
+    <img src="./readme_images/sound_toggle.png">
     
-    * The social media links provided will visually prompt users to visit the bands social media pages with the aim of increasing the bands online following. 
+- __The Sound Toggle Switch__ 
 
+    * The Sound Toggle Switch allows users to turn the audio elements of the site on or off. 
 
+    * The Sound Toggle Switch provides user feedback to its state in two ways. By changing its speaker icon and by changing its text content. 
 
+    * The switch is set to OFF by default to improve user experience.
 
+    * The switch will maintain its state across the different games and pages saving the users preferred option.
 
+    * The Sound Toggle Switch changes background color on hover to provide visual feedback for the user.
 
-- __Upcoming Dates__ 
+    <br>
 
-    * The Upcoming Dates section accomplishes a key aim of the site.
+     <img src="./readme_images/about_page.png">
 
-    * The Upcoming Dates section informs users of the dates, locations and venues of the bands scheduled live performances.
+- __The About Page__ 
 
-    * The section includes a feature that allows users to add the dates directly to their personal Google calender.
-    
-    * Users can also view the location of each venue via a link to Google maps.
+    * The about page contains information about the development and functionality of the application.
 
-    * The section also provides users with a link to purchase tickets for each show.
+    * The about page information is presented on a blue textured background consistent in style and presentation with the rest of the site 
 
-
-
-- __News Section__ 
-
-    * The Band News section is located on the Home page.
-
-    * As mentioned in the planning section above, the news section is targeted towards a key demographic within the band's target audience. 
-
-    * The Band News section provides users with news updates featuring the band and aims to generate a sense of community and connection by offering its users a positive and virtuos news stories about the band.   
-
-    * Each news item contains compact yet engaging stories that keeps users informed and interested.
-    
-    * The section provides vibrant, colorful headings to each news item. These headings serve as a buffer between each story providing users with a visual cue for the beginning of each news story.
-
-    * The band news section also provides users with story specific links should they wish to interact and engage with each section. Each news item link has a hover feature providing visual feedback for the user.
-    
-    * This section also provides vibrant, colorful headings to each news item. These headings serve as a buffer between each story providing users with a visual cue for the beginning of each news story.
+    * The about page features photo images of the app within a learnng environment.
 
 <img src="assets/readme_images/band_news.png">
 
