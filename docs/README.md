@@ -40,11 +40,11 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
 - __Project Inception__
 
-    As far back as I can remember, I have always had a some-what innate, practical understanding of computing and technology. Having worked within the field of Special Education for the last 15 years I often feel and act upon a sense of duty to assist pupils and collegues who are having difficulty operating, updating and integrating assitive technologies.
+    As far back as I can remember, I have always had a some-what innate, practical understanding of computing and technology. Having worked within the field of Special Education for the last 15 years I often feel and act upon a sense of duty to assist pupils and collegues who are having difficulty operating and integrating assitive technologies.
 
     Marvelous Matching, was developed in response to the following technical issues within St Mary's Special School: <br> 
     
-    1. Software reliant on the now defunct adobe flash player is now no longer functional.
+    1. Software reliant on the defunct adobe flash player is now no longer functional.
     2. A significant number of pupils with physical and learning disabilitiess find most early-learning applications too difficult to interact with.
     3. There are currently no resources available that offer pupils the chance to match multiple categories within a single application.
     4. There are no resources available that are compatible across multiple platforms. 
@@ -55,7 +55,7 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
     
 - __Mission Statement__
 
-    A matching game called 'Marvelous Matching' will be developed to address these issues.
+    A matching game called 'Marvelous Matching' will be developed to address the issues stated above.
 
     Marvelous Matching will be a user friendly application that is easy to use and navigate.
 
@@ -67,7 +67,7 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
     
     These sounds will be user controlled and promote interaction and engagement.
 
-    The game offers users a choice of three separate categories: ‘Animals’, ‘Shapes’, and ‘Colours’ as well as a choice of two game modes: 'Learning' and 'Test'. 
+    The game will offer users a choice of three separate categories: ‘Animals’, ‘Shapes’, and ‘Colours’ as well as a choice of two game modes: 'Learning' and 'Test'. 
      
 - __Target Audience__
 
@@ -85,7 +85,7 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
     <br>
 
-    Whilst the catalyst for the development of Marvelous Matching was due to the exigent needs of the pupils of St Mary's Special School the app will be useful to users outwith special education environments.
+    Whilst the catalyst for the development of Marvelous Matching was due to the exigent needs of the pupils of St Mary's Special School, the site may also prove useful to users outwith special education environments.
 
     Many parents with young toddlers may also find the application useful for pre-school learning.
 
@@ -197,16 +197,51 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
 - __Color Scheme__
 
-    * The predominant feature of the color scheme is undoubtebtly greyscale.
-    This is a stylistic choice and evoke's what the band calls its "Gilded Age" aesthetic. (The gilded age being an era before color photography and where traditional and bluegrass music were popular genres of music.) 
-
-    * The deep orange in the color scheme is referenced from the fire footer padding image and again is suggestive of a rustic and simpler epoch.  
+    * The background gradient. (#ffffff, #80c7f0, #ffffff)
     
-    * The fire image was deliberatly included as flames and fire are also heavily featured in the band's upcoming music video for thier latest single.
+    <br>
 
-    * The light orange colour was implemented to improve color contrast for increased accessibility during testing. This is referenced in the testing section of this document.
+    <img src="./readme_images/color_scheme1.png">
 
-<img src="assets/readme_images/color_pal.png">
+    The background gradient used is a standard style prevelent throughout early learning environments. Calming and allusive of a clear blue sky the background presents a contrasting perspective for the content of the game area and is not distracting.
+    
+    <img src="./readme_images/wiggles_background.png">
+
+    _Example of blue-white background gradient in other early-learning media._
+
+     <img src="./readme_images/color_scheme2.png"> #1d5cc9;
+     <br>
+
+    * The light blue colored elements of the sight contain helpful and informative white text content to guide the user.
+
+    <br>
+
+    <img src="./readme_images/color_scheme3.png"> #FF5349.
+    <br>
+
+    * The light orange color indicates the question button than can be pressed for an audible clue. The Color is also used in modal elements to begin the game.
+    
+    <br>
+
+    <img src="./readme_images/color_scheme4.png"> #42526e
+    <br>
+
+
+     * The darker blue colour is used for navigation links. (This color was also featured on the website of St Mary's School so I used it here as it may provide reassurance as a color some users are familiar with)
+     
+     <br>
+
+
+     <img src="./readme_images/color_scheme5.png"> #ffff00
+
+    * I tried to avoid using explicit primary and secondary colors as much as possible. This is to avoid any potential confusion for users playing the colours matching game but I made an exeption with yellow as i felt it provided the best contrast and impact for the elements I have targeted with the hover psuedo class.
+    
+    <br>
+
+
+
+
+
 
 - __Typography__
 
