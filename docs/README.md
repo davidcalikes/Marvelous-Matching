@@ -264,24 +264,18 @@ Below are some features the site currently has to offer and also some features w
 
 - __Main Logo__
 
-    
-
-
-
     * The Main Logo of the sight is colorful, indicative, and visually pleasing.
 
     * The Main Logo is available across all five pages of the site.
 
-    * The Main Logo is larger and acts as a hero image for the Menu/Landing page. 
+    * The Main Logo is acts as a hero image for the Menu/Landing page. 
     
-    * The Main Logo contains bold easy to read text using cartoon images that will engage the intended user.
+    * The Main Logo contains bold, easy to read text using cartoon images that will engage the intended user.
 
     * The Main Logo contains the alternative (US) spelling of Marvelous consistent with the "synthetic phonics" learning standard. 
  
  <br>
 
-
-     
 <img src="./readme_images/nav1.png">
 
 - __Menu Page Navigation Bar__
@@ -297,6 +291,8 @@ Below are some features the site currently has to offer and also some features w
     * The Menu Page Navigation Bar links change background color when user moves a cursor over the element. This provides intuitive visual feedback for the user that the item can be clicked. 
 
     * When the sound toggle switch is set to ON, Each button of the Menu Page Navigation Bar sounds a pleasing pop sound when clicked or tapped to provide audible feedback for the user.
+    
+    <br>
 
 <img src="./readme_images/nav2.png"> 
 
@@ -310,14 +306,22 @@ Below are some features the site currently has to offer and also some features w
 
     * When the sound toggle switch is set to ON, Each button of the Game Navigation Bar sounds a pleasing pop sound when clicked or tapped to provide audible feedback for the user.
     
-
-
-    <img src="assets/readme_images/sticky_nav.png">
-
-- __Site Logo__ 
-
+    <br>
     
- 
+
+    <img src="./readme_images/footer.png">
+- __The Footer__   
+
+    * The Footer is located at the bottom of all five pages of the site.
+
+    * The Footer section of the site provides developer information links social media pages. The links all open in a new tab and contain descriptive title attributes for accessibility. 
+    
+    * The social media links provided will visually prompt users to visit the bands social media pages with the aim of increasing the bands online following. 
+
+
+
+
+
 
 - __Upcoming Dates__ 
 
@@ -331,7 +335,7 @@ Below are some features the site currently has to offer and also some features w
 
     * The section also provides users with a link to purchase tickets for each show.
 
-<img src="assets/readme_images/upcoming_dates.png">
+
 
 - __News Section__ 
 
@@ -372,15 +376,7 @@ Below are some features the site currently has to offer and also some features w
 
 <img src="assets/readme_images/fire_image.png">
 
-- __The Footer__   
 
-    * The Footer is located at the bottom of all four pages of the site.
-
-    * The Footer section of the site provides links to the band's social media pages. The links all open in a new tab and contain descriptive title attributes for accessibility. 
-    
-    * The social media links provided will visually prompt users to visit the bands social media pages with the aim of increasing the bands online following. 
-
-<img src="assets/readme_images/footer.png">
 
 - __Audio Section__  
 
