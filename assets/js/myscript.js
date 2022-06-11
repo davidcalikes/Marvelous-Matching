@@ -616,34 +616,10 @@ function checkCard3 () {
 }
 }
 
-function chkGame() {
-  let gameType = document.getElementById("game-type").innerHTML
-
-  if (gameType === "Animals") {
-  resetBoxClassNames();
-  console.log(gameType);
-  playAgain();
-
-}else{
-  if (gameType === "Shapes") {
-  resetBoxClassNames();
-  console.log(gameType);
-  playAgain2();
-
-}else{
-  if (gameType === "Colours") {
-  resetBoxClassNames();
-  console.log(gameType);
-  playAgain3();
-  }
-}
-}
-}
-
 /** 
  * Checks the 4th flashcard in response to user click event to see if it is the "active" card that matches the card below. 
  * */
-function checkCard4 () {
+function checkCard4() {
    
   let box4 = document.getElementById("box-4").getAttribute('class');
   console.log(box4);
@@ -670,6 +646,30 @@ function checkCard4 () {
   playWrong();
 
   }
+}
+}
+
+function chkGame() {
+  let gameType = document.getElementById("game-type").innerHTML
+
+  if (gameType === "Animals") {
+  resetBoxClassNames();
+  console.log(gameType);
+  playAgain();
+
+}else{
+  if (gameType === "Shapes") {
+  resetBoxClassNames();
+  console.log(gameType);
+  playAgain2();
+
+}else{
+  if (gameType === "Colours") {
+  resetBoxClassNames();
+  console.log(gameType);
+  playAgain3();
+  }
+}
 }
 }
 

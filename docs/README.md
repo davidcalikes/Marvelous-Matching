@@ -45,8 +45,8 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
     Marvelous Matching, was developed in response to the following technical issues within St Mary's Special School: <br> 
     
     1. Software reliant on the defunct adobe flash player is now no longer functional.
-    2. A significant number of pupils with physical and learning disabilitiess find most early-learning applications too difficult to interact with.
-    3. There are currently no resources available that offer pupils the chance to match multiple categories within a single application.
+    2. A significant number of pupils with physical and learning disabilities find most early-learning applications too difficult to interact with.
+    3. There are currently no free resources available that offer pupils the chance to match multiple categories within a single application.
     4. There are no resources available that are compatible across multiple platforms. 
     
     
@@ -59,11 +59,11 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
     Marvelous Matching will be a user friendly application that is easy to use and navigate.
 
-    The application will be functional across multiple devices, browsers and operating systems. 
+    The application will be free to use and functional across multiple devices, browsers and operating systems. 
 
     The site will help children achieve thier educational goals by addressing key stage learning outcomes.  
     
-    The site will also allow its users to access a stimulating and rewarding library of custom sounds to enhance the users educational experience. 
+    The site will offer a stimulating and rewarding library of custom sounds to enhance the users educational experience. 
     
     These sounds will be user controlled and promote interaction and engagement.
 
@@ -73,7 +73,7 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
     <img src="./readme_images/learning_outcomes.png">
 
-    After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reched the conclusion that matching games are an important resource in helping children of all ages within our school achieve the following (Irish Corriculum) learning outcomes:
+    After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the conclusion that matching games are an important resource in helping pupils of all ages within our school achieve the following (Irish Corriculum) learning outcomes:
 
     * Sorting & Comparing.
     * Matching Identical Objects.
@@ -90,8 +90,6 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
     Many parents with young toddlers may also find the application useful for pre-school learning.
 
     <img src="./readme_images/matching_benefits.png">
-
-
 
     https://toysoldier.fun/blogs/just-sharing/benefits-of-playing-matching-games-activities
 
@@ -119,11 +117,11 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
 - __User Stories__
 
-    * As a user, I want to help pupils achive curriculum-linked learning outcomes.
+    * As a user, I want to help pupils achieve curriculum-linked learning outcomes.
  
     * As a User, I want to access the game from different platforms.
     
-    * As a user, I want to change matching catagories without leaving the application.
+    * As a user, I want to change matching categories without leaving the application.
 
     * As a user, I want to achieve learning outcomes.
 
@@ -141,6 +139,8 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
     * To offer users a fun, responsive, cross platform matching game. 
     
     * To make the purpose of the site obvious to the user.
+
+    * To assist the user with audible and visual feedback.
     
     * To make the game easy to use and the site easy to navigate.
 
@@ -162,11 +162,9 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
     * The site will provide users a choice of three matching categories.
 
-    * The site will provide users with the ability to control the sounds of the site. 
+    * The site will provide users with the ability to control the sounds of the site.
 
-    * The site will provide users with the ability to control the sounds of the site. 
-
-    * The site will provide users with the ability to test their progress by enabling a "Test Mode" function.
+    * The site will provide users with the ability to chart their progress by enabling a "Test Mode" function.
     
     * The site will provide users with disabilities the opportunity to participate in active learning.
 
@@ -183,7 +181,7 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
 - __Wireframes__ 
 
-    Desktop, tablet and mobile wireframes were created using Balsamiq software to give a general overview of the layout of the site and to help organise the content logically. An image is posted of the gamepage wireframes below. I thought it unnecessary to create a framework for each game as the layout does not change for each categoty. A link to the full set of wireframes is available below.
+    Desktop, tablet and mobile wireframes were created using Balsamiq software to give a general overview of the layout of the site and to help organise the content logically. An image is posted of the gamepage wireframes below. I thought it unnecessary to create a framework for each game as the layout does not change for each category. A link to the full set of wireframes is available below.
 
     * [Set of site wireframes](assets/readme_images/wireframes/home_wf.pdf) 
     
@@ -238,6 +236,8 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
     
     <br>
 
+    Due to the educational nature of the site and how the content contains multiple vibrant colors I have only included the those used relative to th design of the site framework or those that provide user feedback through consistency of use.
+
 
 
 
@@ -260,9 +260,26 @@ Below are some features the site currently has to offer and also some features w
 
 ## Existing Features ##
 
-- __Navigation Bar__
+- __Main Logo__
 
-    * The navigation bar is fully responsive and uniform across all four pages of the site.
+    * The Main Logo of the sight is colorful, indicative, and visually pleasing.
+
+    * The Main Logo is available across all five pages of the site.
+
+    * The Main Logo is larger and acts as a hero image for the Menu/Landing page. 
+    
+    * The Main Logo contains bold easy to read text using cartoon images that will engage the intended user.
+
+    * The Main Logo contains the alternative (US) spelling of Marvelous to consistent with the "synthetic phonics" learning standard. 
+
+ <img src="./readme_images/mm_logo.png">
+    
+    
+    
+    
+    
+    
+    * The Menu Page
 
     * The section includes links to the Home, Media, About and Contact pages.
     * Each navigation link has a hover feature providing visual feedback for the user. Each page has a separate active link which provides the user instant feedback regarding their location on the site.
@@ -281,19 +298,9 @@ Below are some features the site currently has to offer and also some features w
 
     <img src="assets/readme_images/sticky_nav.png">
 
-- __Hero Image__ 
+- __Site Logo__ 
 
-    * The hero image addresses one of the main aims of the site as the members of the band are all immediately identifyable and the purpose of the site is instantly obvious to the user.
-
-    * The hero image is available accross all four pages of the site.
-
-    * The hero image of the site includes a photograph of the band which fades in from black. 
     
-    * The hero animation imitates a spotlight fading up before a performance. 
-
-    * Not only is the fade animation visually arresting but the subject matter of the picture immediately informs the user of the formation and style of the band.
-
- <img src="assets/readme_images/hero.png">
  
 
 - __Upcoming Dates__ 
