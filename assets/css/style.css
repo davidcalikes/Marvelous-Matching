@@ -271,10 +271,10 @@ footer p {
     border-radius: 10px;
     border: 3px solid whitesmoke;
     margin: 1rem;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     width: 30%;
     line-height: 10px;
     margin-top: 3%;
+    filter: grayscale(1);
     
 }
 
@@ -282,9 +282,9 @@ footer p {
     border-radius: 10px;
     border: 3px solid whitesmoke;
     margin: 1rem;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     width: 30%;
     line-height: 10px;
+    filter: grayscale(1);
     
 }
 
@@ -306,6 +306,48 @@ footer p {
 }
 
 #modal-button:hover {
+    border: 5px solid yellow;
+}
+
+#colours-button {
+    
+    background-color:  rgb(133, 13, 193);
+    background-image: url(../images/background_carbon.webp);
+    color: white;
+    padding: 20px;
+    width: 10rem;
+    border-radius: 10px;
+    border: 5px solid white;
+    font-family: Schoolbell, sans-serif;
+    font-size: 1.4rem;
+    margin-top: 3%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    
+}
+
+#colours-button:hover {
+    border: 5px solid yellow;
+}
+
+#shapes-modal-button {
+    
+    background-color:  rgb(61, 226, 36);
+    background-image: url(../images/background_carbon.webp);
+    color: white;
+    padding: 20px;
+    width: 10rem;
+    border-radius: 10px;
+    border: 5px solid white;
+    font-family: Schoolbell, sans-serif;
+    font-size: 1.4rem;
+    margin-top: 3%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    
+}
+
+#shapes-modal-button:hover {
     border: 5px solid yellow;
 }
 
@@ -413,7 +455,7 @@ footer p {
 }
 
 #question-button {
-    background-color:  orangered;
+    background-color:  red;
     background-image: url(../images/background_carbon.webp);
     color: white;
     padding-left: 30px;
@@ -567,7 +609,7 @@ footer p {
 }
 
 #back-button {
-    background-color:  purple;
+    background-color:  orangered;
     background-image: url(../images/background_carbon.webp);
     color: white;
     padding: 20px;

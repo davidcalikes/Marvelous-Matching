@@ -336,7 +336,7 @@ Below are some features the site currently has to offer and also some features w
 
     * The about page information is presented on a blue textured background consistent in style and presentation with the rest of the site 
 
-    * The about page features photo images of the app within a learnng environment.
+    * The about page features photo images of the app used within a learnng environment.
 
 <img src="assets/readme_images/band_news.png">
 
