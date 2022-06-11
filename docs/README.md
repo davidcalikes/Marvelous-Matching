@@ -270,7 +270,7 @@ Below are some features the site currently has to offer and also some features w
 
     * The Main Logo contains the alternative (US) spelling of Marvelous consistent with the "synthetic phonics" learning standard. 
  
- <br>
+    <br>
 
 <img src="./readme_images/nav1.png">
 
@@ -288,6 +288,20 @@ Below are some features the site currently has to offer and also some features w
     
     <br>
 
+<img src="./readme_images/instructions_banner1.png">
+
+- __Menu Page Instructions Banner__
+
+
+    * The Menu Page Instructions Banner provides the user with simple instructions to help them choose a game.
+
+    * The Banner has a blue textured background to indicate its function.
+
+    * The banner contains animated flashing icons to engage users attention.
+
+    <br>
+
+
 <img src="./readme_images/nav2.png"> 
 
 - __Game Navigation Bar__  
@@ -302,8 +316,8 @@ Below are some features the site currently has to offer and also some features w
     
     <br>
     
+<img src="./readme_images/footer.png">
 
-    <img src="./readme_images/footer.png">
 - __The Footer__   
 
     * The Footer is located at the bottom of all five pages of the site.
@@ -312,7 +326,7 @@ Below are some features the site currently has to offer and also some features w
 
     <br>
 
-    <img src="./readme_images/sound_toggle.png">
+ <img src="./readme_images/sound_toggle.png">
     
 - __The Sound Toggle Switch__ 
 
@@ -328,7 +342,7 @@ Below are some features the site currently has to offer and also some features w
 
     <br>
 
-     <img src="./readme_images/about_page.png">
+<img src="./readme_images/about_page.png">
 
 - __The About Page__ 
 
@@ -338,20 +352,33 @@ Below are some features the site currently has to offer and also some features w
 
     * The about page features photo images of the app used within a learnng environment.
 
-<img src="assets/readme_images/band_news.png">
+    <br>
 
+<img src="./readme_images/start_modal.png">
 
-- __Mailing List__   
+- __The Start Game Modal__
 
-    * The Mailing List section is available across all four pages of the site.
+    * The Start Game Modal is a pop-up style element which contains information on how to play the game.
+
+    * The Start Game Modal has a blue textured background to indicate it is informative.  
+
+    * The Start Game Modal contains a distinctive button that will make the modal disappear then fire a function to run the game when when clicked. 
+
+    <br>
+
+<img src="./readme_images/game_page.png">
+
+- __Game Pages__   
+
+    * The three game pages of the site are fully responsive and maintain the same style and design consistency regardless of content.
     
-    * The Mailing List section invites users to fill out a simple form in order to recievee band news and gig updates via email. 
+    * Each Game Page is simple to understand with a layout designed to enhance user experience.
 
-    * Users will have to provide a name and valid email address in order to subscribe.
+    * Each game page contains customary, semantic elements conforming to conventional site structure.  
     
     * The Mailing List also has a stylised heading providing a continuity of design across the home page and the website as a whole. 
 
-<img src="assets/readme_images/mailing_list.png">
+<img src="./readme_images/game_page.png">
 
 - __Fire Image__  
 
