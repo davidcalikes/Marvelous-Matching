@@ -10,7 +10,7 @@ The game offers users a choice of three separate categories: ‘Animals’, ‘S
 
 Thoughtfully designed, the game provides a challenging and rewarding user experience for its target audience. 
 
-<img src="docs/readme_images/mm_mockup.png">
+<img src="./readme_images/mockup.png">
 
 ## Contents
 [Planning & Development](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md#planning--development)
