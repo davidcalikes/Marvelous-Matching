@@ -89,6 +89,12 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
     Many parents with young toddlers may also find the application useful for pre-school learning.
 
+    <img src="./readme_images/matching_benefits.png">
+
+
+
+    https://toysoldier.fun/blogs/just-sharing/benefits-of-playing-matching-games-activities
+
     Many elderly patients suffering with the effects of late-stage dementia can also benefit from simple matching games.
     
     https://hospitalnews.com/activities-and-games-for-patients-with-alzheimers-disease/#:~:text=You%20can%20help%20slow%20the,%2C%20functional%2C%20and%20physical%20abilities. 
@@ -125,7 +131,7 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
     * As a user, I want to be stimulated and engaged by pictures and sounds.
 
-    * As a user, I want to help my pre school child learn
+    * As a user, I want to help my pre-school child learn
 
     * As a user, I want to help patients suffering with late-stage dementia.
 
@@ -154,21 +160,26 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
     * The site will be created following the principles of user experience design.
 
-    * The site will provide users links through which they can book tickets to see the band.
+    * The site will provide users a choice of three matching categories.
 
-    * The site will provide users with map links to venue locations and the option to add gig dates to Google calender.
+    * The site will provide users with the ability to control the sounds of the site. 
+
+    * The site will provide users with the ability to control the sounds of the site. 
+
+    * The site will provide users with the ability to test their progress by enabling a "Test Mode" function.
     
-    * The site will provide users with access to exclusive media content such as embedded audio files, youtube videos and a photo gallery.
+    * The site will provide users with disabilities the opportunity to participate in active learning.
 
     * The content of the site will be inoffensive and accesible to all.
 
     * The site will be easy to navigate, intuitive and consistent in design.
+    
+    <br>
 
-    * The site will provide a method through which users can subscribe to a mailing list. 
 
-
-<img src="assets/readme_images/info_flow.png">
-
+<img src="./readme_images/info_flow.png">
+    
+<br>
 
 - __Wireframes__ 
 
