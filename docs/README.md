@@ -1,6 +1,6 @@
 # Marvelous Matching
 
-Marvellous Matching is a browser based matching game for pre-school infants and children with learning disabilities.
+Marvelous Matching is a browser based matching game for pre-school infants and children with learning disabilities.
 
 Designed and tested within a special learning environment with professional guidance from teachers and support staff, Marvelous Matching is a valuable classroom and homeschool resource for its target audience. 
 
@@ -10,7 +10,7 @@ The game offers users a choice of three separate categories: ‘Animals’, ‘S
 
 Thoughtfully designed, the game provides a challenging and rewarding user experience for its target audience. 
 
-<img src="assets/readme_images/readme_resp.png">
+<img src="docs/readme_images/mm_mockup.png">
 
 ## Contents
 [Planning & Development](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md#planning--development)
