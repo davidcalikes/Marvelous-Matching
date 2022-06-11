@@ -40,13 +40,13 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
 - __Project Inception__
 
-    As far back as I can remember, I have always had a some-what innate, practical understanding of computing and technology. Having worked within the field of Special Education for the last 15 years I often feel and act upon a sense duty to assist pupils and staff members who are having difficulty operating, updating and integrating assitive technology.
+    As far back as I can remember, I have always had a some-what innate, practical understanding of computing and technology. Having worked within the field of Special Education for the last 15 years I often feel and act upon a sense of duty to assist pupils and collegues who are having difficulty operating, updating and integrating assitive technologies.
 
     Marvelous Matching, was developed in response to the following technical issues within St Mary's Special School: <br> 
     
-    1. Software reliant on the now defunct adobe flash player now no longer functional.
+    1. Software reliant on the now defunct adobe flash player is now no longer functional.
     2. A significant number of pupils with physical and learning disabilitiess find most early-learning applications too difficult to interact with.
-    3. There are currently no resources available that offer pupils the chance to match multiple catagories in a single application.
+    3. There are currently no resources available that offer pupils the chance to match multiple categories within a single application.
     4. There are no resources available that are compatible across multiple platforms. 
     
     
@@ -54,7 +54,9 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
     
 - __Mission Statement__
-    
+
+    A matching game called 'Marvelous Matching' will be developed to address these issues.
+
     Marvelous Matching will be a user friendly application that is easy to use and navigate.
 
     The application will be functional across multiple devices, browsers and operating systems. 
@@ -69,52 +71,47 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
      
 - __Target Audience__
 
-    Cumasc Gael are now aiming to share the same market space as similar acts within the indie/bluegrass genre.
+    <img src="./readme_images/learning_outcomes.png">
 
-    <img src="assets/readme_images/demographic_one.png">
-    <img src="assets/readme_images/demographic_two.png">
+    After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reched the conclusion that matching games are an important resource in helping children of all ages within our school achieve the following (Irish Corriculum) learning outcomes:
 
-    By collating information gleaned from the targeted Facebook ad campaigns of these groups I have determined the following:
+    * Sorting & Comparing.
+    * Matching Identical Objects.
+    * Recognising 'same' and 'different'.
+    * Observing 2 dimensional shapes.
+    * Recognising irregular shapes (star, oval)
+    * Expanding vocabulary. (shape names, colour names, animal, names ect.)
+    * Recognising sounds
 
-    * Women account for approximately 60% of the band's target audience
+    <br>
+
+    Whilst the catalyst for the development of Marvelous Matching was due to the exigent needs of the pupils of St Mary's Special School the app will be useful to users outwith special education environments.
+
+    Many parents with young toddlers may also find the application useful for pre-school learning.
+
+    Many elderly patients suffering with the effects of late-stage dementia can also benefit from simple matching games.
     
-    * 24-34 is the key age demographic of the target audience.
-
-- __Targeting Key Demographics__
-
-    The site's content and how it is displayed is informed by the outcomes of the research mentioned above. I have presented one example of this below. 
-    
-    According to marketing website [socialtoaster.com](https://www.socialtoaster.com/marketing-to-a-female-demographic-6-tips/),
-     women (as an audience) respond positively to social stories that are seen to champion a cause. Women are also interested in compelling news items. 
-
-     <img src="assets/readme_images/target_demo.png">
-
-    In light of this data, (and because women make up the majority of the site's target audience) I have included a news section on the first page of the website featuring a positive social story, in which the band are clearly seen to be championing a worthy cause. 
-
-    <img src="assets/readme_images/target_news.png">
-
-    Another way I have implemented this data is by featuring a youtube video on the Media (second) page of the site, which will appeal more to male members of the band's target audience as well the 24-34 key age demographic.
-
-    The general artistic style of the site, (Traditional/Modern) including typograhy, color scheme and imagery also targets the key age demographic. 
-
-    <img src="assets/readme_images/target_men.png">
-    <img src="assets/readme_images/target_age.png">
+    https://hospitalnews.com/activities-and-games-for-patients-with-alzheimers-disease/#:~:text=You%20can%20help%20slow%20the,%2C%20functional%2C%20and%20physical%20abilities. 
 
 - __Target Audiences Summary__
     
-    * Users who are fans of Cumasc Gael.
+    * Users who teach in a Special Education Environment.
 
-    * Users who are fans of Traditional Celtic and or Bluegrass music.
+    * Users who learn in a Special Education Environment.
 
-    * Users who are fans of Indie music.
+    * Users who are parents or carers of pre-school infants.
 
-    * Users who value worthy causes.
+    * Users who are pre-school infants.
 
-    * Users who are looking for exclusive content.
+    * Users who have physical or learning disabilites.
     
-    * Users who regularly listen to music online.
+    * Users who have children with disabilities.
 
-    * Users who work within the music industry.
+    * Users who care for people with late-stage dementia.
+
+    * Users who are suffering with late-stage dementia.
+
+
 
 - __User Stories__
 
