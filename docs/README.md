@@ -245,13 +245,11 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
 - __Typography__
 
-*  There are three fonts used throughout the site.
+*  There are two fonts used throughout the site.
 
-    * Quintessential: A cursive font to envoke the band's aesthetic is used for section headings.
-
-    * Raleway: A popular sans serif font often utilised in modern music websites is used for section sub-headings.  
+    * Schoobell: A fun handwriting novelty font that suits the playful style of the application.
    
-    * Helvetica: A clear, complimentary font often partnered with Raleway is used for all other text.
+    * Helvetica: A clear, professional font is used in the footer developer information and copyright text.
 
     The fonts were imported to the stylesheet via Google fonts.
 
