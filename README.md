@@ -1,10 +1,14 @@
-# Cumasc Gael
+# Marvelous Matching
 
-Cumasc Gael are an emerging celtic-bluegrass band based in the North East of Ireland. 
+Marvellous Matching is a browser based matching game for pre-school infants and children with learning disabilities.
 
-Functioning as a promotional tool for the band, this website will help market the music and image of Cumasc Gael to their specified target audience.
+Designed and tested within a special learning environment with professional guidance from teachers and support staff, Marvelous Matching is a valuable classroom and homeschool resource for its target audience. 
 
-By presenting the artistic identity and personality of Cumasc Gael the site aims to provide users with a positive emotional experience underpinned by the band's creative output and style. 
+The feature packed application also allows users to access a stimulating and rewarding library of custom sounds to enhance the users educational experience. These sounds are user controlled and promote interaction and engagement.
+
+The game offers users a choice of three separate categories: ‘Animals’, ‘Shapes’, and ‘Colours’ as well as a choice of two game modes: 'Learning' and 'Test'.   
+
+Thoughtfully designed, the game provides a challenging and rewarding user experience for its target audience. 
 
 <img src="assets/readme_images/readme_resp.png">
 
