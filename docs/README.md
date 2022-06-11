@@ -1,14 +1,11 @@
 # Marvelous Matching
+## Overview
 
 Marvelous Matching is a browser based matching game for pre-school infants and children with learning disabilities.
 
-Designed and tested within a special learning environment with professional guidance from teachers and support staff, Marvelous Matching is a valuable classroom and homeschool resource for its target audience. 
+Designed and tested within a special learning environment with professional guidance from teachers and support staff, Marvelous Matching is a valuable classroom and homeschool, educational resource. 
 
-The feature packed application also allows users to access a stimulating and rewarding library of custom sounds to enhance the users educational experience. These sounds are user controlled and promote interaction and engagement.
-
-The game offers users a choice of three separate categories: ‘Animals’, ‘Shapes’, and ‘Colours’ as well as a choice of two game modes: 'Learning' and 'Test'.   
-
-Thoughtfully designed, the game provides a challenging and rewarding user experience for its target audience. 
+Thoughtfully designed, the game provides a fun, engaging and satisfying learning experience for its intended audience. 
 
 <img src="./readme_images/mockup.png">
 
@@ -43,7 +40,11 @@ Thoughtfully designed, the game provides a challenging and rewarding user experi
 
 - __Business Strategy__
 
-     Recently, the band have moved away from the Irish cover-band circuit to performing their own songs, both as a support band for similar established acts and also as a headline act themselves in some of Ireland's smaller yet renowned indie venues.
+
+
+
+
+     
  
      The band have since recieved multiple invitations to perform globally, and have recently conducted a small American tour which was extremely well recieved.
     
