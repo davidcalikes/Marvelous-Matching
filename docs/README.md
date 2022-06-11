@@ -183,19 +183,17 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
 - __Wireframes__ 
 
-    Desktop, tablet and mobile wireframes were created using Balsamiq software to give a general overview of the layout of the site and to help organise the content logically. An image is posted of one of the wireframes below. Links to each set of frames are also available.
+    Desktop, tablet and mobile wireframes were created using Balsamiq software to give a general overview of the layout of the site and to help organise the content logically. An image is posted of the gamepage wireframes below. I thought it unnecessary to create a framework for each game as the layout does not change for each categoty. A link to the full set of wireframes is available below.
 
-   <img src="assets/readme_images/wireframe.png">
-
-    * [Home page wireframes](assets/readme_images/wireframes/home_wf.pdf)
-
-    * [Media page wireframes](assets/readme_images/wireframes/media_wf.pdf)
+    * [Set of site wireframes](assets/readme_images/wireframes/home_wf.pdf) 
     
-    * [About page wireframes](assets/readme_images/wireframes/about_wf.pdf)
+    <br>
 
-    * [Contact page wireframes](assets/readme_images/wireframes/contact_wf.pdf)
-
-    The site conforms to the general structure and scope of these wireframes yet deviates significantly with respect to the colour scheme. 
+   <img src="./readme_images/wireframe_gamepage.png">
+   
+   <br>
+    The site conforms to the general layout of these frames and only deviates with respect to styling and content. 
+<br>
 
 - __Color Scheme__
 
