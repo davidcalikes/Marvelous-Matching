@@ -330,11 +330,11 @@ Below are some features the site currently has to offer and also some features w
     
 - __The Sound Toggle Switch__ 
 
-    * The Sound Toggle Switch allows users to turn the audio elements of the site on or off. 
+    * The Sound Toggle Switch allows users to mute and unmute the audio elements of the application. 
 
     * The Sound Toggle Switch provides user feedback to its state in two ways. By changing its speaker icon and by changing its text content. 
 
-    * The switch is set to OFF by default to improve user experience.
+    * The switch is set to OFF by default to enhance user experience.
 
     * The switch will maintain its state across the different games and pages saving the users preferred option.
 
@@ -374,19 +374,82 @@ Below are some features the site currently has to offer and also some features w
     
     * Each Game Page is simple to understand with a layout designed to enhance user experience.
 
-    * Each game page contains customary, semantic elements conforming to conventional site structure.  
+    * Each game page contains customary, semantic elements conforming to conventional site structure.
+
+    <br>  
+
+<img src="./readme_images/nav3.png">
+
+- __Game Page Nav Bar__
+
+    * The Game Page Nav Bar provides the user access to the sound toggle switch, a link to return to the main menu and a switch to enable and disable the 'Test Mode' function.
+
+    * The Game Page Nav Bar is fully responsive provides visual user feedback upon hover events.
+
+    * The Game page nav bar maintains a style consitent with the rest of the site.
+
+    <br>
+
+<img src="./readme_images/game_area1.png">
     
-    * The Mailing List also has a stylised heading providing a continuity of design across the home page and the website as a whole. 
+- __Upper Game Area__
+   
 
-<img src="./readme_images/game_page.png">
+    * The Upper Game Area of the site is part of the main game section of each game page.
 
-- __Fire Image__  
+    * The Upper Game area contains four random images specific to game catagory.
 
-    * The Fire Image acts as a visual indicator to signify the end of page specific content.
+    * The Upper Game area consists of four images that allow user interaction.
+
+    * Each box will react to a tap or click event.
+
+    * Each box will change border color when hovered over to provide visual feedback for the user.
+
+    * Correct answers display a congratulatory modal element that has a button to reset the game.
+
+    * Incorrect answers result in the image being replaced with a 'try again' message and error sound effect
+
+    * The Upper Game area is fully responsive across a broad variety of screen sizes.
+
+    <br>
+
+    <img src="./readme_images/instructions_banner2.png">
+
+- __Game Page Instructions Banner__
+
+
+    * The Game Page Instructions Banner provides the user with simple instructions to help them choose a game.
+
+    * The Banner has a blue textured background to indicate it contains information for the user.
+
+    * The banner contains no flashing icons that may distract users attention.
+
+    * The banner acts as a separator between the upper and lower areas of the main game area.
+
+    <img src="./readme_images/game_area1.png">
     
-    * The Fire image is consistent with the style of the site and evokes the "Guilded Age" aesthetic of the group.
+- __Lower Game Area__
+   
 
-<img src="assets/readme_images/fire_image.png">
+    * The Upper Game Area of the site is part of the main game section of each game page.
+
+    * The Upper Game area contains four random images specific to game catagory.
+
+    * The Upper Game area consists of four images that allow user interaction.
+
+    * Each box will react to a tap or click event.
+
+    * Each box will change border color when hovered over to provide visual feedback for the user.
+
+    * Correct answers display a congratulatory modal element that has a button to reset the game.
+
+    * Incorrect answers result in the image being replaced with a 'try again' message and error sound effect
+
+    * The Upper Game area is fully responsive across a broad variety of screen sizes.
+
+    <br>
+
+  
 
 
 
