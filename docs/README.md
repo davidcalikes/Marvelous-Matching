@@ -62,13 +62,14 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 - __Target Audience__
 
     <img src="./readme_images/learning_outcomes.png">
-     _Example of just one of the many curriculum links targeted by Marvelous Matching._
+_Example of just one of the many curriculum links targeted by Marvelous Matching._
 
-     <br>
+<br>
 
-    After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the conclusion that matching games are an important resource in helping pupils of all ages within our school achieve the following (Irish Corriculum) learning outcomes:
+After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the conclusion that matching games are an important resource in helping pupils of all ages within our school achieve the following (Irish Corriculum) learning outcomes:
 
-    * Sorting & Comparing.
+* Learning Goals.
+    * Sorting & Matching
     * Matching Identical Objects.
     * Recognising 'same' and 'different'.
     * Observing 2 dimensional shapes.
@@ -476,7 +477,6 @@ Below are some features the site currently has to offer and also some features w
 
     * HP Pavillion Notebook x360 serving a
     Smart Technologies SB-480 Interactive Whiteboard.
-    <img src="./readme_images/smart_tech1.png">
 
     * Mac Pro with a 21" Apple Cinema display -- Safari, Chrome and Firefox
 
@@ -491,7 +491,6 @@ Below are some features the site currently has to offer and also some features w
     <img src="./readme_images/old_ipad.png">
 
     * Huawei P20 Pro Android Phone -- Chrome and Firefox.
-    <img src="./readme_images/android_phone.png">
 
     * Various android tablet devices.
     <img src="./readme_images/android_tablet.png">
@@ -507,6 +506,18 @@ Below are some features the site currently has to offer and also some features w
     * The site would not load box images or display correctly on the older iPad2 running ios 9.
 
     * The site is not practically useable on mobile devices in landscape mode.
+
+    <br>
+
+- __Style Error__
+
+    <img src="./readme_images/android_phone.png">
+
+    One of the first rendering errors i came across was an error that cause the drop shadow filter effect to break on mobile devices.
+
+    After searching for a solution on [Stack Overflow](https://stackoverflow.com/questions/65801487/drop-shadow-not-working-properly-on-ios-safari) I fixed this issue by using a box-shadow effect instead.
+
+    <br>
 
 - __Feature Testing__
 
@@ -637,6 +648,74 @@ I encountered a few tricky errors when the test mode function was applied to the
 The results of sequence testing returned no further errors.
 
 <br>
+
+- __Practical Testing__
+
+* Marvelous Matching was tested by the pupils of St Mary's Special School in Drumcar, Co.Louth in the North East Of Ireland. Under the supervision and guidance of Vice-Principal Mr Declan McCoy, 4 Classes took part in testing the application: 
+
+    * Class 5: Teacher -- Caoimhe Brady.
+    * Class 7: Teacher -- Colin McKee.
+    * The Rainbow Class: Teacher -- Rosin Donnelly.
+    * Declan's Class: Teaching Vice-Principal -- Declan McCoy.
+
+The following feedback was recieved from each class:
+
+Class 5: 
+
+* The Pupils enjoyed Marvelous Matching.
+* The Pupils used Marvelous Matching on the interactive whiteboard.
+* <img src="./readme_images/class_5.png">
+* The Pupils found Marvelous Matching challenging.
+* The Pupils mostly enjoyed the 'Animals' category.
+* The application is a valuable teaching resource.
+
+<br>
+
+Class 7: 
+
+* The Pupils enjoyed Marvelous Matching.
+* Several Pupils took an interest in matching games for the first time.
+* The Pupils used the application on the interactive whiteboard and android tablet.
+* <img src="./readme_images/class_7.png">
+* Marvelous Matching is an ideal replacement for outdated Flash Games.
+
+<br>
+
+The Rainbow Class:
+
+* The Pupils enjoyed Marvelous Matching.
+* The thumbnail image is a little small on the class tablet.
+* <img src="./readme_images/rainbow.png">
+* The Pupils used the application on the interactive whiteboard and android tablet.
+* The application is accessible for all of the pupils to use.
+* Marvelous Matching is great fun and the voice sounds are 'adorable'.
+
+<br>
+
+Declan's Class:
+
+* The Pupils enjoyed Marvelous Matching.
+* One of the pupils tried to swipe the images instead of tapping.
+* The Pupils enjoyed using the application on the interactive whiteboard.
+* The application was of inclusive and of great benefit to two children in particular who cannot swipe the whiteboard due to their physical disabilities.
+* <img src="./readme_images/declans.png">
+* The Start Game Modal was confusing. Both pupils and support staff tried to push the rules images to start the game.
+* The Pupils mostly enjoyed the animals game and loved the audio elements.
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
