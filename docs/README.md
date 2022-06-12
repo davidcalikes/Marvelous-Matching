@@ -754,8 +754,7 @@ I altered the code and all pages now return no warnings.
 
     <img src="./readme_images/contrast_error.png">
 
-
-
+    I used the wcag tool extensively throughout the site and made changes accordingly.
 
 The site now achieves a 100% accesibility rating when tested through lighthouse.
 
@@ -789,15 +788,15 @@ The site now achieves a 100% accesibility rating when tested through lighthouse.
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
     * From this project's repository, navigate to the settings tab
     * From the left hand menu, select pages.
-    * From the source section drop-down menu, select the Main Branch.
+    * From the source section drop-down menu, select the Main Branch and click save.
     * Once the main branch has been selected, the page will refresh and provide a link to the live project. 
 
-The live link can be found here - https://davidcalikes.github.io/portfolio-project-one/index.html
+The live link can be found here - https://davidcalikes.github.io/Marvelous-Matching/index.html
 
    
 # Languages
 
-* The coding languages used to create this site were HTML and CSS.
+* The coding languages used to create this site are HTML, CSS and JavaScript.
 
     <br>
 
@@ -807,47 +806,31 @@ The live link can be found here - https://davidcalikes.github.io/portfolio-proje
 
 * Git, (Gitpod and Github) as my version control system for the site.
     
-* Adobe Photoshop CS6 to edit some images. I mainly used Photoshop to add greyscale to color-photos and to create color gradient effects for background images.
+* Adobe Photoshop CS6 to edit some images. I mainly used Photoshop to crop the flashcard images.
 
 * TinyPNG to compress web images.
 
-<img src="assets/readme_images/tiny_.png">
+* Webp converter to convert images assets to webp format.
 
-* Fotojet online image editor to add polaroid style borders to my image files, providing a consistant style across the site.
 
-<img src="assets/readme_images/fotojet.png">
-
-* Logic Pro X to produce and master the mp3 files.
-    
-    <img src="assets/readme_images/logic_pro.png">
+* Garageband to produce and master the mp3 files.
 
 * Balsamiq wireframes software.
 
 
 # Media
 
-* The youtube video provided is used with the expressed written permission of Nexstar media. (formerly Fox46)
+* The songs featured in the audio elements of this site are performed by myself and are public domain
 
-    <img src="assets/readme_images/nexstar.png">
+* The images used on the site are free to use pictures from the following sources:
 
-* The songs featured in the audio section of this site were written and produced by myself, David Calikes in 2016.
+* The logo image of Marvelous Matching was created by myself using the following process:
 
-* The images featuring the band Cumasc Gael are used with the permission of David Calikes, Andrew Kelly and Liam Sheridan.
-
-* The logo image of the band Cumasc Gael was designed by myself David Calikes in 2016
-
-* The following images were aquired from public domain image site Pexels.com
-
-    <img src="assets/readme_images/railway.png">
-    <img src="assets/readme_images/fiddle.png">
-    <img src="assets/readme_images/fire.png">
-    <img src="assets/readme_images/record.png">
 
 # Credits
 
 - __Content__
 
-    * The navigation section of this site is loosely based on a code snippet named "flex-test" provided to me by my Code Institute mentor Richard Wells.
 
     * The fade-in effect for the hero image is from this article on Stack Overflow: https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load
 
