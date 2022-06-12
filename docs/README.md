@@ -556,62 +556,72 @@ I tested the link to the about page on the menu page and it opened at the correc
 
 The footer meets accessibility contrast and title attribute requirements. Both links work and open in a new browser tag. The footer was tested across all site pages.
 
+* Game Page Testing
+
+I encountered and overcame many errors and bugs during the development of the game page.
+
+<br>
+    
+<img src="./readme_images/typo_error.png">
+
+* Typo Errors
+
+    * The first typo error I encountered provided the question button with the wrong animal type when playing the animals matching game. 
+    (pictured above)
+
+    * <img src="./readme_images/typo1_cause.png">
+
+    * I found the offending error in the if else statements of the rungame function and corrected it.
+
+    * The second typo error I found was playing the colours matching game. The Thumbnail image provided no audible user feedback.
+
+    <img src="./readme_images/thumb_blue_error.png">
+
+    * This error was solved by changing the capitalisation error pictured here.
+
+    <br>
+
+- __Test Mode Errors__
+
+I encountered a few tricky errors when the test mode function was applied to the game. 
+
+<img src="./readme_images/maketen_error.png">
+
+* Attempts Error
+
+    * When developing the test mode function of the game I created a rule that when ten attempts had been reached the Test Mode Congratulations Modal Would appear and provide the user with a final score. 
+
+    * The error I discovered via testing was that the Test modal would fire even when the game was not in test mode.
+
+    * I solved this problem by adding a second condition to the "tenCheck" JavaScript Function". (pictured above)
+
+* Error in Shapes Game -- Test Mode
+    
+    * When developing the test mode function of the shapes game I discovered an error where the game would not refresh the flash card box elements when the test mode function was called.
+
+    * <img src="./readme_images/shapes_test_error.png">
+
+    * I found the issue here was a rougue space in the inner html of the element the JavaScript code was targeting. (facepalm emoji)
+
+    * <img src="./readme_images/shapes_test_solved.png">
+
+* Further Testing of The Game Page
+    
+    * I tested each of the nav elements of every Game Page and each element functioned properly.
+
+    
+
+    * <img src="./readme_images/shapes_test_error.png">
+
+    * I found the issue here was a rougue space in the inner html of the element the JavaScript code was targeting. (facepalm emoji)
+
+    * <img src="./readme_images/shapes_test_solved.png">
 
 
 
- 
 
 
 
-Each of the footer links was checked and returned no errors.
-
-- __Testing the Media page__
-
-I tested each individual link on the nav bar on the Media page and each link brought me to the correct destination.
-
-I tested each link of the Sticky Nav Feature and found no errors.
-
-I then tested the playback for both tracks on the audio section.
-
-The Audio Section functions correctly however, a limitation of the embedded audio player means that users must stop one track before playing another one. This is not an optimal user experience and I will look for better solutions to this issue as I continue the development of the site. 
-
-I tested the video in the video section of the site and the content displayed correctly.
-
-Each of the Gallery images loaded correctly.
-
-I checked the spelling and grammar of the text content in this section and found no errors.
-
-I tested the form element of this page and it functioned correctly.
-
-Each of the footer links was checked and returned no errors.
-
-- __Testing the About page__
-
-I tested each individual link on the nav bar on the About page and each link brought me to the correct destination.
-
-I tested each link of the Sticky Nav Feature and found no errors.
-
-I then tested the link on the lower-bio section and it functioned correctly.
-
-I checked the spelling and grammar of the text content in this section and found no errors.
-
-I tested the form element of this page and it functioned correctly.
-
-Each of the footer links was checked and returned no errors.
-
-- __Testing the Contact page__
-
-I tested each individual link on the nav bar on the Contact page and each link brought me to the correct destination.
-
-I tested each link of the Sticky Nav Feature and found no errors.
-
-I then tested the email links on the contact section and there were no errors returned.
-
-I checked the spelling and grammar of the text content in this section and found no errors.
-
-I tested the form element of this page and it functioned correctly.
-
-Each of the footer links was checked and returned no errors.
 
 - __Validator Testing__
 
