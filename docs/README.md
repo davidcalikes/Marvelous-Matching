@@ -541,11 +541,11 @@ Despite this appearing to solve this problem, the console returned another error
 
 <img src="./readme_images/q_button_error.png">
 
-I added a fontawesome speaker icon to the question button of each game page that would suggest to the user that the feature contains audio content. The icon reflects the state of the Sound Toggle State providing visual feedback for the user at the bottom of the page. 
+When I added a fontawesome speaker icon to the question button of each game page (to visual provide feedback for the user), I came across the following error.
 
 <img src="./readme_images/snd_tgl_err1.png">
 
-A problem was reported to the console however when users would visit the menu page or about pages and the Sound Toggle function would target an element that did not exist on these pages.
+A problem was reported to the console when users would visit the menu page or about page as the Sound Toggle function would target an element that did not exist on these pages.
 
 <img src="./readme_images/snd_tgl_err2.png">
 
@@ -704,23 +704,14 @@ Declan's Class:
 
 <br>
 
+- __More Practical Testing__
 
+* Test subject: My son Lochlainn Calikes  
+* Age: 7 months
 
+Lochlainn loved looking at the app and passively enjoying the sounds, colours and biting the corner of the tablet. :)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
 
 - __Validator Testing__
 
