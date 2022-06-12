@@ -112,6 +112,15 @@ function playRight() {
 }
 
 /** 
+ * Plays song when playsong button is clicked
+ * Called from the DOM via onclick event
+ * */
+ function playSong() {
+  let sound = document.getElementById("congrats-song");
+  sound.play();
+}
+
+/** 
  * Plays alert sound
  * Called from the DOM via onclick event
  * */
@@ -215,6 +224,7 @@ function runGame() {
     document.getElementById("question-txt").innerHTML = "Where is the sheep?";
     document.getElementById("q-sound").src = "assets/audio/q_sheep.mp3";
     document.getElementById("thumb-sound").src = "assets/audio/thumb_sheep.mp3";
+    document.getElementById("congrats-song").src = "assets/audio/song_sheep.mp3";
 
   } else {
 
@@ -222,12 +232,14 @@ function runGame() {
       document.getElementById("question-txt").innerHTML = "Where is the duck?";
       document.getElementById("q-sound").src = "assets/audio/q_duck.mp3";
       document.getElementById("thumb-sound").src = "assets/audio/thumb_duck.mp3";
+      document.getElementById("congrats-song").src = "assets/audio/song_duck.mp3";
     } else {
 
       if (quizPic === "assets/images/animal_horse.webp") {
         document.getElementById("question-txt").innerHTML = "Where is the horse?";
         document.getElementById("q-sound").src = "assets/audio/q_horse.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_horse.mp3";
+        document.getElementById("congrats-song").src = "assets/audio/song_horse.mp3";
 
       } else {
 
@@ -235,6 +247,7 @@ function runGame() {
           document.getElementById("question-txt").innerHTML = "Where is the pig?";
           document.getElementById("q-sound").src = "assets/audio/q_pig.mp3";
           document.getElementById("thumb-sound").src = "assets/audio/thumb_pig.mp3";
+          document.getElementById("congrats-song").src = "assets/audio/song_pig.mp3";
 
         } else {
 
@@ -242,6 +255,7 @@ function runGame() {
             document.getElementById("question-txt").innerHTML = "Where is the rooster?";
             document.getElementById("q-sound").src = "assets/audio/q_rooster.mp3";
             document.getElementById("thumb-sound").src = "assets/audio/thumb_rooster.mp3";
+            document.getElementById("congrats-song").src = "assets/audio/song_rooster.mp3";
 
           } else {
 
@@ -249,6 +263,7 @@ function runGame() {
               document.getElementById("question-txt").innerHTML = "Where is the cat?";
               document.getElementById("q-sound").src = "assets/audio/q_cat.mp3";
               document.getElementById("thumb-sound").src = "assets/audio/thumb_cat.mp3";
+              document.getElementById("congrats-song").src = "assets/audio/song_cat.mp3";
 
             } else {
 
@@ -256,6 +271,7 @@ function runGame() {
                 document.getElementById("question-txt").innerHTML = "Where is the dog?";
                 document.getElementById("q-sound").src = "assets/audio/q_dog.mp3";
                 document.getElementById("thumb-sound").src = "assets/audio/thumb_dog.mp3";
+                document.getElementById("congrats-song").src = "assets/audio/song_dog.mp3";
 
               } else {
 
@@ -263,6 +279,7 @@ function runGame() {
                   document.getElementById("question-txt").innerHTML = "Where is the cow?";
                   document.getElementById("q-sound").src = "assets/audio/q_cow.mp3";
                   document.getElementById("thumb-sound").src = "assets/audio/thumb_cow.mp3";
+                  document.getElementById("congrats-song").src = "assets/audio/song_cow.mp3";
                 }
               }
             }
