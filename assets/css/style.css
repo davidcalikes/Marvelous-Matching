@@ -475,6 +475,10 @@ footer p {
     border: 3px solid yellow;
 }
 
+#snd-btn-icon {
+    margin-left: 47%;
+}
+
 #thumb-container{
     position: relative;
     top: 0;
