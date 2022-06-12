@@ -408,7 +408,7 @@ Below are some features the site currently has to offer and also some features w
     * Correct answers display a congratulatory modal element that has a button to reset the game.
     <img src="./readme_images/test_modal.png">
 
-    * Incorrect answers result in the image being replaced with a 'try again' message (pictured above) and error sound effect
+    * Incorrect answers result in the image being replaced with a 'try again' message (pictured above) and error sound effect.
 
     * The Upper Game area is fully responsive across a broad variety of screen sizes.
 
@@ -465,117 +465,23 @@ Below are some features the site currently has to offer and also some features w
 
     <br>
 
-  
-
-
-
-- __Audio Section__  
-
-    * The Audio section is located on the Media page.
-
-    * The audio section provides users with the option to listen to the music of Cumasc Gael.  
-    
-    * The music in the Audio section does not play automatically to enhance the user experience.
-
-    * The audio section provides the user with content exclusive to the site.
-
-    * The songs in the audio section are relevant to the site's subject matter and consistent in style and design with other media and text across the site.
-
-    <img src="assets/readme_images/audio.png">
-    
-    <br>
-
-    - __Video Section__
-
-    * The Video section is located on the Media page.
-
-    * The video section provides users with the option to view video content featuring the band. 
-    
-    * The video in this section does not play automatically to enhance user experience.
-
-    * The video section provides the user with content relevant to the subject matter of the site.
-
-    * The video is contained within an iframe and is linked to the site via youtube.com.
-
-    <img src="assets/readme_images/video.png">
-
-
-- __The Gallery__
-
-    * The Gallery section is located on the Media page.
-
-    * The site Gallery provides users with the option to view still images of the band. 
-    
-    * The content in this section offers the user an insight into the style and energy of a Cumasc Gael live show.
-
-    * The Gallery section also provides the user with exclusive backstage and travelogue photo content. 
-
-     * The section is organised into three different categories, each clearly separated by a distinctive, stylised heading that's consistent in style with the rest of the site. 
-
-    <img src="assets/readme_images/gallery.png">
-    
-    <br>
-
-    - __Upper Biography Section__
-
-    * The Upper Biography section is located on the about page.
-
-    * The Upper Biography Section allows the user to access the most pertinent information about the group. 
-    
-    * The content in this section provides users with a simple and interesting overview of the band. Succinct and informative. the compressed nature of this section engages users and encourages scrolling.
-
-    <img src="assets/readme_images/upper_bio.png">
-    
-    <br>
-
-     - __Lower Biography Section__
-
-    * The Lower Biography section is located on the about page. 
-
-    * The Lower Biography Section allows the user to access more detailed information about the group. 
-    
-    * The content in this section provides users with an informative and engaging learning experience.
-
-    * Each biographical element has an accompanying image relevant to the text content. 
-
-    * The section is again organised into different elements explaining the past present and future direction of the band, with each element clearly separated by a distinctive, stylised heading that's consistent in style with the rest of the site. 
-
-    <img src="assets/readme_images/lower_bio.png">
-
-   - __Contact Section__
-
-    * The Contact section is located in the Contact page
-    
-    * The Contact section allows the user to access the groups contact infomation 
-    
-    * The Contact section provides direct links to email the band's tour and managment companies.
-
-    <img src="assets/readme_images/contact.png">
-
-    <br>
-
-- __Possible Future Features__
-
-     * The site aims to incorporate Javascript elements in the near future to make the site more interactive. This could include a "virtual fan wall" where registered users could leave graffiti style comments as a modern alternative to outdated user interactions such as fan mail.
-     
-     * In future, the site will include a web store for users to purchase content and merchandise. The store will be designed with reference to the 'three click rule.'
-
-    * The site aims to provide a video landing image in the future.
-    
-    <br>
-
-
     # Testing
 
 - __Testing During Development__
  
-    * Testing Technologies 
-    
-    <br>
+* Testing Technologies 
+
     
     I rigorously tested the site during the development phase using using the following:
 
-    
+    * HP Pavillion Notebook x360 serving a
+    Smart Technologies SB-480 Interactive Whiteboard.
+    <img src="./readme_images/smart_tech1.png">
+
+
+    * Promethean Activboard Interactive Whiteboard. (Android)
+    <img src="./readme_images/promethean1.png">
+
     * Mac Pro with a 21" Apple Cinema display -- Safari, Chrome and Firefox
 
     * Macbook pro 13" -- Safari, Chrome and Firefox
@@ -583,14 +489,24 @@ Below are some features the site currently has to offer and also some features w
     * Toshiba Laptop 15" (Windows 10) -- Edge, Chrome and Firefox
 
     * Apple iPad Mini (5th gen) -- Safari and Chrome
+    <img src="./readme_images/ipad_mini.png">
 
-    * Huawei P20 Pro Android Phone -- Chrome and Firfox
+    * Apple iPad (2nd gen -- Safari)
+    <img src="./readme_images/old_ipad.png">
 
-    * Samsung Galaxy Tab 7" -- Chrome
+    * Huawei P20 Pro Android Phone -- Chrome and Firefox.
+    <img src="./readme_images/android_phone.png">
 
-    I also used Google Dev-tools to test the sites responsivity in real time and also emulate the sites appearance and responsivity across several other devices.
+    * Various android tablet devices.
+    <img src="./readme_images/android_tablet.png">
 
-<img src="assets/readme_images/dev_tools.png">
+
+
+    I also used Google Dev-tools to test the sites responsivity in real time and also emulate the sites appearance and responsivity across other screen sizes.
+
+    <img src="./readme_images/dev_tools.png">
+
+
 
 - __Testing the Home page__
 
