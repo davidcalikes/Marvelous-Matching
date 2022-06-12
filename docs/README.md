@@ -647,7 +647,7 @@ I encountered a few tricky errors when the test mode function was applied to the
 
 <br>
 
-The results of sequence testing returned no further errors.
+The results of sequence testing returned no errors.
 
 <br>
 
@@ -717,6 +717,15 @@ Lochlainn loved looking at the app and passively enjoying the sounds, colours an
 
 - __Changes Made After Practical Testing__
 
+<img src="./readme_images/old_animal_modal.png">
+
+I decided to make the start game modal more intuitive to use by changing the instructional images to be less promenant and similar to that of the actual start game button.
+
+<img src="./readme_images/new_animal_modal.png">
+
+I achieved this by adding a grayscale filter to the images that were confusing to the user and removing the box-shadow effect to make them more 2 dimensional and less prominent.
+
+<br>
 
 
 - __Validator Testing__
