@@ -290,7 +290,7 @@ footer p {
 
 #modal-button {
     
-    background-color:  rgb(181, 78, 41);
+    background-color:  orangered;
     background-image: url(../images/background_carbon.webp);
     color: white;
     padding: 20px;
@@ -455,7 +455,7 @@ footer p {
 }
 
 #question-button {
-    background-color:  #d53737;
+    background-color:  red;
     background-image: url(../images/background_carbon.webp);
     color: white;
     padding-left: 30px;
@@ -556,7 +556,7 @@ footer p {
 }
 
 #congrats-button {
-    background-color:  #d53737;
+    background-color:  red;
     background-image: url(../images/background_carbon.webp);
     color: white;
     padding: 20px;
@@ -572,8 +572,6 @@ footer p {
 #congrats-button:hover { 
     border: 5px solid yellow;
 }
-
-
 
 /* Style rules for hidden end test modal div */
 
