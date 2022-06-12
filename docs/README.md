@@ -429,6 +429,8 @@ Below are some features the site currently has to offer and also some features w
 
     * The Lower Game area contains an audible question and a thumbnail image clue, specific to the game category.
 
+    * The Lower Game Area question button provides visual feedback to the user that the link contains audio with a fontawesome speaker icon that changes from unmute to mute with the Sound Toggle Switch.
+
     * The Thumbnail Image clue reacts to a click event by revealing an overlay image that changes the thumbnails opacity and displays instructive text"
 
     * The Thumbnail Image clue also provides an audible clue when clicked.
@@ -529,6 +531,34 @@ Despite this appearing to solve this problem, the console returned another error
 <img src="./readme_images/q_button_error.png">
 
 I added a fontawesome speaker icon to the question button of each game page that would suggest to the user that the feature contains audio content. The icon reflects the state of the Sound Toggle State providing visual feedback for the user at the bottom of the page. 
+
+<img src="./readme_images/snd_tgl_err1.png">
+
+A problem was reported to the console however when users would visit the menu page or about pages and the Sound Toggle function would target an element that did not exist on these pages.
+
+<img src="./readme_images/snd_tgl_err2.png">
+
+I resolved this issue by including an element on each page (pictured above) and set the display style property to 'none'
+
+<br>
+
+*  Main Menu Buttons Testing
+
+I had initially intended to have a simple sound function that would play a sound when a click event called it from the DOM. I encountered a problem however when using sounds when loading pages, the pages would often load and clip the sound before it is heard or sometimes it might not be heard at all. 
+
+I fixed this error by developing a function that loads each page only after the sound effect has ended.
+
+* About page Testing
+
+I tested the link to the about page on the menu page and it opened at the correct destination. The About page nav links work, images load and the text content is free from gramattical errors.
+
+* Footer Testing
+
+The footer meets accessibility contrast and title attribute requirements. Both links work and open in a new browser tag. The footer was tested across all site pages.
+
+
+
+
  
 
 
