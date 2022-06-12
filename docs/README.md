@@ -598,6 +598,8 @@ I encountered a few tricky errors when the test mode function was applied to the
 
 <img src="./readme_images/maketen_error.png">
 
+<br>
+
 * Attempts Error
 
     * When developing the test mode function of the game I created a rule that when ten attempts had been reached the Test Mode Congratulations Modal Would appear and provide the user with a final score. 
@@ -697,7 +699,7 @@ Declan's Class:
 * The Pupils enjoyed Marvelous Matching.
 * One of the pupils tried to swipe the images instead of tapping.
 * The Pupils enjoyed using the application on the interactive whiteboard.
-* The application was of inclusive and of great benefit to two children in particular who cannot swipe the whiteboard due to their physical disabilities.
+* The application was inclusive and of great benefit to two children in particular who cannot swipe the whiteboard due to their physical disabilities.
 * <img src="./readme_images/declans.png">
 * The Start Game Modal was confusing. Both pupils and support staff tried to push the rules images to start the game.
 * The Pupils mostly enjoyed the animals game and loved the audio elements.
@@ -713,19 +715,32 @@ Lochlainn loved looking at the app and passively enjoying the sounds, colours an
 
 <br>
 
+- __Changes Made After Practical Testing__
+
+
+
 - __Validator Testing__
 
 I ran all of the sites pages through the W3C validator and each page returned multiple errors.
 
-<img src="assets/readme_images/validation_errors.png">
+<img src="./readme_images/html_val_errors.png">
 
-I corrected the code and all four pages now return no html errors.
 
-<img src="assets/readme_images/no_errors.png">
+I corrected the code and all pages now return no html errors.
+
+<img src="./readme_images/index_val_passed.png">
 
 * The CSS stylesheet was passed through the Jigsaw Validator and returned no errors.
 
-<img src="assets/readme_images/css_val.png">
+<img src="./readme_images/css_pass.png">
+
+* The JavaScript .js file was passed through the JSHINT validator and returned multiple warnings.
+
+<img src="./readme_images/jshint_errors.png">
+
+I altered the code and all pages now return no warnings.
+
+<img src="./readme_images/jshint_val.png">
 
 <br>
 
