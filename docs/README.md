@@ -479,14 +479,14 @@ Below are some features the site currently has to offer and also some features w
     <img src="./readme_images/smart_tech1.png">
 
 
-    * Promethean Activboard Interactive Whiteboard. (Android)
+    * Promethean Activboard Interactive Whiteboard. (Firefox for Android)
     <img src="./readme_images/promethean1.png">
 
     * Mac Pro with a 21" Apple Cinema display -- Safari, Chrome and Firefox
 
     * Macbook pro 13" -- Safari, Chrome and Firefox
 
-    * Toshiba Laptop 15" (Windows 10) -- Edge, Chrome and Firefox
+    * Toshiba Satellite Pro Laptop 15" (Windows 10) -- Edge, Chrome and Firefox
 
     * Apple iPad Mini (5th gen) -- Safari and Chrome
     <img src="./readme_images/ipad_mini.png">
@@ -502,37 +502,35 @@ Below are some features the site currently has to offer and also some features w
 
 
 
-    I also used Google Dev-tools to test the sites responsivity in real time and also emulate the sites appearance and responsivity across other screen sizes.
+    I also used Google Dev-tools to test the sites responsivity in real time and also emulate appearance and responsivity across other screen sizes.
 
     <img src="./readme_images/dev_tools.png">
 
+- __Testing The Menu Page__
+
+    I first tested each individual function of the first Nav section of the menu page.
+
+    * Sound Toggle
+
+The Sound Toggle feature of the site threw up a few issues during development. Initially the switch functioned correctly on each page with the default setting of: OFF to enhance user experience. 
+
+A problem arose however when users would navigate to a different page of the site. The Sound Toggle would return to the default OFF position.
+
+Whilst it remains good UX design for default sound settings to be muted when the application first loads, I realised this would become tiresome and lead to a poor user experience if they had to constantly keep changing the switch state to achieve their desired sound setting. 
+
+I found a solution to this problem on [Youtube](https://www.youtube.com/watch?v=NQMs0rn6kwM). By storing string data to Local Storage I was able to call a function that set the sound toggle depending on the data contained within Local Storage. I was also able to maintain a default mute position by using the null keyword. 
+
+<img src="./readme_images/dev_tools.png">
+
+I logged the string data from Local Storage to the console using Google Dev Tools to test this function during development. 
+
+Despite this appearing to solve this problem, the console returned another error with the sound toggle as I added more features to the site.
+
+<img src="./readme_images/q_button_error.png">
+
+I added a fontawesome speaker icon to the question button of each game page that would suggest to the user that the feature contains audio content. 
 
 
-- __Testing the Home page__
-
-I tested each individual link on the nav bar on the home page and each link brought me to the correct destination.
-
-I discovered a bug during testing which caused the About and Contact page links to move up one pixel to accomodate the hover class underline animation. I noticed that this was not the case with the nav links on the opposite side. 
-
-This appeared to be because of the assigned "Active class" indacator on the Home page. 
-
-I fixed this bug using CSS and a class selector called "Inactive Class" on the opposite side. 
-
-I will continue to look for an alternative solution to this problem as the development of the site continues.
-
-I tested each link of the Sticky Nav Feature and found no errors.
-
-I then tested each link on the Upcoming Dates section.
-
-Each link opened in a new tab and to the correct URL.
-
-Each link in the News section was then tested and one link was found to be missing a blank_ attribute value. 
-
-This error was subsequently fixed.
-
-I checked the spelling and grammar of the text content in this section and found no errors.
-
-I tested the form element of this page and it functioned correctly.
 
 Each of the footer links was checked and returned no errors.
 
