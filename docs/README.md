@@ -26,23 +26,13 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
 [Credits](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md#credits)
 
-
-
-
-
-
-
-
-
-
 ## Planning & Development
-
 
 - __Project Inception__
 
-    As far back as I can remember, I have always had an innate, practical understanding of computing and technology. Having worked within the field of Special Education for the last 15 years I often feel and act upon a sense of duty to assist pupils and collegues who are having difficulty operating and integrating assitive technologies.
+    I have always had an innate, practical understanding of computing and technology. Having worked within the field of Special Education for the last 15 years I often feel and act upon a sense of duty to assist pupils and collegues who are having difficulty operating and integrating assitive technologies.
 
-    Marvelous Matching, was developed in response to the following technical issues within St Mary's Special School: <br> 
+    Marvelous Matching, was developed in response to the following technical challenges faced by the teachers and pupils of St Mary's Special School, Drumcar Co Louth. Eire - my current place of work: <br> 
     
     1. Software reliant on the defunct adobe flash player is now no longer functional.
     2. A significant number of pupils with physical and learning disabilities find most early-learning applications too difficult to interact with.
@@ -53,7 +43,7 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
     <br>
 
     
-- __Mission Statement__
+- __Planning Statement__
 
     A matching game called 'Marvelous Matching' will be developed to address the issues stated above.
 
@@ -72,6 +62,9 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 - __Target Audience__
 
     <img src="./readme_images/learning_outcomes.png">
+     _Example of just one of the many curriculum links targeted by Marvelous Matching._
+
+     <br>
 
     After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the conclusion that matching games are an important resource in helping pupils of all ages within our school achieve the following (Irish Corriculum) learning outcomes:
 
@@ -87,16 +80,14 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
     Whilst the catalyst for the development of Marvelous Matching was due to the exigent needs of the pupils of St Mary's Special School, the site may also prove useful to users outwith special education environments.
 
-    Many parents with young toddlers may also find the application useful for pre-school learning.
+    Many parents with young toddlers may also find the application useful for [pre-school learning](https://toysoldier.fun/blogs/just-sharing/benefits-of-playing-matching-games-activities).
 
     <img src="./readme_images/matching_benefits.png">
 
-    https://toysoldier.fun/blogs/just-sharing/benefits-of-playing-matching-games-activities
+    Many elderly patients suffering with the effects of [late-stage dementia](https://hospitalnews.com/activities-and-games-for-patients-with-alzheimers-disease/#:~:text=You%20can%20help%20slow%20the,%2C%20functional%2C%20and%20physical%20abilities.) can also benefit from simple matching games.
 
-    Many elderly patients suffering with the effects of late-stage dementia can also benefit from simple matching games.
+    <br>
     
-    https://hospitalnews.com/activities-and-games-for-patients-with-alzheimers-disease/#:~:text=You%20can%20help%20slow%20the,%2C%20functional%2C%20and%20physical%20abilities. 
-
 - __Target Audiences Summary__
     
     * Users who teach in a Special Education Environment.
@@ -210,14 +201,14 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
      <img src="./readme_images/color_scheme2.png"> #1d5cc9;
      <br>
 
-    * The light blue colored elements of the sight contain helpful and informative white text content to guide the user.
+    * The light blue colored elements of the site contain helpful and informative white text content to guide the user.
 
     <br>
 
-    <img src="./readme_images/color_scheme3.png"> #FF5349.
+    <img src="./readme_images/color_scheme3.png"> #ff0000.
     <br>
 
-    * The light orange color indicates the question button than can be pressed for an audible clue. The Color is also used in modal elements to begin the game.
+    * The red color indicates the question button than can be pressed for an audible clue.
     
     <br>
 
@@ -457,11 +448,15 @@ Below are some features the site currently has to offer and also some features w
 
     * When test mode is activated, the game page instructions banner changes to display a scoreboard.
 
+    * When test mode is activated, the game no longer offers the user the try again overlay image and insteads resets the game and logs an attempt to the scoreboard"
+
     <img src="./readme_images/scoreboard.png">
     
-    * When a user completes ten total attempts the congratulatory test modal is displayed informing user of their final test score
+    * When a user completes ten total attempts the congratulatory test modal is displayed informing the user of their final test score
 
     <img src="./readme_images/test_modal.png">
+
+    <br>
 
     <br>
 
@@ -469,18 +464,17 @@ Below are some features the site currently has to offer and also some features w
 
 - __Testing During Development__
  
-* Testing Technologies 
+* Responsiveness testing 
 
     
-    I rigorously tested the site during the development phase using using the following:
+    I tested the responsivness of the application during the development phase using using the following:
+
+    * Promethean Activboard Interactive Whiteboard. (Firefox for Android)
+    <img src="./readme_images/promethean1.png">
 
     * HP Pavillion Notebook x360 serving a
     Smart Technologies SB-480 Interactive Whiteboard.
     <img src="./readme_images/smart_tech1.png">
-
-
-    * Promethean Activboard Interactive Whiteboard. (Firefox for Android)
-    <img src="./readme_images/promethean1.png">
 
     * Mac Pro with a 21" Apple Cinema display -- Safari, Chrome and Firefox
 
@@ -500,13 +494,19 @@ Below are some features the site currently has to offer and also some features w
     * Various android tablet devices.
     <img src="./readme_images/android_tablet.png">
 
-
-
-    I also used Google Dev-tools to test the sites responsivity in real time and also emulate appearance and responsivity across other screen sizes.
+    I also used Google Dev-tools to test the sites responsivness by emulating the sites appearance across other device screen sizes.
 
     <img src="./readme_images/dev_tools.png">
 
-- __Testing The Menu Page__
+    At the time of testing, the site was fully responsive across Chrome, Firefox and Safari browsers on all of the above devices with the exeption of the following:
+
+    * The Promethean Activboard would not display box items correctly in the Chromium web browser.
+
+    * The site would not load box images or display correctly on the older iPad2 running ios 9.
+
+    * The site is not practically useable on mobile devices in landscape mode.
+
+- __Feature Testing__
 
     I first tested each individual function of the first Nav section of the menu page.
 
@@ -528,7 +528,8 @@ Despite this appearing to solve this problem, the console returned another error
 
 <img src="./readme_images/q_button_error.png">
 
-I added a fontawesome speaker icon to the question button of each game page that would suggest to the user that the feature contains audio content. 
+I added a fontawesome speaker icon to the question button of each game page that would suggest to the user that the feature contains audio content. The icon reflects the state of the Sound Toggle State providing visual feedback for the user at the bottom of the page. 
+ 
 
 
 
