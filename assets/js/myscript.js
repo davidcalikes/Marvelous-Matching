@@ -1,7 +1,9 @@
+/*exported playAnimals, playShapes, playColours, playPop, playBack, qSound, testToggle, startGame, startGame2, startGame3, checkCard1, checkCard2, checkCard3, checkCard4, thumbSound, thumbHint, */
+
 // Functions and statements relating to site sounds
 
 // Statement that retrieves the position of the sound toggle switch from local storage and stores it in a variable
-let sndToggleState = localStorage.getItem("toggle")
+let sndToggleState = localStorage.getItem("toggle");
       console.log("Sound =",sndToggleState);
 
       setToggle();
@@ -35,8 +37,8 @@ function setToggle() {
  function muteAudio() {
   const sounds = document.querySelectorAll("audio");
   for (const sound of sounds)
-    sound.muted = true 
-    console.log("muteAudio fired")
+    sound.muted = true; 
+    console.log("muteAudio fired");
   }
 
 /** 
@@ -143,8 +145,7 @@ function soundToggle() {
       for (const sound of sounds) {
       sound.muted = false;
       localStorage.setItem("toggle", "ON");
-      let sndToggleState = localStorage.getItem("toggle")
-      sndToggleState;
+      let sndToggleState = localStorage.getItem("toggle");
     }
       
   } else {
@@ -168,7 +169,7 @@ function testToggle() {
   let testOnOff = document.getElementById("test-on-off");
   if (testOnOff.innerHTML === "OFF") {
       testOnOff.innerHTML = "ON";
-      console.log("Test Mode Activated")
+      console.log("Test Mode Activated");
       chkGame();
       runTest();
   } else {
@@ -204,11 +205,10 @@ function testToggle() {
 
     // Uses quizzPic variable to duplicate image to floating congratsBox element"
     document.getElementById("float-pic").src = quizPic;
-    console.log(quizPic)
+    console.log(quizPic);
     
      let question = document.getElementById("question-txt").innerHTML;
-     question;
-     console.log(question)
+     console.log(question);
      
      if (quizPic === "assets/images/animal_sheep.webp") {
       document.getElementById("question-txt").innerHTML = "Where is the sheep?";
@@ -298,11 +298,10 @@ function testToggle() {
 
     // Uses quizzPic variable to duplicate image to floating congratsBox element"
     document.getElementById("float-pic").src = quizPic;
-    console.log(quizPic)
+    console.log(quizPic);
     
      let question = document.getElementById("question-txt").innerHTML;
-     question;
-     console.log(question)
+     console.log(question);
      
      if (quizPic === "assets/images/shapes_circle.webp") {
       document.getElementById("question-txt").innerHTML = "Where is the circle?";
@@ -377,11 +376,10 @@ function testToggle() {
 
     // Uses quizzPic variable to duplicate image to floating congratsBox element"
     document.getElementById("float-pic").src = quizPic;
-    console.log(quizPic)
+    console.log(quizPic);
     
      let question = document.getElementById("question-txt").innerHTML;
-     question;
-     console.log(question)
+     console.log(question);
      
      if (quizPic === "assets/images/colours_black.webp") {
       document.getElementById("question-txt").innerHTML = "Where is the colour black?";
@@ -499,7 +497,6 @@ function startGame() {
   resetBoxClassNames();
   
   let modal = document.getElementById("modal-box").style.display = "none";
-  modal;
   runGame();
 }
 
@@ -508,7 +505,6 @@ function startGame2() {
   resetBoxClassNames();
   
   let modal = document.getElementById("modal-box").style.display = "none";
-  modal;
 runGame2();
 }
 
@@ -517,7 +513,6 @@ function startGame3() {
   resetBoxClassNames();
   
   let modal = document.getElementById("modal-box").style.display = "none";
-  modal;
 runGame3();
 }
 
@@ -650,7 +645,7 @@ function checkCard4() {
 }
 
 function chkGame() {
-  let gameType = document.getElementById("game-type").innerHTML
+  let gameType = document.getElementById("game-type").innerHTML;
 
   if (gameType === "Animals") {
   resetBoxClassNames();
@@ -680,7 +675,6 @@ function playAgain() {
   resetBoxClassNames();
   
   let congratsBox = document.getElementById("congrats-box").style.display = "none";
-  congratsBox;
   hideHint();
   runGame();
 }
@@ -692,7 +686,7 @@ function playAgain2() {
   resetBoxClassNames();
   
   let congratsBox = document.getElementById("congrats-box").style.display = "none";
-  congratsBox;
+  
   hideHint();
   runGame2();
 }
@@ -704,7 +698,7 @@ function playAgain3() {
   resetBoxClassNames();
   
   let congratsBox = document.getElementById("congrats-box").style.display = "none";
-  congratsBox;
+ 
   hideHint();
   runGame3();
 }
@@ -713,32 +707,43 @@ function playAgain3() {
  * Sets hidden congratulations modal display to flex 
  * */ 
 function congratsBox() {
-  let congrats = document.getElementById("congrats-box").style.display = "flex";
-  congrats;
+  document.getElementById("congrats-box").style.display = "flex";
+  
   }
 
+
+/** 
+ * Resets the box class names so a new random element can be assigned active class (and avoid active active class name error) 
+ * */ 
 function resetBoxClassNames() {
   document.getElementById("box-1").className = "box";
   document.getElementById("box-2").className = "box";
   document.getElementById("box-3").className = "box";
   document.getElementById("box-4").className = "box";
-  console.log("reset is working")
+  console.log("reset is working");
 }
 
+/**
+ * Displays thumbnail overlay image on click event 
+ */
  function thumbSound() {
   const thumbSound = document.getElementById("thumb-sound");
-  thumbSound;
   thumbSound.play();
   }
 
+/**
+ * Displays thumbnail overlay image on click event 
+ */
   function thumbHint() {
-    const thumbHint = document.getElementById("thumb-hint").style.display = "flex";
-    thumbHint;
+    document.getElementById("thumb-hint").style.display = "flex";
   }
 
+/**
+ * Hides thumbnail overlay image on click event 
+ */
   function hideHint() {
-    const hideHint = document.getElementById("thumb-hint").style.display = "none";
-    hideHint;
+    document.getElementById("thumb-hint").style.display = "none";
+    console.log("hidehint is working")
   }
 
 /**
@@ -776,6 +781,9 @@ function addAttempt() {
   document.getElementById("attempts").innerText = ++testAttempts;
 }
 
+/**
+ * Checks the number of attempts and ends the test when maximum numer of tests is reached
+ */
 function tenCheck() {
   const maxAttempts = document.getElementById("attempts").innerHTML;
   const testState = document.getElementById("test-on-off");
@@ -784,30 +792,29 @@ function tenCheck() {
   }
 }
 
+/**
+ * Resets the game and displays test scoreboard
+ */
 function runTest() {
   
   resetBoxClassNames();
   
-  let hidePlayInfo = document.getElementById("play-info").style.display = "none";
-  hidePlayInfo;
-  let showScore = document.getElementById("score-board").style.display = "block";
-  showScore;
-  let hideTestModal = document.getElementById("end-test").style.display = "none";
-  hideTestModal;
-  let resetScore = document.getElementById("add-score").innerHTML = "0";
-  resetScore;
-  let resetAttempts = document.getElementById("attempts").innerHTML = "0";
-  resetAttempts;
+  hidePlayInfo = document.getElementById("play-info").style.display = "none";
+  showScore = document.getElementById("score-board").style.display = "block";
+  hideTestModal = document.getElementById("end-test").style.display = "none";
+  resetScore = document.getElementById("add-score").innerHTML = "0";
+  resetAttempts = document.getElementById("attempts").innerHTML = "0";
 
   makeMatch();
 }
 
-function endTest() {
-  const endModal = document.getElementById("end-test").style.display = "flex";
-  endModal;
-
+/**
+ * Displays end of test modal and shows final score 
+ */
+  function endTest() {
+  document.getElementById("end-test").style.display = "flex";
   const getFinalScr = document.getElementById("add-score").innerText;
-  console.log("Final Score =",getFinalScr,"/10")
-  const dspFinalScr = document.getElementById("final-score").innerHTML = getFinalScr;
-  dspFinalScr;
+  console.log("Final Score =",getFinalScr,"/10");
+  document.getElementById("final-score").innerHTML = getFinalScr;
+  console.log("endtest is working")
 }
