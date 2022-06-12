@@ -605,18 +605,38 @@ I encountered a few tricky errors when the test mode function was applied to the
 
     * <img src="./readme_images/shapes_test_solved.png">
 
+    <br>
+
 * Further Testing of The Game Page
     
-    * I tested each of the nav elements of every Game Page and each element functioned properly.
+    * I tested each of the nav elements of every Game Page and each element functions properly.
 
-    
+    * I created the following test sequence for rigorous testing of all box elements across all game categories and modes.
 
-    * <img src="./readme_images/shapes_test_error.png">
+    * The testing sequence is as follows:
+        
+        * Each box is clicked 10 times (To test for repeat of tenCheck function error)
 
-    * I found the issue here was a rougue space in the inner html of the element the JavaScript code was targeting. (facepalm emoji)
+        * The score will be logged for each box out of 10 in both game modes
 
-    * <img src="./readme_images/shapes_test_solved.png">
+        * Question Button and Thumbnail image results will be logged out of forty if they render correctly, match each other and match the correct box image every time.
 
+        * Box Errors and Lower Game section errors will be logged in an errors section underneath the table.
+
+|                 | Animals | Shapes | Colours | Animals Test | Shapes Test | Colours Test | CT Modal Fired?       |
+|-----------------|---------|--------|---------|--------------|-------------|--------------|-----------------------|
+| box1            | 2/10    | 2/10   | 3/10    | 5/10         | 0/10        | 4/10         | Yes(A) Yes(Sh) Yes(C) |
+| box2            | 4/10    | 3/10   | 1/10    | 0/10         | 3/10        | 1/10         | Yes(A) Yes(Sh) Yes(C) |
+| box3            | 2/10    | 2/10   | 3/10    | 1/10         | 4/10        | 1/10         | Yes(A) Yes(Sh) Yes(C) |
+| box4            | 4/10    | 3/10   | 1/10    | 3/10         | 4/10        | 3/10         | Yes(A) Yes(Sh) Yes(C) |
+| Question Button | 40/40   | 40/40  | 40/40   | 40/40        | 40/40       | 40/40        | N/A                   |
+| Thumbnail Image | 40/40   | 40/40  | 40/40   | 40/40        | 40/40       | 40/40        | N/A                   |
+
+<br>
+
+The results of sequence testing returned no further errors.
+
+<br>
 
 
 
