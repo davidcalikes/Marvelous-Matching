@@ -10,21 +10,21 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 <img src="./readme_images/mockup.png">
 
 ## Contents
-[Planning & Development](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md#planning--development)
+[Planning & Development](https://github.com/davidcalikes/Marvelous-Matching#planning--development)
 
-[Features](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md#features)
+[Features](https://github.com/davidcalikes/Marvelous-Matching#features)
 
-[Testing](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md#testing)
+[Testing](https://github.com/davidcalikes/Marvelous-Matching#testing)
 
-[Deployment](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md#deployment)
+[Deployment](https://github.com/davidcalikes/Marvelous-Matching#deployment)
 
-[Languages](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md#languages)
+[Languages](https://github.com/davidcalikes/Marvelous-Matching#languages)
 
-[Software](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md#software)
+[Software](https://github.com/davidcalikes/Marvelous-Matching#software)
 
-[Media](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md#media)
+[Media](https://github.com/davidcalikes/Marvelous-Matching#media)
 
-[Credits](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md#credits)
+[Credits](https://github.com/davidcalikes/Marvelous-Matching#credits)
 
 ## Planning & Development
 
@@ -32,7 +32,7 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
     I have always had an innate, practical understanding of computing and technology. Having worked within the field of Special Education for the last 15 years I often feel and act upon a sense of duty to assist pupils and collegues who are having difficulty operating and integrating assitive technologies.
 
-    Marvelous Matching, was developed in response to the following technical challenges faced by the teachers and pupils of St Mary's Special School, Drumcar Co Louth. Eire - my current place of work: <br> 
+    Marvelous Matching, was developed in response to the following technical challenges faced by the teachers and pupils of St Mary's Special School, Drumcar, Co Louth. Eire - my current place of work: <br> 
     
     1. Software reliant on the defunct adobe flash player is now no longer functional.
     2. A significant number of pupils with physical and learning disabilities find most early-learning applications too difficult to interact with.
