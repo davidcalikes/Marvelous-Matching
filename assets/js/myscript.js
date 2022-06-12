@@ -206,60 +206,60 @@ function testToggle() {
     document.getElementById("float-pic").src = quizPic;
     console.log(quizPic)
     
-     let question = document.getElementById("question-txt").innerHTML;
+     let question = document.getElementById("question-button").innerHTML;
      question;
      console.log(question)
      
      if (quizPic === "assets/images/animal_sheep.webp") {
-      document.getElementById("question-txt").innerHTML = "Where is the sheep?";
+      document.getElementById("question-button").innerHTML = "Where is the sheep?";
       document.getElementById("q-sound").src = "assets/audio/q_sheep.mp3";
       document.getElementById("thumb-sound").src = "assets/audio/thumb_sheep.mp3";
     
      } else {
 
     if (quizPic === "assets/images/animal_duck.webp") {
-     document.getElementById("question-txt").innerHTML = "Where is the duck?";
+     document.getElementById("question-button").innerHTML = "Where is the duck?";
      document.getElementById("q-sound").src = "assets/audio/q_duck.mp3";
      document.getElementById("thumb-sound").src = "assets/audio/thumb_duck.mp3";
    } else {
 
     if (quizPic === "assets/images/animal_horse.webp") {
-      document.getElementById("question-txt").innerHTML = "Where is the horse?";
+      document.getElementById("question-button").innerHTML = "Where is the horse?";
       document.getElementById("q-sound").src = "assets/audio/q_horse.mp3";
       document.getElementById("thumb-sound").src = "assets/audio/thumb_horse.mp3";
       
       } else {
 
        if (quizPic === "assets/images/animal_pig.webp") {
-        document.getElementById("question-txt").innerHTML = "Where is the pig?";
+        document.getElementById("question-button").innerHTML = "Where is the pig?";
         document.getElementById("q-sound").src = "assets/audio/q_pig.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_pig.mp3";
       
       } else {
 
       if (quizPic === "assets/images/animal_rooster.webp") {
-        document.getElementById("question-txt").innerHTML = "Where is the rooster?";
+        document.getElementById("question-button").innerHTML = "Where is the rooster?";
         document.getElementById("q-sound").src = "assets/audio/q_rooster.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_rooster.mp3";
         
         } else {
 
          if (quizPic === "assets/images/animal_cat.webp") {
-          document.getElementById("question-txt").innerHTML = "Where is the cat?";     
+          document.getElementById("question-button").innerHTML = "Where is the cat?";     
           document.getElementById("q-sound").src = "assets/audio/q_cat.mp3";
           document.getElementById("thumb-sound").src = "assets/audio/thumb_cat.mp3";
          
         } else {
         
           if (quizPic === "assets/images/animal_dog.webp") {
-            document.getElementById("question-txt").innerHTML = "Where is the dog?";
+            document.getElementById("question-button").innerHTML = "Where is the dog?";
             document.getElementById("q-sound").src = "assets/audio/q_dog.mp3";
             document.getElementById("thumb-sound").src = "assets/audio/thumb_dog.mp3";
            
           } else {
 
              if (quizPic === "assets/images/animal_cow.webp") {
-              document.getElementById("question-txt").innerHTML = "Where is the cow?";
+              document.getElementById("question-button").innerHTML = "Where is the cow?";
               document.getElementById("q-sound").src = "assets/audio/q_cow.mp3";
               document.getElementById("thumb-sound").src = "assets/audio/thumb_cow.mp3";
              }
@@ -300,46 +300,46 @@ function testToggle() {
     document.getElementById("float-pic").src = quizPic;
     console.log(quizPic)
     
-     let question = document.getElementById("question-txt").innerHTML;
+     let question = document.getElementById("question-button").innerHTML;
      question;
      console.log(question)
      
      if (quizPic === "assets/images/shapes_circle.webp") {
-      document.getElementById("question-txt").innerHTML = "Where is the circle?";
+      document.getElementById("question-button").innerHTML = "Where is the circle?";
       document.getElementById("q-sound").src = "assets/audio/q_circle.mp3";
       document.getElementById("thumb-sound").src = "assets/audio/thumb_circle.mp3";
     
      } else {
 
     if (quizPic === "assets/images/shapes_oval.webp") {
-     document.getElementById("question-txt").innerHTML = "Where is the oval?";
+     document.getElementById("question-button").innerHTML = "Where is the oval?";
      document.getElementById("q-sound").src = "assets/audio/q_oval.mp3";
      document.getElementById("thumb-sound").src = "assets/audio/thumb_oval.mp3";
    } else {
 
     if (quizPic === "assets/images/shapes_rectangle.webp") {
-      document.getElementById("question-txt").innerHTML = "Where is the rectangle?";
+      document.getElementById("question-button").innerHTML = "Where is the rectangle?";
       document.getElementById("q-sound").src = "assets/audio/q_rectangle.mp3";
       document.getElementById("thumb-sound").src = "assets/audio/thumb_rectangle.mp3";
       
       } else {
 
        if (quizPic === "assets/images/shapes_square.webp") {
-        document.getElementById("question-txt").innerHTML = "Where is the square?";
+        document.getElementById("question-button").innerHTML = "Where is the square?";
         document.getElementById("q-sound").src = "assets/audio/q_square.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_square.mp3";
       
       } else {
 
       if (quizPic === "assets/images/shapes_star.webp") {
-        document.getElementById("question-txt").innerHTML = "Where is the star?";
+        document.getElementById("question-button").innerHTML = "Where is the star?";
         document.getElementById("q-sound").src = "assets/audio/q_star.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_star.mp3";
         
         } else {
 
          if (quizPic === "assets/images/shapes_triangle.webp") {
-          document.getElementById("question-txt").innerHTML = "Where is the triangle?";     
+          document.getElementById("question-button").innerHTML = "Where is the triangle?";     
           document.getElementById("q-sound").src = "assets/audio/q_triangle.mp3";
           document.getElementById("thumb-sound").src = "assets/audio/thumb_triangle.mp3";
 
@@ -379,60 +379,60 @@ function testToggle() {
     document.getElementById("float-pic").src = quizPic;
     console.log(quizPic)
     
-     let question = document.getElementById("question-txt").innerHTML;
+     let question = document.getElementById("question-button").innerHTML;
      question;
      console.log(question)
      
      if (quizPic === "assets/images/colours_black.webp") {
-      document.getElementById("question-txt").innerHTML = "Where is the colour black?";
+      document.getElementById("question-button").innerHTML = "Where is the colour black?";
       document.getElementById("q-sound").src = "assets/audio/q_black.mp3";
       document.getElementById("thumb-sound").src = "assets/audio/thumb_black.mp3";
     
      } else {
 
     if (quizPic === "assets/images/colours_blue.webp") {
-     document.getElementById("question-txt").innerHTML = "Where is the colour blue ?";
+     document.getElementById("question-button").innerHTML = "Where is the colour blue ?";
      document.getElementById("q-sound").src = "assets/audio/q_blue.mp3";
      document.getElementById("thumb-sound").src = "assets/audio/thumb_blue.mp3";
    } else {
 
     if (quizPic === "assets/images/colours_green.webp") {
-      document.getElementById("question-txt").innerHTML = "Where is the colour green?";
+      document.getElementById("question-button").innerHTML = "Where is the colour green?";
       document.getElementById("q-sound").src = "assets/audio/q_green.mp3";
       document.getElementById("thumb-sound").src = "assets/audio/thumb_green.mp3";
       
       } else {
 
        if (quizPic === "assets/images/colours_orange.webp") {
-        document.getElementById("question-txt").innerHTML = "Where is the colour orange?";
+        document.getElementById("question-button").innerHTML = "Where is the colour orange?";
         document.getElementById("q-sound").src = "assets/audio/q_orange.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_orange.mp3";
       
       } else {
 
       if (quizPic === "assets/images/colours_pink.webp") {
-        document.getElementById("question-txt").innerHTML = "Where is the colour pink?";
+        document.getElementById("question-button").innerHTML = "Where is the colour pink?";
         document.getElementById("q-sound").src = "assets/audio/q_pink.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_pink.mp3";
         
         } else {
 
          if (quizPic === "assets/images/colours_purple.webp") {
-          document.getElementById("question-txt").innerHTML = "Where is the colour purple?";     
+          document.getElementById("question-button").innerHTML = "Where is the colour purple?";     
           document.getElementById("q-sound").src = "assets/audio/q_purple.mp3";
           document.getElementById("thumb-sound").src = "assets/audio/thumb_purple.mp3";
 
         } else {
 
           if (quizPic === "assets/images/colours_red.webp") {
-            document.getElementById("question-txt").innerHTML = "Where is the colour red?";
+            document.getElementById("question-button").innerHTML = "Where is the colour red?";
             document.getElementById("q-sound").src = "assets/audio/q_red.mp3";
             document.getElementById("thumb-sound").src = "assets/audio/thumb_red.mp3";
             
             } else {
     
              if (quizPic === "assets/images/colours_yellow.webp") {
-              document.getElementById("question-txt").innerHTML = "Where is the colour yellow?";     
+              document.getElementById("question-button").innerHTML = "Where is the colour yellow?";     
               document.getElementById("q-sound").src = "assets/audio/q_yellow.mp3";
               document.getElementById("thumb-sound").src = "assets/audio/thumb_yellow.mp3";
             
