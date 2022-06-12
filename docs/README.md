@@ -744,26 +744,21 @@ I altered the code and all pages now return no warnings.
 
 <br>
 
-
 - __Performance Testing__
 
-    I used Lighthouse to check site performance. The site performs well in most areas however the accesibility score was less than optimal.
+    I then used the WCAG color contrast checker tool and it returned one contrast error with the green button colour of the menu page.
 
-    I then used the WCAG color contrast checker tool and it returned contrast errors with the deep orange color in the site's color scheme returning a contrast ratio of less than 3.0.
+    <img src="./readme_images/contrast_error.png">
 
-<img src="assets/readme_images/test_aa.png">
+    This was addressed by implementing a darker green colour for the menu buttons.
 
-This was addressed by implementing a brighter orange color for text elements and links within the site. 
+    <img src="./readme_images/contrast_error.png">
 
-<img src="assets/readme_images/test_contrast.png">
 
-The site now returns just one contrasting error which is associated with the gradient I have used on the site's sub-headings. I have chosen to ignore this contrast warning as the image provided shows there is no visibility issue whatsoever and the error message appears to be simply a limitation of the WCAG's abilities.
 
-<img src="assets/readme_images/limit.png">
 
-The site now achieves a 100% accesibility rating when performance is tested through lighthouse.
+The site now achieves a 100% accesibility rating when tested through lighthouse.
 
-<img src="assets/readme_images/lighthouse.png">
 
 <br>
 
