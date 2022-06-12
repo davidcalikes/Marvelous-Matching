@@ -40,7 +40,7 @@ Thoughtfully designed, the game provides a fun, engaging and satisfying learning
 
 - __Project Inception__
 
-    As far back as I can remember, I have always had a some-what innate, practical understanding of computing and technology. Having worked within the field of Special Education for the last 15 years I often feel and act upon a sense of duty to assist pupils and collegues who are having difficulty operating and integrating assitive technologies.
+    As far back as I can remember, I have always had an innate, practical understanding of computing and technology. Having worked within the field of Special Education for the last 15 years I often feel and act upon a sense of duty to assist pupils and collegues who are having difficulty operating and integrating assitive technologies.
 
     Marvelous Matching, was developed in response to the following technical issues within St Mary's Special School: <br> 
     
@@ -406,8 +406,9 @@ Below are some features the site currently has to offer and also some features w
     * Each box will change border color when hovered over to provide visual feedback for the user.
 
     * Correct answers display a congratulatory modal element that has a button to reset the game.
+    <img src="./readme_images/test_modal.png">
 
-    * Incorrect answers result in the image being replaced with a 'try again' message and error sound effect
+    * Incorrect answers result in the image being replaced with a 'try again' message (pictured above) and error sound effect
 
     * The Upper Game area is fully responsive across a broad variety of screen sizes.
 
@@ -426,26 +427,41 @@ Below are some features the site currently has to offer and also some features w
 
     * The banner acts as a separator between the upper and lower areas of the main game area.
 
-    <img src="./readme_images/game_area1.png">
+    <br>
+
+    <img src="./readme_images/game_area2.png">
     
 - __Lower Game Area__
    
 
-    * The Upper Game Area of the site is part of the main game section of each game page.
+    * The Lower Game Area of the site is part of the main game section of each game page.
 
-    * The Upper Game area contains four random images specific to game catagory.
+    * The Lower Game area contains an audible question and a thumbnail image clue, specific to the game category.
 
-    * The Upper Game area consists of four images that allow user interaction.
+    * The Thumbnail Image clue reacts to a click event by revealing an overlay image that changes the thumbnails opacity and displays instructive text"
 
-    * Each box will react to a tap or click event.
+    * The Thumbnail Image clue also provides an audible clue when clicked.
+    
+    * Each item will change border color when hovered over to provide visual feedback for the user.
 
-    * Each box will change border color when hovered over to provide visual feedback for the user.
+    <br>
 
-    * Correct answers display a congratulatory modal element that has a button to reset the game.
+   <img src="./readme_images/test_toggle.png">
+    
+- __Test Mode__
+   
 
-    * Incorrect answers result in the image being replaced with a 'try again' message and error sound effect
+    * The Test Mode function is fired when the Test Mode toggle switch is set to: ON
 
-    * The Upper Game area is fully responsive across a broad variety of screen sizes.
+    * When in test mode a user can test their matching skills by challenging themselves to get as many correct answers out of ten as possible.
+
+    * When test mode is activated, the game page instructions banner changes to display a scoreboard.
+
+    <img src="./readme_images/scoreboard.png">
+    
+    * When a user completes ten total attempts the congratulatory test modal is displayed informing user of their final test score
+
+    <img src="./readme_images/test_modal.png">
 
     <br>
 
