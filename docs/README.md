@@ -195,7 +195,7 @@ After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the 
 
     <img src="./readme_images/color_scheme1.png">
 
-    The background gradient used is a standard style prevelent throughout early learning environments. Calming like a clear blue sky, the background presents a contrasting perspective for the content of the game area and is not distracting.
+    The background gradient used is a standard style prevelent throughout early learning environments. Calming, like a clear blue sky, the background presents a contrasting perspective for the content of the game area and is not distracting.
     
     <img src="./readme_images/wiggles_background.png">
 
@@ -231,8 +231,8 @@ After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the 
     <br>
 
     Due to the educational nature of the site and how the content contains multiple vibrant colors I have only included colors used relative to the design of the site framework or those that provide user feedback through consistency of use.
-
-
+ 
+   <br>
 - __Typography__
 
 *  There are two fonts used throughout the application.
@@ -262,7 +262,7 @@ Below are some features the site currently has to offer and also some features w
     
     * The Main Logo contains bold, easy to read text using cartoon images that will engage the intended user.
 
-    * The Main Logo contains the alternative (US) spelling of Marvelous consistent with the "synthetic phonics" learning standard. 
+    * The Main Logo contains the alternative (US) spelling of Marvelous consistent with the "synthetic phonics" approach to spelling. 
  
     <br>
 
@@ -342,7 +342,7 @@ Below are some features the site currently has to offer and also some features w
 
     * The about page contains information about the development and functionality of the application.
 
-    * The about page information is presented on a blue textured background consistent in style and presentation with the rest of the site 
+    * The about page information is presented on a blue textured background consistent in style and presentation with the rest of the site. 
 
     * The about page features photo images of the app used within a learnng environment.
 
@@ -468,6 +468,14 @@ Below are some features the site currently has to offer and also some features w
     <br>
 
     <br>
+
+- __Possible Future Features__
+
+    For copyright reasons, it was not possible for me to integrate content from the Phonics and Maths programmes used within the school. Because of this, I did not include any numbers or letter matching categories. It was the consencus of teaching staff that using images or sounds that didn't match the current programmes would be confusing for the pupils. 
+
+    In future versions of Marvelous Matching however, it may be possible to include a feature that allows teachers and support staff to upload content to the game themselves. This would mean that they could use the appropriate literature for each category and be able to teach even more learning outcomes from a single application.
+
+    I would also like to add an Irish language translator feature at some point that would present the site in Irish.
 
     # Testing
 
@@ -706,6 +714,7 @@ Declan's Class:
 * The Pupils enjoyed Marvelous Matching.
 * One of the pupils tried to swipe the images instead of tapping.
 * The Pupils enjoyed using the application on the interactive whiteboard.
+* A staff member commented on the convenience of being able to switch category within the one site.
 * The application was inclusive and of great benefit to two children in particular who cannot swipe the whiteboard due to their physical disabilities.
 * <img src="./readme_images/declans.png">
 * The Start Game Modal was confusing. Both pupils and support staff tried to push the rules images to start the game.
@@ -713,7 +722,7 @@ Declan's Class:
 
 <br>
 
-- __More Practical Testing__
+- __More Manual Testing__
 
 * Test subject: My son Lochlainn Calikes  
 * Age: 7 months
@@ -722,7 +731,7 @@ Lochlainn loved looking at the app and passively enjoying the sounds, colours an
 
 <br>
 
-- __Changes Made After Practical Testing__
+- __Changes Made After Manual Testing__
 
 <img src="./readme_images/old_animal_modal.png">
 
@@ -777,12 +786,17 @@ I altered the code and all pages now return no warnings.
 
     I used the WCAG tool extensively throughout the site and made changes accordingly.
 
-The site now achieves a 100% accessibility rating when tested through lighthouse and the WGAC contrast checker returns just one error that i have decided to ignore.
+The WGAC contrast checker now returns just one error that I have laid out below
 
-As you can see from these images, the intermittant error is related to the animated text link above the modal icon and the error is simply a limitation of the WCAG checkers functionality.
+As you can see from these images, the intermittant error is related to the animated text link above the modal icon and the error is simply a limitation of the WCAG checkers functionality. I feel this is an warning I can safely ignore.
 
 <img src="./readme_images/anim_error1.png">
 <img src="./readme_images/anim_error.png">
+
+The site now achieves a 100% accessibility rating when tested through lighthouse and achieves almost perfect ratings for performance, search engine optimisation and best practices.
+
+<img src="./readme_images/mm_lighthouse1.png">
+<img src="./readme_images/mm_lighthouse2.png">
 
 <br>
 
@@ -795,7 +809,7 @@ As you can see from these images, the intermittant error is related to the anima
 
 There is an intermittant audio bug that occurs when a user interacts with an audio feature via some ios mobile devices. 
 
-Initially the audio will play as normal but will not play the same audio file again properly until after 3 or 4 seconds. Even though it doesn't really affect the operation in a special educational setting (as users would normally require time to consider their answers), I am still in the process of finding a solution to this issue that appears to be widely known as a fault within the ios operating system.
+Initially the audio will play as normal but will not play the same audio file again properly until after 3 or 4 seconds. Even though it doesn't affect the operation in a special educational setting (as users would normally require time to consider their answers), I am still trying to find a solution to this issue that appears to be widely known as a fault within the ios operating system.
 
 <img src="./readme_images/ios_bug.png">
 
@@ -836,14 +850,16 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 <img src="./readme_images/vertexshare.png">
 
 
-* Garageband to produce and master the mp3 files.
+* Garageband was used to produce and master the mp3 files.
 
 * Balsamiq wireframes software.
 
 
 # Media
 
-* The songs featured in the audio elements of this site are performed by myself and are public domain
+* The songs featured in the audio elements of this site are performed by myself and are public domain.
+
+* The other audio elements used throught the project were taken from freesounds.com.
 
 * The images used on the site are free to use pictures from the following sources:
 
@@ -855,7 +871,7 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 - __Content__
 
 
-    * The fade-in effect for the hero image is from this article on Stack Overflow: https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load
+    * The JavaScript algorithm used to shuffle the flashcards was used from this article I found on [Stack Overflow](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
 
     * The Sticky Navigation Menu is derived from snippets of code from this repository: https://github.com/iamshaunjp/CSS-Tips-and-Tricks/blob/04-css-only-dropdown-menu/css-only-dropdown/styles.css
 
@@ -868,22 +884,13 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 
 - __Thanks__
 
-    * Kasia Boguka: Code Institute Cohort Facilitator.
-
-        I'd like to thank Kasia for reminding of the correct date this project was due. Good save Kasia!  
-
-    * Richard Wells: Code Institute Mentor.
-
-        Richard's expertise during this project was invaluable and my project benefitted greatly due to his mentorship. 
-        Learning from a professiona like Richard and watching how he can manipulate code and research solutions in real time has been hugely beneficial... thanks man!
-
     * The pupils of St Mary's Special School.
 
-        For obvious reasons I cannot record the names or images of any of the pupils who enjoyed manually testing Marvelous Matching. But they all belong here nonetheless and have my greatest thanks. 
+        For obvious reasons I cannot record the names or images of any of the pupils who enjoyed manually testing Marvelous Matching, but they all belong here nonetheless and have my greatest thanks. 
 
     * Mr Declan McCoy: Vice Principal, St Mary's Special School.
 
-        Declan is always supportive when I approach hime with new ideas and he was 100% behind this project from the start. I'd like to thank Declan for the oppertunity to discover if I could actually develop an actual working product.
+        Declan is always supportive when I approach him with new ideas and he was 100% behind this project from the start. I'd like to thank Declan for the opportunity to discover if I could actually develop an actual working product.
 
     * Caoimhe Brady: Class 5 Teacher.
     
@@ -891,7 +898,7 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 
     * Colin Mckee
 
-        Colin has one of the toughest jobs in our school and has reserves of patience one can only marvel at. Thanks Colly, I understand how difficult it is to introduce anything new into the routine for Class 7 and I really appreaciate the effort.
+        Colin has one of the toughest jobs in our school and has reserves of patience one can only marvel at. Thanks Colly, I understand how difficult it is to introduce anything new into the routine for Class 7 and I really appreciate the effort.
 
     * Saoirse Calikes
 
@@ -902,7 +909,16 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
         Using an app I developed with my son that he genuinely enjoyed was a truly wonderful and rewarding experience.  
     
     * Michelle Calikes
-        I am hugely thankful for the time my wife has afforded me to work on this project. Thank you Michelle from the bottom of my heart. 
+        I am hugely thankful for the time my wife has afforded me to work on this project. Thank you Michelle (again!) from the bottom of my heart. 
+
+    * Kasia Boguka: Code Institute Cohort Facilitator.
+
+        I'd like to thank Kasia for reminding me of the correct date this project was due. Good save Kasia! :)
+
+    * Richard Wells: Code Institute Mentor.
+
+        Richard's expertise during this project was invaluable and my project benefitted greatly due to his mentorship. 
+        Learning from a professional like Richard and watching how he can manipulate code and research solutions in real time has been hugely beneficial... thanks man!
     
 
 
