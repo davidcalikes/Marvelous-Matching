@@ -90,20 +90,33 @@
         </div>
 
 
-    </div> 
+    </div>
+
     <div class="question-container">
         <div id="question-row">
             <div class="q-box">
-                <audio id="q-sound" src="assets/audio/shapes_btn.mp3"></audio>
-                <div id="question-button" onclick="qSound();hideHint();"> <p id="question-txt"> Where is the shape?</p><i id="snd-btn-icon" class="fa-solid fa-volume-xmark"></i></div> 
+                <audio id="q-sound" src="assets/audio/animals_btn.mp3"></audio>
+                <div id="question-button" onclick="qSound();hideHint();"> 
+                    <div id="question-display"> 
+                        <div class="q-display-row"> 
+                            <p id="question-txt"> Where is the shape?</p>
+                        </div> 
+
+                        <div class="q-display-row"> 
+                            <i id="snd-btn-icon" class="fa-solid fa-volume-xmark"></i>
+                        </div>
+                    </div>
+                </div>
+                
                 <div id="thumb-container">
                     <audio id="thumb-sound" src="assets/audio/thumb_cat.mp3"></audio>
-                    <img id="q-thumb" onclick="thumbSound();thumbHint();" src="assets/images/placeholder.webp" alt="A picture of a random farmyard animal">
+                    <img id="q-thumb" onclick="thumbSound();thumbHint();" src="assets/images/placeholder.webp" alt="A picture of a random shape">
                     <img id="thumb-hint" src="assets/images/thumb_hint.webp" alt="A transparent image containing the text 'match me'">
                 </div>
             </div>
         </div> 
     </div>
+
 </section> 
 
 <!-- A modal-style box that displays a message congratulating the user on a correct answer and also a button that loads the next question when clicked. -->

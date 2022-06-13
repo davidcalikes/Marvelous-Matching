@@ -89,13 +89,24 @@
             <H3>Score: <span id="add-score">0</span> / <span id="attempts">0</span> </H3> 
         </div>
 
+    </div>
 
-    </div> 
     <div class="question-container">
         <div id="question-row">
             <div class="q-box">
                 <audio id="q-sound" src="assets/audio/animals_btn.mp3"></audio>
-                <div id="question-button" onclick="qSound();hideHint();"> <div id="question-display"> <div class="q-display-row"> <p id="question-txt"> Where is the animal?</p></div> <div class="q-display-row"> <i id="snd-btn-icon" class="fa-solid fa-volume-xmark"></i></div></div></div>
+                <div id="question-button" onclick="qSound();hideHint();"> 
+                    <div id="question-display"> 
+                        <div class="q-display-row"> 
+                            <p id="question-txt"> Where is the animal?</p>
+                        </div> 
+
+                        <div class="q-display-row"> 
+                            <i id="snd-btn-icon" class="fa-solid fa-volume-xmark"></i>
+                        </div>
+                    </div>
+                </div>
+                
                 <div id="thumb-container">
                     <audio id="thumb-sound" src="assets/audio/thumb_cat.mp3"></audio>
                     <img id="q-thumb" onclick="thumbSound();thumbHint();" src="assets/images/placeholder.webp" alt="A picture of a random farmyard animal">
@@ -104,6 +115,7 @@
             </div>
         </div> 
     </div>
+
 </section> 
 
 <!-- A modal-style box that displays a message congratulating the user on a correct answer and also a button that loads the next question when clicked. -->
@@ -153,6 +165,7 @@
     <div class="footer-window">
         <p id="footer-info"> David Calikes &nbsp; <a target="_blank" title="Link to David Calikes' linkedin profile" href="https://www.linkedin.com/in/david-calikes-8b360b46/?originalSubdomain=ie"> <i class="fa-brands fa-linkedin"></i></a><span> </span> <a target="_blank" title="Link to David Calikes' Github" href="https://github.com/davidcalikes/Marvelous-Matching"> <i class="fa-brands fa-github"></i></a></p>
     </div>
+
     <div class="footer-window">
         <p>&#169; 2022</p>
     </div>
