@@ -729,6 +729,11 @@ I achieved this by adding a grayscale filter to the images that were confusing t
 
 <br>
 
+In response to the feedback from The Rainbow class, I have changes the pink Colours game flashcard to a lighter shade to make it easier to distinguish from the purple image
+
+<img src="./readme_images/pink_error.png">
+
+<br>
 
 - __Validator Testing__
 
