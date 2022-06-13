@@ -869,9 +869,11 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 
 * The songs featured in the audio elements of this site are performed by myself and are public domain.
 
-* The other audio elements used throught the project were taken from freesounds.com.
+* The other audio elements used throughout the project were taken from https://freesound.org/
 
 * The images used on the site are free to use pictures from the following sources:
+
+    * Animals flashcards were sourced from [pexels.com](https://www.pexels.com/search/cow/)
    
     * Shapes Flashcards from [dreamstime.com](https://www.dreamstime.com/vector-illustration-set-cute-geometric-figures-kids-isolated-shapes-white-background-education-school-preschool-age-image144284548)
 
@@ -881,7 +883,7 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 
     <img src="./readme_images/source_colours.png">
 
-* Marvelous Matching logo was created by myself using text art from inkpx and free to use clipart from http://clipart-library.com
+* I created the Marvelous Matching logo myself in photoshop using text art from inkpx and free to use clipart from http://clipart-library.com
 
     <img src="./readme_images/source_txt.png">
     <img src="./readme_images/source_cow.png">
@@ -895,7 +897,14 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 
     * The JavaScript algorithm used to shuffle the flashcards was used from this article I found on [Stack Overflow](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
 
+    * I referenced this article when making my random item generator in the runGame function
+    https://www.codegrepper.com/code-examples/javascript/frameworks/node_modules/var+math.floor+math+random+js
+
+    * I used code found in this article for retrieving random items from an array: https://www.w3schools.com/jsref/jsref_slice_array.asp
+
     * The addScore and addAttempt functions of myscript.js are loosely based on elements within the Code Institute's Love Maths code along project.
+
+    * I used this code to solve the audio issue mentioned in bugfixes  https://stackoverflow.com/questions/45330912/why-wont-my-button-play-my-sound-and-go-to-the-link)
 
     * All text icons used on the site were sourced from: https://fontawesome.com/search?m=freecom
 
@@ -907,7 +916,7 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 
     * The pupils of St Mary's Special School.
 
-        For obvious reasons I cannot record the names or images of any of the pupils who enjoyed manually testing Marvelous Matching, but they all belong here nonetheless and have my greatest thanks. 
+        For obvious reasons I cannot record the names or images of any of the pupils who enjoyed manually testing Marvelous Matching, but they all belong here nonetheless and have my sincerest thanks. 
 
     * Mr Declan McCoy: Vice Principal, St Mary's Special School.
 
