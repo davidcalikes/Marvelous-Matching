@@ -400,7 +400,9 @@ Below are some features the site currently has to offer and also some features w
     * Each box will change border color when hovered over to provide visual feedback for the user.
 
     * Correct answers display a congratulatory modal element that has a button to reset the game.
-    <img src="./readme_images/test_modal.png">
+    <img src="./readme_images/song_congrats_modal.png">
+    
+    * The Animals game congratulatory modal has a  'play song' feature that allows the user to play a short animal song. This feature is entirely user controlled and is easy to identify thanks to its flashing animation and hover effect.
 
     * Incorrect answers result in the image being replaced with a 'try again' message (pictured above) and error sound effect.
 
@@ -689,6 +691,7 @@ The Rainbow Class:
 
 * The Pupils enjoyed Marvelous Matching.
 * The thumbnail image is a little small on the class tablet.
+* The purple and pink flashcards are too similar
 * <img src="./readme_images/rainbow.png">
 * The Pupils used the application on the interactive whiteboard and android tablet.
 * The application is accessible for all of the pupils to use.
@@ -770,9 +773,9 @@ I altered the code and all pages now return no warnings.
 
     <img src="./readme_images/contrast_error.png">
 
-    I used the wcag tool extensively throughout the site and made changes accordingly.
+    I used the WCAG tool extensively throughout the site and made changes accordingly.
 
-The site now achieves a 100% accesibility rating when tested through lighthouse.
+The site now achieves a 100% accessibility rating when tested through lighthouse and the WGAC contrast checker returns no errors.
 
 
 <br>
@@ -826,7 +829,9 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 
 * TinyPNG to compress web images.
 
-* Webp converter to convert images assets to webp format.
+* Vertexshare Webp converter to convert images assets to webp format.
+
+<img src="./readme_images/vertexshare.png">
 
 
 * Garageband to produce and master the mp3 files.
