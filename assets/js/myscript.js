@@ -37,7 +37,7 @@ function setToggle() {
 function muteAudio() {
   const sounds = document.querySelectorAll("audio");
   for (const sound of sounds)
-    sound.muted = true;
+  sound.muted = true;
   console.log("muteAudio fired");
 }
 
@@ -47,10 +47,10 @@ function muteAudio() {
  * Waits until sound has ended before loading page to prevent audio clipping
  * */
 function playAnimals() {
-  let sound = document.getElementById("animals");
+  const sound = document.getElementById("animals");
   sound.play();
   sound.addEventListener('ended', function () {
-    location.href = 'animals.html';
+  location.href = 'animals.html';
   });
 }
 
@@ -60,10 +60,10 @@ function playAnimals() {
  * Waits until sound has ended before loading page to prevent audio clipping
  * */
 function playShapes() {
-  let sound = document.getElementById("shapes");
+  const sound = document.getElementById("shapes");
   sound.play();
   sound.addEventListener('ended', function () {
-    location.href = 'shapes.html';
+  location.href = 'shapes.html';
   });
 }
 
@@ -73,10 +73,10 @@ function playShapes() {
  * Waits until sound has ended before loading page to prevent audio clipping
  * */
 function playColours() {
-  let sound = document.getElementById("colours");
+  const sound = document.getElementById("colours");
   sound.play();
   sound.addEventListener('ended', function () {
-    location.href = 'colours.html';
+  location.href = 'colours.html';
   });
 }
 
@@ -85,7 +85,7 @@ function playColours() {
  * Called from the DOM via onclick event
  * */
 function playPop() {
-  let sound = document.getElementById("start-btn");
+  const sound = document.getElementById("start-btn");
   sound.play();
 }
 
@@ -95,10 +95,10 @@ function playPop() {
  * Waits until sound has ended before loading page to prevent audio clipping
  * */
 function playBack() {
-  let sound = document.getElementById("back-btn");
+  const sound = document.getElementById("back-btn");
   sound.play();
   sound.addEventListener("ended", function () {
-    location.href = "index.html";
+  location.href = "index.html";
   });
 }
 
@@ -116,7 +116,7 @@ function playRight() {
  * Called from the DOM via onclick event
  * */
  function playSong() {
-  let sound = document.getElementById("congrats-song");
+  const sound = document.getElementById("congrats-song");
   sound.play();
 }
 
@@ -134,8 +134,16 @@ function playWrong() {
  * Called from the DOM via onclick event
  * */
 function qSound() {
-  let sound = document.getElementById("q-sound");
+  const sound = document.getElementById("q-sound");
   sound.play();
+}
+
+/**
+ * Plays thumbnail hint sound on click event 
+ */
+ function thumbSound() {
+  const thumbSound = document.getElementById("thumb-sound");
+  thumbSound.play();
 }
 
 /** 
@@ -158,7 +166,7 @@ function soundToggle() {
       console.log(sndToggleState);
     }
 
-  } else {
+    } else {
     soundOnOff.innerHTML = "OFF";
     soundIcon.className = "fa-solid fa-volume-xmark";
     sndBtnIcon.className = "fa-solid fa-volume-xmark";
@@ -225,7 +233,6 @@ function runGame() {
     document.getElementById("q-sound").src = "assets/audio/q_sheep.mp3";
     document.getElementById("thumb-sound").src = "assets/audio/thumb_sheep.mp3";
     document.getElementById("congrats-song").src = "assets/audio/song_sheep.mp3";
-
   } else {
 
     if (quizPic === "assets/images/animal_duck.webp") {
@@ -240,7 +247,6 @@ function runGame() {
         document.getElementById("q-sound").src = "assets/audio/q_horse.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_horse.mp3";
         document.getElementById("congrats-song").src = "assets/audio/song_horse.mp3";
-
       } else {
 
         if (quizPic === "assets/images/animal_pig.webp") {
@@ -248,7 +254,6 @@ function runGame() {
           document.getElementById("q-sound").src = "assets/audio/q_pig.mp3";
           document.getElementById("thumb-sound").src = "assets/audio/thumb_pig.mp3";
           document.getElementById("congrats-song").src = "assets/audio/song_pig.mp3";
-
         } else {
 
           if (quizPic === "assets/images/animal_rooster.webp") {
@@ -256,7 +261,6 @@ function runGame() {
             document.getElementById("q-sound").src = "assets/audio/q_rooster.mp3";
             document.getElementById("thumb-sound").src = "assets/audio/thumb_rooster.mp3";
             document.getElementById("congrats-song").src = "assets/audio/song_rooster.mp3";
-
           } else {
 
             if (quizPic === "assets/images/animal_cat.webp") {
@@ -264,7 +268,6 @@ function runGame() {
               document.getElementById("q-sound").src = "assets/audio/q_cat.mp3";
               document.getElementById("thumb-sound").src = "assets/audio/thumb_cat.mp3";
               document.getElementById("congrats-song").src = "assets/audio/song_cat.mp3";
-
             } else {
 
               if (quizPic === "assets/images/animal_dog.webp") {
@@ -272,7 +275,6 @@ function runGame() {
                 document.getElementById("q-sound").src = "assets/audio/q_dog.mp3";
                 document.getElementById("thumb-sound").src = "assets/audio/thumb_dog.mp3";
                 document.getElementById("congrats-song").src = "assets/audio/song_dog.mp3";
-
               } else {
 
                 if (quizPic === "assets/images/animal_cow.webp") {
@@ -338,28 +340,24 @@ function runGame2() {
         document.getElementById("question-txt").innerHTML = "Where is the rectangle?";
         document.getElementById("q-sound").src = "assets/audio/q_rectangle.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_rectangle.mp3";
-
       } else {
 
         if (quizPic === "assets/images/shapes_square.webp") {
           document.getElementById("question-txt").innerHTML = "Where is the square?";
           document.getElementById("q-sound").src = "assets/audio/q_square.mp3";
           document.getElementById("thumb-sound").src = "assets/audio/thumb_square.mp3";
-
         } else {
 
           if (quizPic === "assets/images/shapes_star.webp") {
             document.getElementById("question-txt").innerHTML = "Where is the star?";
             document.getElementById("q-sound").src = "assets/audio/q_star.mp3";
             document.getElementById("thumb-sound").src = "assets/audio/thumb_star.mp3";
-
           } else {
 
             if (quizPic === "assets/images/shapes_triangle.webp") {
               document.getElementById("question-txt").innerHTML = "Where is the triangle?";
               document.getElementById("q-sound").src = "assets/audio/q_triangle.mp3";
               document.getElementById("thumb-sound").src = "assets/audio/thumb_triangle.mp3";
-
             }
           }
         }
@@ -416,42 +414,36 @@ function runGame3() {
         document.getElementById("question-txt").innerHTML = "Where is the colour green?";
         document.getElementById("q-sound").src = "assets/audio/q_green.mp3";
         document.getElementById("thumb-sound").src = "assets/audio/thumb_green.mp3";
-
       } else {
 
         if (quizPic === "assets/images/colours_orange.webp") {
           document.getElementById("question-txt").innerHTML = "Where is the colour orange?";
           document.getElementById("q-sound").src = "assets/audio/q_orange.mp3";
           document.getElementById("thumb-sound").src = "assets/audio/thumb_orange.mp3";
-
         } else {
 
           if (quizPic === "assets/images/colours_pink.webp") {
             document.getElementById("question-txt").innerHTML = "Where is the colour pink?";
             document.getElementById("q-sound").src = "assets/audio/q_pink.mp3";
             document.getElementById("thumb-sound").src = "assets/audio/thumb_pink.mp3";
-
           } else {
 
             if (quizPic === "assets/images/colours_purple.webp") {
               document.getElementById("question-txt").innerHTML = "Where is the colour purple?";
               document.getElementById("q-sound").src = "assets/audio/q_purple.mp3";
               document.getElementById("thumb-sound").src = "assets/audio/thumb_purple.mp3";
-
             } else {
 
               if (quizPic === "assets/images/colours_red.webp") {
                 document.getElementById("question-txt").innerHTML = "Where is the colour red?";
                 document.getElementById("q-sound").src = "assets/audio/q_red.mp3";
                 document.getElementById("thumb-sound").src = "assets/audio/thumb_red.mp3";
-
               } else {
 
                 if (quizPic === "assets/images/colours_yellow.webp") {
                   document.getElementById("question-txt").innerHTML = "Where is the colour yellow?";
                   document.getElementById("q-sound").src = "assets/audio/q_yellow.mp3";
                   document.getElementById("thumb-sound").src = "assets/audio/thumb_yellow.mp3";
-
                 }
               }
             }
@@ -482,34 +474,33 @@ function makeMatch() {
     let active = document.getElementById("box-1");
     active.className += " active";
     console.log("box1 winner");
-
   } else {
 
     if (box2 === answerBox) {
       let active = document.getElementById("box-2");
       active.className += " active";
       console.log("box2 winner");
-
     } else {
 
       if (box3 === answerBox) {
         let active = document.getElementById("box-3");
         active.className += " active";
         console.log("box3 winner");
-
       } else {
 
         if (box4 === answerBox) {
           let active = document.getElementById("box-4");
           active.className += " active";
           console.log("box4 winner");
-
         }
       }
     }
   }
 }
 
+/** 
+ * Initialises the Animals game
+ * */
 function startGame() {
 
   resetBoxClassNames();
@@ -519,6 +510,9 @@ function startGame() {
   runGame();
 }
 
+/** 
+ * Initialises the shapes game
+ * */
 function startGame2() {
 
   resetBoxClassNames();
@@ -529,7 +523,7 @@ function startGame2() {
 }
 
 /** 
- * Initialises the co
+ * Initialises the colours game
  * */
 function startGame3() {
 
@@ -555,15 +549,15 @@ function checkCard1() {
     congratsBox();
     addScore();
     addAttempt();
-
   } else {
+    
     if (testOnOff.innerHTML === "ON") {
       addAttempt();
       chkGame();
       tenCheck();
       playWrong();
-
     } else {
+
       document.getElementById("box-1").src = "assets/images/try_again.webp";
       playWrong();
       console.log("Try again!");
@@ -572,7 +566,7 @@ function checkCard1() {
 }
 
 /** 
- * Checks the 2st flashcard in response to user click event to see if it is the "active" card that matches the card below. 
+ * Checks the 2nd flashcard in response to user click event to see if it is the "active" card that matches the card below. 
  * */
 function checkCard2() {
 
@@ -594,8 +588,8 @@ function checkCard2() {
       chkGame();
       tenCheck();
       playWrong();
-
     } else {
+
       console.log("Try again!");
       document.getElementById("box-2").src = "assets/images/try_again.webp";
       playWrong();
@@ -619,15 +613,15 @@ function checkCard3() {
     congratsBox();
     addScore();
     addAttempt();
-
   } else {
+
     if (testOnOff.innerHTML === "ON") {
       addAttempt();
       chkGame();
       tenCheck();
       playWrong();
-
     } else {
+
       console.log("Try again!");
       document.getElementById("box-3").src = "assets/images/try_again.webp";
       playWrong();
@@ -651,19 +645,18 @@ function checkCard4() {
     congratsBox();
     addScore();
     addAttempt();
-
   } else {
+
     if (testOnOff.innerHTML === "ON") {
       addAttempt();
       chkGame();
       tenCheck();
       playWrong();
-
     } else {
+
       console.log("Try again!");
       document.getElementById("box-4").src = "assets/images/try_again.webp";
       playWrong();
-
     }
   }
 }
@@ -678,14 +671,14 @@ function chkGame() {
     resetBoxClassNames();
     console.log(gameType);
     playAgain();
-
   } else {
+
     if (gameType === "Shapes") {
       resetBoxClassNames();
       console.log(gameType);
       playAgain2();
-
     } else {
+      
       if (gameType === "Colours") {
         resetBoxClassNames();
         console.log(gameType);
@@ -761,13 +754,7 @@ function resetBoxClassNames() {
   console.log("reset is working");
 }
 
-/**
- * Displays thumbnail overlay image on click event 
- */
-function thumbSound() {
-  const thumbSound = document.getElementById("thumb-sound");
-  thumbSound.play();
-}
+
 
 /**
  * Displays thumbnail overlay image on click event 
