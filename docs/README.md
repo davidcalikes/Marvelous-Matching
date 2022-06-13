@@ -66,16 +66,16 @@ _Example of just one of the many curriculum links targeted by Marvelous Matching
 
 <br>
 
-After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the conclusion that matching games are an important resource in helping pupils of all ages within our school achieve the following (Irish Corriculum) learning outcomes:
+After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the conclusion that matching games are an important resource in helping pupils of all ages within our school achieve the following (Irish Curriculum) learning outcomes:
 
 * Learning Goals.
     * Sorting & Matching
     * Matching Identical Objects.
     * Recognising 'same' and 'different'.
-    * Observing 2 dimensional shapes.
-    * Recognising irregular shapes (star, oval)
+    * Observing 2-dimensional shapes.
+    * Recognising irregular shapes (star, oval, ect.)
     * Expanding vocabulary. (shape names, colour names, animal, names ect.)
-    * Recognising sounds
+    * Recognising sounds.
 
     <br>
 
@@ -117,13 +117,15 @@ After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the 
 
     * As a user, I want to achieve learning outcomes.
 
-    * As a user, I want to be included in spite of my physical disability.
+    * As a user, I want to be included even though I have a physical disability.
 
     * As a user, I want to be stimulated and engaged by pictures and sounds.
 
-    * As a user, I want to help my pre-school child learn
+    * As a user, I want to help my pre-school child learn.
 
     * As a user, I want to help patients suffering with late-stage dementia.
+
+    * As a user, I want to have a positive learning experience.
 
 
 - __Site Objectives__
@@ -144,7 +146,7 @@ After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the 
     
     * To provide exclusive sound content to the user.
 
-    * To provide a game that has more than one matching catagory in a single application.
+    * To provide a game that has more than one matching category in a single application.
 
 - __Approach__
 
@@ -193,7 +195,7 @@ After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the 
 
     <img src="./readme_images/color_scheme1.png">
 
-    The background gradient used is a standard style prevelent throughout early learning environments. Calming and allusive of a clear blue sky the background presents a contrasting perspective for the content of the game area and is not distracting.
+    The background gradient used is a standard style prevelent throughout early learning environments. Calming like a clear blue sky, the background presents a contrasting perspective for the content of the game area and is not distracting.
     
     <img src="./readme_images/wiggles_background.png">
 
@@ -224,20 +226,20 @@ After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the 
 
      <img src="./readme_images/color_scheme5.png"> #ffff00
 
-    * I tried to avoid using explicit primary and secondary colors as much as possible. This is to avoid any potential confusion for users playing the colours matching game but I made an exeption with yellow as i felt it provided the best contrast and impact for the elements I have targeted with the hover psuedo class.
+    * I tried to avoid using explicit primary and secondary colors as much as possible. This is to avoid any potential confusion for users playing the colours matching game but I made an exeption with yellow, as i felt it provided the best contrast and impact for the elements I have targeted with the hover psuedo class.
     
     <br>
 
-    Due to the educational nature of the site and how the content contains multiple vibrant colors I have only included the those used relative to th design of the site framework or those that provide user feedback through consistency of use.
+    Due to the educational nature of the site and how the content contains multiple vibrant colors I have only included colors used relative to the design of the site framework or those that provide user feedback through consistency of use.
 
 
 - __Typography__
 
-*  There are two fonts used throughout the site.
+*  There are two fonts used throughout the application.
 
-    * Schoobell: A fun handwriting novelty font that suits the playful style of the application.
+    * Schoobell: A fun handwriting font that suits the playful style of the application.
    
-    * Helvetica: A clear, professional font is used in the footer developer information and copyright text.
+    * Helvetica: A clear, professional font is used in the footer for developer information and copyright text.
 
     The fonts were imported to the stylesheet via Google fonts.
 
@@ -276,7 +278,7 @@ Below are some features the site currently has to offer and also some features w
 
     * The Menu Page Navigation Bar is fully responsive across various screen sizes.
 
-    * The Menu Page Navigation Bar links change background color when user moves a cursor over the element. This provides intuitive visual feedback for the user that the item can be clicked. 
+    * The links of the Menu Page Navigation Bar change background color when the user moves a cursor over each element. This provides intuitive visual feedback for the user that the item can be clicked. 
     
     <br>
 
@@ -298,7 +300,7 @@ Below are some features the site currently has to offer and also some features w
 
 - __Game Navigation Bar__  
 
-    * The Menu Page Navigation Bar contains button links to the three different categories of matching game availiable to the user.
+    * The Game Page Navigation Bar contains button links to the three different categories of matching game availiable to the user.
 
     * The Buttons are brightly colored and color coded to each game.
 
@@ -314,7 +316,7 @@ Below are some features the site currently has to offer and also some features w
 
     * The Footer is located at the bottom of all five pages of the site.
 
-    * The Footer section of the site provides copyright, developer information and links to relevant developer pages. The links open in a new tab and contain descriptive title attributes for accessibility. 
+    * The Footer section of the site provides copyright and developer information as well as links to some relevant developer pages. The links open in a new tab and contain descriptive title attributes for accessibility. 
 
     <br>
 
@@ -366,7 +368,7 @@ Below are some features the site currently has to offer and also some features w
     
     * Each Game Page is simple to understand with a layout designed to enhance user experience.
 
-    * Each game page contains customary, semantic elements conforming to conventional site structure.
+    * Each game page contains customary, semantic elements conforming to a conventional site structure.
 
     <br>  
 
@@ -389,7 +391,7 @@ Below are some features the site currently has to offer and also some features w
 
     * The Upper Game Area of the site is part of the main game section of each game page.
 
-    * The Upper Game area contains four random images specific to game catagory.
+    * The Upper Game area contains four random images specific to the user selected game catagory.
 
     * The Upper Game area consists of four images that allow user interaction.
 
@@ -513,7 +515,7 @@ Below are some features the site currently has to offer and also some features w
 
     <img src="./readme_images/android_phone.png">
 
-    One of the first rendering errors i came across was an error that cause the drop shadow filter effect to break on mobile devices.
+    One of the first rendering errors I came across was an error that caused the drop-shadow filter effect to break on mobile devices.
 
     After searching for a solution on [Stack Overflow](https://stackoverflow.com/questions/65801487/drop-shadow-not-working-properly-on-ios-safari) I fixed this issue by using a box-shadow effect instead.
 
@@ -521,7 +523,7 @@ Below are some features the site currently has to offer and also some features w
 
 - __Feature Testing__
 
-    I first tested each individual function of the first Nav section of the menu page.
+    I first tested each individual feature of the first Nav section of the menu page.
 
     * Sound Toggle
 
@@ -531,9 +533,9 @@ A problem arose however when users would navigate to a different page of the sit
 
 Whilst it remains good UX design for default sound settings to be muted when the application first loads, I realised this would become tiresome and lead to a poor user experience if they had to constantly keep changing the switch state to achieve their desired sound setting. 
 
-I found a solution to this problem on [Youtube](https://www.youtube.com/watch?v=NQMs0rn6kwM). By storing string data to Local Storage I was able to call a function that set the sound toggle depending on the data contained within Local Storage. I was also able to maintain a default mute position by using the null keyword. 
+I found a solution to this problem on [Youtube](https://www.youtube.com/watch?v=NQMs0rn6kwM). By saving string data to Local Storage I was able to call a function that set the sound toggle depending on the data contained within said Local Storage. I was also able to maintain a default mute position by using the null keyword. 
 
-<img src="./readme_images/dev_tools.png">
+<img src="./readme_images/sound_log.png">
 
 I logged the string data from Local Storage to the console using Google Dev Tools to test this function during development. 
 

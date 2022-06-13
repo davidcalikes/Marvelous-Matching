@@ -298,7 +298,7 @@ footer p {
     border-radius: 10px;
     border: 5px solid white;
     font-family: Schoolbell, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-top: 3%;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     cursor: pointer;
@@ -469,6 +469,26 @@ footer p {
     font-size: 1rem;
     margin-right: 3%;
     cursor: pointer;
+    width: 35%;
+    justify-content: center;
+    display: flex;
+}
+
+#question-display {
+    display: contents;
+}
+
+.q-display-row{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
+
+#question-txt {
+    display: contents;
+    margin-right: 5%;
+    font-size: 1.5rem;
 }
 
 #question-button:hover { 
@@ -476,7 +496,8 @@ footer p {
 }
 
 #snd-btn-icon {
-    margin-left: 47%;
+    width: 100%;
+    font-size: 1.5rem;
 }
 
 #thumb-container{
@@ -552,6 +573,7 @@ footer p {
 #playsong {
     position: fixed;
     cursor: pointer;
+    font-size: 1.5rem;
 }
 
 #playsong:hover { 
@@ -574,7 +596,7 @@ footer p {
     border-radius: 10px;
     border: 5px solid white;
     font-family: Schoolbell, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-top: 5%;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
@@ -773,7 +795,11 @@ display: block;
     #play-info {
     margin-left: 14%;
     margin-right: 14%;
-    }   
+    }  
+    
+    #question-button {
+        width: 40%;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -811,7 +837,19 @@ display: block;
         margin-bottom: 3%;
     }
 
+    #question-button {
+        width: 45%;
+    }
+
 }
+
+@media screen and (max-width: 560px) {
+
+#question-button {
+        width: 45%;
+        text-align: center;
+    }
+
 
 @media screen and (max-width: 515px) {
 
@@ -890,6 +928,25 @@ display: block;
             margin-left: 20%;
             margin-bottom: 3%;
         }
+    }
+
+    @media screen and (max-width: 420px) {
+        
+        #question-display {
+            display: block;
+            text-align: center;
+        }
+
+        #question-button {
+            width: 40%;
+        }
+
+        .q-display-row {
+            width: auto;
+        }
+
+        }
+
     }
 
     @media screen and (max-width: 400px) {
