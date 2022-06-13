@@ -300,7 +300,7 @@ Below are some features the site currently has to offer and also some features w
 
 - __Game Navigation Bar__  
 
-    * The Game Page Navigation Bar contains button links to the three different categories of matching game availiable to the user.
+    * The Game Navigation Bar contains button links to the three different categories of matching game availiable to the user.
 
     * The Buttons are brightly colored and color coded to each game.
 
@@ -455,11 +455,13 @@ Below are some features the site currently has to offer and also some features w
 
     * When test mode is activated, the game page instructions banner changes to display a scoreboard.
 
-    * When test mode is activated, the game no longer offers the user the try again overlay image and insteads resets the game and logs an attempt to the scoreboard"
+    * When test mode is activated, the game no longer offers the user the try again overlay image and insteads resets the game and logs an attempt to the scoreboard.
 
     <img src="./readme_images/scoreboard.png">
     
     * When a user completes ten total attempts the congratulatory test modal is displayed informing the user of their final test score
+
+    <br>
 
     <img src="./readme_images/test_modal.png">
 
@@ -655,7 +657,7 @@ The results of sequence testing returned no errors.
 
 <br>
 
-- __Practical Testing__
+- __Manual Testing__
 
 * Marvelous Matching was tested by the pupils of St Mary's Special School in Drumcar, Co.Louth in the North East Of Ireland. Under the supervision and guidance of Vice-Principal Mr Declan McCoy, 4 Classes took part in testing the application: 
 
@@ -724,11 +726,11 @@ Lochlainn loved looking at the app and passively enjoying the sounds, colours an
 
 <img src="./readme_images/old_animal_modal.png">
 
-I decided to make the start game modal more intuitive to use by changing the instructional images to be less promenant and similar to that of the actual start game button.
+I decided to make the start game modal more intuitive to use by changing the instructional images to be less prominent and similar to that of the actual start game button.
 
 <img src="./readme_images/new_animal_modal.png">
 
-I achieved this by adding a grayscale filter to the images that were confusing to the user and removing the box-shadow effect to make them more 2 dimensional and less prominent.
+I achieved this by adding a grayscale filter to the images that were confusing to the user and removing the box-shadow effect to make them more 2 dimensional and less functional.
 
 <br>
 
@@ -775,31 +777,31 @@ I altered the code and all pages now return no warnings.
 
     I used the WCAG tool extensively throughout the site and made changes accordingly.
 
-The site now achieves a 100% accessibility rating when tested through lighthouse and the WGAC contrast checker returns no errors.
+The site now achieves a 100% accessibility rating when tested through lighthouse and the WGAC contrast checker returns just one error that i have decided to ignore.
 
+As you can see from these images, the intermittant error is related to the animated text link above the modal icon and the error is simply a limitation of the WCAG checkers functionality.
+
+<img src="./readme_images/anim_error1.png">
+<img src="./readme_images/anim_error.png">
 
 <br>
-
-- __Other Bug Fixes__
-
-    * On some touchscreen devices an error occurs due to the hover psuedo class which fails to deselect a nav link when a user returns to the previous page via the back arrow.
-    
-    <br>
-
-    This bug was fixed by the inclusion of the "inactive" class selector and by setting the nav link elements to display=hidden on smaller screen sizes. 
-    
-    <br>
-
-
-     <img src="assets/readme_images/bug.png">
-
 
 
 <br>
 
 - __Unfixed Bugs__
- 
- Although there are no known bugs present within the site, I have left this section of the README file for cataloguing and fixing future bugs.
+
+* Audio bug
+
+There is an intermittant audio bug that occurs when a user interacts with an audio feature via some ios mobile devices. 
+
+Initially the audio will play as normal but will not play the same audio file again properly until after 3 or 4 seconds. Even though it doesn't really affect the operation in a special educational setting (as users would normally require time to consider their answers), I am still in the process of finding a solution to this issue that appears to be widely known as a fault within the ios operating system.
+
+<img src="./readme_images/ios_bug.png">
+
+- __Other Known Bugs__
+
+There are currently no other known bugs, but I will add them to this section in the future if and when they appear.
 
 
 # Deployment
@@ -857,9 +859,7 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 
     * The Sticky Navigation Menu is derived from snippets of code from this repository: https://github.com/iamshaunjp/CSS-Tips-and-Tricks/blob/04-css-only-dropdown-menu/css-only-dropdown/styles.css
 
-    * The form on the site is inspired by the Code Institute's Coders Coffeehouse code along project.
-
-    * The CSS styling used to hide the labels of the form inputs was derived from this tutorial: https://webaim.org/techniques/css/invisiblecontent/
+    * The addScore and addAttempt functions of myscript.js are loosely based on elements within the Code Institute's Love Maths code along project.
 
     * All text icons used on the site were sourced from: https://fontawesome.com/search?m=freecom
 
@@ -870,23 +870,38 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 
     * Kasia Boguka: Code Institute Cohort Facilitator.
 
-        Kasia is seemingly always available to chat code and always leaves me feeling more confident about my progress as a developer whenever we talk. I'll never fully understand people who prefer Tea to Coffee but Kasia makes me at least want to try... ;)
+        I'd like to thank Kasia for reminding of the correct date this project was due. Good save Kasia!  
 
     * Richard Wells: Code Institute Mentor.
 
         Richard's expertise during this project was invaluable and my project benefitted greatly due to his mentorship. 
-        Richard was also extremely generous with his time and our online sessions would often overun. For this I am truly grateful.
+        Learning from a professiona like Richard and watching how he can manipulate code and research solutions in real time has been hugely beneficial... thanks man!
 
-    * Helen Mill: Code Institute Admissions Executive
+    * The pupils of St Mary's Special School.
+
+        For obvious reasons I cannot record the names or images of any of the pupils who enjoyed manually testing Marvelous Matching. But they all belong here nonetheless and have my greatest thanks. 
+
+    * Mr Declan McCoy: Vice Principal, St Mary's Special School.
+
+        Declan is always supportive when I approach hime with new ideas and he was 100% behind this project from the start. I'd like to thank Declan for the oppertunity to discover if I could actually develop an actual working product.
+
+    * Caoimhe Brady: Class 5 Teacher.
     
-        I count myself extremely fortunate to have been afforded the opportunity to study with the Code Institute and would like to thank Helen for giving me the chance.
+        I'd like to thank Caoimhe for her time and having an encyclopedic knowledge of the Irish Primary School Curriculum.  
 
-    * Liam Sheridan and Andrew Kelly (Cumasc Gael)
+    * Colin Mckee
+
+        Colin has one of the toughest jobs in our school and has reserves of patience one can only marvel at. Thanks Colly, I understand how difficult it is to introduce anything new into the routine for Class 7 and I really appreaciate the effort.
+
+    * Saoirse Calikes
+
+        The 'voice' of Marvelous Matching and the best daughter a man could hope for. Thank you Saoirse for your thorough and professional job. 
+
+    * Lochlainn Calikes
+
+        Using an app I developed with my son that he genuinely enjoyed was a truly wonderful and rewarding experience.  
     
-        Our wee American adventure many moons ago was hugely enjoyable and I am priveliged to have worked with such outstanding musicians. 
-
     * Michelle Calikes
-    
         I am hugely thankful for the time my wife has afforded me to work on this project. Thank you Michelle from the bottom of my heart. 
     
 
