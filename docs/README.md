@@ -803,6 +803,14 @@ The site now achieves a 100% accessibility rating when tested through lighthouse
 
 <br>
 
+- __Fixed Bugs__
+
+I originally used this [method](https://www.youtube.com/watch?v=VlwSz2dXK_8) of adding audio to the site however the audio content would often clip before it had finished playing. 
+
+I solved this issue by referring to this article on [Stack Overflow](https://stackoverflow.com/questions/45330912/why-wont-my-button-play-my-sound-and-go-to-the-link)
+
+<br>
+
 - __Unfixed Bugs__
 
 * Audio bug
@@ -812,6 +820,8 @@ There is an intermittant audio bug that occurs when a user interacts with an aud
 Initially the audio will play as normal but will not play the same audio file again properly until after 3 or 4 seconds. Even though it doesn't affect the operation in a special educational setting (as users would normally require time to consider their answers), I am still trying to find a solution to this issue that appears to be widely known as a fault within the ios operating system.
 
 <img src="./readme_images/ios_bug.png">
+
+<br>
 
 - __Other Known Bugs__
 
@@ -862,9 +872,21 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 * The other audio elements used throught the project were taken from freesounds.com.
 
 * The images used on the site are free to use pictures from the following sources:
+   
+    * Shapes Flashcards from [dreamstime.com](https://www.dreamstime.com/vector-illustration-set-cute-geometric-figures-kids-isolated-shapes-white-background-education-school-preschool-age-image144284548)
 
-* The logo image of Marvelous Matching was created by myself using the following process:
+    <img src="./readme_images/source_shapes.png">
 
+    * Colours flashcards are from freepik.com
+
+    <img src="./readme_images/source_colours.png">
+
+* Marvelous Matching logo was created by myself using text art from inkpx and free to use clipart from http://clipart-library.com
+
+    <img src="./readme_images/source_txt.png">
+    <img src="./readme_images/source_cow.png">
+
+    <br>
 
 # Credits
 
@@ -873,14 +895,13 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 
     * The JavaScript algorithm used to shuffle the flashcards was used from this article I found on [Stack Overflow](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
 
-    * The Sticky Navigation Menu is derived from snippets of code from this repository: https://github.com/iamshaunjp/CSS-Tips-and-Tricks/blob/04-css-only-dropdown-menu/css-only-dropdown/styles.css
-
     * The addScore and addAttempt functions of myscript.js are loosely based on elements within the Code Institute's Love Maths code along project.
 
     * All text icons used on the site were sourced from: https://fontawesome.com/search?m=freecom
 
     * The link to the favicon icon on all four pages is from: https://favicon.io/
 
+<br>
 
 - __Thanks__
 

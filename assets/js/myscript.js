@@ -1,4 +1,4 @@
-/*exported playAnimals, playShapes, playColours, playPop, playBack, qSound, testToggle, startGame, startGame2, startGame3, checkCard1, checkCard2, checkCard3, checkCard4, thumbSound, thumbHint, muteOnload */
+/*exported playAnimals, playShapes, playShapes, playColours, playPop, playBack, qSound, testToggle, startGame, startGame2, startGame3, checkCard1, checkCard2, checkCard3, checkCard4, thumbSound, thumbHint, muteOnload */
 
 // Functions and statements relating to site sounds
 
@@ -678,7 +678,7 @@ function chkGame() {
       console.log(gameType);
       playAgain2();
     } else {
-      
+
       if (gameType === "Colours") {
         resetBoxClassNames();
         console.log(gameType);
