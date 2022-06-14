@@ -830,6 +830,12 @@ I originally used this [method](https://www.youtube.com/watch?v=VlwSz2dXK_8) of 
 
 I solved this issue by referring to this article on [Stack Overflow](https://stackoverflow.com/questions/45330912/why-wont-my-button-play-my-sound-and-go-to-the-link)
 
+This in turn created another unintended consequence where there would be a slight delay in loading each page as the browser waits for the audio to finish.
+
+To improve the user experience, I have included a pop-up modal that displays a cute loading message that provides feedback for the user.
+
+<img src="./readme_images/load_pig.png">
+
 <br>
 
 - __Unfixed Bugs__
