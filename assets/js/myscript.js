@@ -404,42 +404,26 @@ function runGame3() {
  * */
 function makeMatch() {
 
-  let box1 = document.getElementById("box-1").getAttribute('src');
-  let box2 = document.getElementById("box-2").getAttribute('src');
-  let box3 = document.getElementById("box-3").getAttribute('src');
-  let box4 = document.getElementById("box-4").getAttribute('src');
-
-  let answerBox = document.getElementById("q-thumb").getAttribute('src');
-
-  console.log(answerBox);
+  const box1 = document.getElementById("box-1").getAttribute('src');
+  const box2 = document.getElementById("box-2").getAttribute('src');
+  const box3 = document.getElementById("box-3").getAttribute('src');
+  const box4 = document.getElementById("box-4").getAttribute('src');
+  const answerBox = document.getElementById("q-thumb").getAttribute('src');
 
   if (box1 === answerBox) {
     let active = document.getElementById("box-1");
     active.className += " active";
-    console.log("box1 winner");
-  } else {
-
-    if (box2 === answerBox) {
-      let active = document.getElementById("box-2");
-      active.className += " active";
-      console.log("box2 winner");
-    } else {
-
-      if (box3 === answerBox) {
-        let active = document.getElementById("box-3");
-        active.className += " active";
-        console.log("box3 winner");
-      } else {
-
-        if (box4 === answerBox) {
-          let active = document.getElementById("box-4");
-          active.className += " active";
-          console.log("box4 winner");
-        }
-      }
+  } else if (box2 === answerBox) {
+    let active = document.getElementById("box-2");
+    active.className += " active";
+  } else if (box3 === answerBox) {
+    let active = document.getElementById("box-3");
+    active.className += " active";
+  } else if (box4 === answerBox) {
+    let active = document.getElementById("box-4");
+    active.className += " active";
     }
   }
-}
 
 /** 
  * Initialises the Animals game
