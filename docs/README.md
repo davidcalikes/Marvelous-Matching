@@ -780,15 +780,27 @@ I corrected all of the missing semi-colon syntax errors.
 
  Towards the end of the project I had developed more warnings in JSHINT.
 
+ <br>
+
 <img src="./readme_images/jshint_3.png">
+
+ <br>
 
  I corrected these errors by removing unnecessary variables from certain functions and using statements instead.
 
+ <br>
+
 <img src="./readme_images/jshint_4.png">
+
+<br>
  
  I carefully and systematically removed any unused statements and verbose code from the .js file. 
 
+ <br>
+
  <img src="./readme_images/jshint_5.png">
+
+ <br>
 
  The only messages from the linter at the end of this process were about the "unused variables" in the .js file. These are simply the function names that are called inline from the DOM. I catologued all of these functions in line1 at the top of the .js page.
 
