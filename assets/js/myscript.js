@@ -1,4 +1,4 @@
-/*exported playAnimals, playShapes, playShapes, playColours, playPop, playBack, qSound, testToggle, startGame, startGame2, startGame3, checkCard1, checkCard2, checkCard3, checkCard4, thumbSound, thumbHint, muteOnload */
+/*exported playAnimals, playShapes, playShapes, playColours, playPop, playBack, playAboutBack, playSong, qSound, testToggle, startGame, startGame2, startGame3, checkCard1, checkCard2, checkCard3, checkCard4, thumbSound, thumbHint, muteOnload */
 
 // Statement that retrieves the position of the sound toggle switch from local storage and stores it in a variable
 let sndToggleState = localStorage.getItem("toggle");
