@@ -497,6 +497,7 @@ footer p {
     width: 35%;
     justify-content: center;
     display: flex;
+    text-align: center;
 }
 
 #question-display {
@@ -836,8 +837,6 @@ display: block;
         width: 30%;
         margin-left: 37%;
     }
-    
-
 }
 
 @media screen and (max-width: 700px) {
