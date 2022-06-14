@@ -13,7 +13,7 @@ function setToggle() {
   if (sndToggleState === "ON") {
     soundToggle();
   } else {
-      muteAudio();
+    muteAudio();
   }
 }   
 
@@ -25,7 +25,6 @@ function muteAudio() {
   const sounds = document.querySelectorAll("audio");
   for (const sound of sounds)
   sound.muted = true;
-  console.log("muteAudio fired");
 }
 
 /** 
@@ -164,7 +163,6 @@ function soundToggle() {
     soundOnOff.innerHTML = "ON";
     soundIcon.className = "fa-solid fa-volume-low";
     sndBtnIcon.className = "fa-solid fa-volume-low";
-    
     for (const sound of sounds) {
       sound.muted = false;
       localStorage.setItem("toggle", "ON");
@@ -190,7 +188,6 @@ function testToggle() {
   let testOnOff = document.getElementById("test-on-off");
   if (testOnOff.innerHTML === "OFF") {
     testOnOff.innerHTML = "ON";
-    console.log("Test Mode Activated");
     chkGame();
     runTest();
   } else {
@@ -222,14 +219,13 @@ function runGame() {
   document.getElementById("q-thumb").src = quizList[Math.floor(Math.random() * quizList.length)];
 
   let quizPic = document.getElementById("q-thumb").getAttribute('src');
-  console.log(quizPic);
+  
 
   // Uses quizzPic variable to duplicate image to floating congratsBox element"
   document.getElementById("float-pic").src = quizPic;
-  console.log(quizPic);
+  
 
   let question = document.getElementById("question-txt").innerHTML;
-  console.log(question);
 
   if (quizPic === "assets/images/animal_sheep.webp") {
     document.getElementById("question-txt").innerHTML = "Where is the sheep?";
@@ -296,14 +292,11 @@ function runGame2() {
   document.getElementById("q-thumb").src = quizList[Math.floor(Math.random() * quizList.length)];
 
   let quizPic = document.getElementById("q-thumb").getAttribute('src');
-  console.log(quizPic);
 
   // Uses quizzPic variable to duplicate image to floating congratsBox element"
   document.getElementById("float-pic").src = quizPic;
-  console.log(quizPic);
 
   let question = document.getElementById("question-txt").innerHTML;
-  console.log(question);
 
   if (quizPic === "assets/images/shapes_circle.webp") {
     document.getElementById("question-txt").innerHTML = "Where is the circle?";
@@ -354,14 +347,11 @@ function runGame3() {
   document.getElementById("q-thumb").src = quizList[Math.floor(Math.random() * quizList.length)];
 
   let quizPic = document.getElementById("q-thumb").getAttribute('src');
-  console.log(quizPic);
 
   // Uses quizzPic variable to duplicate image to floating congratsBox element"
   document.getElementById("float-pic").src = quizPic;
-  console.log(quizPic);
 
   let question = document.getElementById("question-txt").innerHTML;
-  console.log(question);
 
   if (quizPic === "assets/images/colours_black.webp") {
     document.getElementById("question-txt").innerHTML = "Where is the colour black?";
@@ -703,15 +693,13 @@ function runTest() {
  * Displays end of test modal and shows final score 
  */
 function endTest() {
-  document.getElementById("end-test").style.display = "flex";
+  
   const getFinalScr = document.getElementById("add-score").innerText;
-  console.log("Final Score =", getFinalScr, "/10");
+  document.getElementById("end-test").style.display = "flex";
   document.getElementById("final-score").innerHTML = getFinalScr;
-  console.log("endtest is working");
 }
 
 function loadingModal() {
-  loadModal = document.getElementById("loading").style.display = "block";
-  console.log(loadModal, "loading modal is working");
-
+  
+  document.getElementById("loading").style.display = "block";
 }
