@@ -460,29 +460,23 @@ function startGame3() {
  * */
 function checkCard1() {
 
-  let box1 = document.getElementById("box-1").getAttribute('class');
-  console.log(box1);
-  let testOnOff = document.getElementById("test-on-off");
-
+  const box1 = document.getElementById("box-1").getAttribute('class');
+  const testOnOff = document.getElementById("test-on-off");
   const activeBox = "box active";
+
   if (box1 === activeBox) {
     playRight();
     congratsBox();
     addScore();
     addAttempt();
+  } else if (testOnOff.innerHTML === "ON") {
+    addAttempt();
+    chkGame();
+    tenCheck();
+    playWrong();
   } else {
-    
-    if (testOnOff.innerHTML === "ON") {
-      addAttempt();
-      chkGame();
-      tenCheck();
-      playWrong();
-    } else {
-
-      document.getElementById("box-1").src = "assets/images/try_again.webp";
-      playWrong();
-      console.log("Try again!");
-    }
+    document.getElementById("box-1").src = "assets/images/try_again.webp";
+    playWrong();
   }
 }
 
@@ -491,30 +485,23 @@ function checkCard1() {
  * */
 function checkCard2() {
 
-  let box2 = document.getElementById("box-2").getAttribute('class');
-  console.log(box2);
-  let testOnOff = document.getElementById("test-on-off");
-
-  let activeBox = "box active";
+  const box2 = document.getElementById("box-2").getAttribute('class');
+  const testOnOff = document.getElementById("test-on-off");
+  const activeBox = "box active";
 
   if (box2 === activeBox) {
     playRight();
     congratsBox();
     addScore();
     addAttempt();
-
+  } else if (testOnOff.innerHTML === "ON") {
+    addAttempt();
+    chkGame();
+    tenCheck();
+    playWrong();
   } else {
-    if (testOnOff.innerHTML === "ON") {
-      addAttempt();
-      chkGame();
-      tenCheck();
-      playWrong();
-    } else {
-
-      console.log("Try again!");
-      document.getElementById("box-2").src = "assets/images/try_again.webp";
-      playWrong();
-    }
+    document.getElementById("box-2").src = "assets/images/try_again.webp";
+    playWrong();
   }
 }
 
@@ -523,30 +510,23 @@ function checkCard2() {
  * */
 function checkCard3() {
 
-  let box3 = document.getElementById("box-3").getAttribute('class');
-  console.log(box3);
-  let testOnOff = document.getElementById("test-on-off");
-
-  let activeBox = "box active";
+  const box3 = document.getElementById("box-3").getAttribute('class');
+  const testOnOff = document.getElementById("test-on-off");
+  const activeBox = "box active";
 
   if (box3 === activeBox) {
     playRight();
     congratsBox();
     addScore();
     addAttempt();
-  } else {
-
-    if (testOnOff.innerHTML === "ON") {
-      addAttempt();
-      chkGame();
-      tenCheck();
-      playWrong();
+  } else if (testOnOff.innerHTML === "ON") {
+    addAttempt();
+    chkGame();
+    tenCheck();
+    playWrong();
     } else {
-
-      console.log("Try again!");
-      document.getElementById("box-3").src = "assets/images/try_again.webp";
-      playWrong();
-    }
+    document.getElementById("box-3").src = "assets/images/try_again.webp";
+    playWrong();
   }
 }
 
@@ -555,30 +535,23 @@ function checkCard3() {
  * */
 function checkCard4() {
 
-  let box4 = document.getElementById("box-4").getAttribute('class');
-  console.log(box4);
-  let testOnOff = document.getElementById("test-on-off");
-
-  let activeBox = "box active";
+  const box4 = document.getElementById("box-4").getAttribute('class');
+  const testOnOff = document.getElementById("test-on-off");
+  const activeBox = "box active";
 
   if (box4 === activeBox) {
     playRight();
     congratsBox();
     addScore();
     addAttempt();
+  } else if (testOnOff.innerHTML === "ON") {
+    addAttempt();
+    chkGame();
+    tenCheck();
+    playWrong();
   } else {
-
-    if (testOnOff.innerHTML === "ON") {
-      addAttempt();
-      chkGame();
-      tenCheck();
-      playWrong();
-    } else {
-
-      console.log("Try again!");
-      document.getElementById("box-4").src = "assets/images/try_again.webp";
-      playWrong();
-    }
+    document.getElementById("box-4").src = "assets/images/try_again.webp";
+    playWrong();
   }
 }
 
@@ -590,22 +563,13 @@ function chkGame() {
 
   if (gameType === "Animals") {
     resetBoxClassNames();
-    console.log(gameType);
     playAgain();
-  } else {
-
-    if (gameType === "Shapes") {
-      resetBoxClassNames();
-      console.log(gameType);
-      playAgain2();
-    } else {
-
-      if (gameType === "Colours") {
-        resetBoxClassNames();
-        console.log(gameType);
-        playAgain3();
-      }
-    }
+  } else if (gameType === "Shapes") {
+    resetBoxClassNames();
+    playAgain2();
+  } else if (gameType === "Colours") {
+    resetBoxClassNames();
+    playAgain3();
   }
 }
 
@@ -615,11 +579,8 @@ function chkGame() {
 function playAgain() {
 
   tenCheck();
-
   resetBoxClassNames();
-
-  const congratsBox = document.getElementById("congrats-box").style.display = "none";
-  console.log(congratsBox, "hello from congratsBox");
+  document.getElementById("congrats-box").style.display = "none";
   hideHint();
   runGame();
 }
@@ -630,12 +591,8 @@ function playAgain() {
 function playAgain2() {
 
   tenCheck();
-
   resetBoxClassNames();
-
-  const congratsBox = document.getElementById("congrats-box").style.display = "none";
-  console.log(congratsBox, "hello from congratsBox");
-
+  document.getElementById("congrats-box").style.display = "none";
   hideHint();
   runGame2();
 }
@@ -646,12 +603,8 @@ function playAgain2() {
 function playAgain3() {
 
   tenCheck();
-
   resetBoxClassNames();
-
-  const congratsBox = document.getElementById("congrats-box").style.display = "none";
-  console.log(congratsBox, "hello from congratsBox");
-
+  document.getElementById("congrats-box").style.display = "none";
   hideHint();
   runGame3();
 }
@@ -660,7 +613,7 @@ function playAgain3() {
  * Sets hidden congratulations modal display to flex 
  * */
 function congratsBox() {
-  document.getElementById("congrats-box").style.display = "flex";
+document.getElementById("congrats-box").style.display = "flex";
 
 }
 
