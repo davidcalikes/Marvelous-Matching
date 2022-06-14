@@ -431,9 +431,7 @@ function makeMatch() {
 function startGame() {
 
   resetBoxClassNames();
-
-  let modal = document.getElementById("modal-box").style.display = "none";
-  console.log(modal, "modal statement is defined");
+  document.getElementById("modal-box").style.display = "none";
   runGame();
 }
 
@@ -443,9 +441,7 @@ function startGame() {
 function startGame2() {
 
   resetBoxClassNames();
-
-  let modal = document.getElementById("modal-box").style.display = "none";
-  console.log(modal, "modal statement is defined");
+  document.getElementById("modal-box").style.display = "none";
   runGame2();
 }
 
@@ -455,9 +451,7 @@ function startGame2() {
 function startGame3() {
 
   resetBoxClassNames();
-
-  let modal = document.getElementById("modal-box").style.display = "none";
-  console.log(modal, "modal statement is defined");
+  document.getElementById("modal-box").style.display = "none";
   runGame3();
 }
 
