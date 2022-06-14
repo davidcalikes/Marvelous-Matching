@@ -154,6 +154,8 @@ h2 {
 .loading-txt {
     color: #ffffff;
     margin: 5%;
+    font-size: 220%;
+    text-align: center;
 }
 
 #load-pig {
@@ -828,6 +830,8 @@ display: block;
 
     .loading-txt {
         margin-top: 15%;
+        font-size: 220%;
+        text-align: center;
     }
     
     #load-pig {
