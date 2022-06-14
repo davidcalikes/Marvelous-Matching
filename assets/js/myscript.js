@@ -29,7 +29,6 @@ function setToggle() {
   }
 }
 
-// Mutes all Audio elements on page //
 /** 
  * Mutes all Audio elements on page
  * Site is muted by default
@@ -100,6 +99,20 @@ function playPop() {
 function playBack() {
   loadingModal();
   const sound = document.getElementById("back-btn");
+  sound.play();
+  sound.addEventListener("ended", function () {
+  location.href = "index.html";
+  });
+}
+
+/** 
+ * Plays pop button sound when button is clicked and returns to menu page from the about page
+ * Called from the DOM via onclick event
+ * Waits until sound has ended before loading page to prevent audio clipping
+ * */
+ function playAboutBack() {
+  loadingModal();
+  const sound = document.getElementById("about-back-button");
   sound.play();
   sound.addEventListener("ended", function () {
   location.href = "index.html";
@@ -757,8 +770,6 @@ function resetBoxClassNames() {
   document.getElementById("box-4").className = "box";
   console.log("reset is working");
 }
-
-
 
 /**
  * Displays thumbnail overlay image on click event 
