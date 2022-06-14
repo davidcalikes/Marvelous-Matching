@@ -614,7 +614,6 @@ function playAgain3() {
  * */
 function congratsBox() {
 document.getElementById("congrats-box").style.display = "flex";
-
 }
 
 /** 
@@ -625,7 +624,6 @@ function resetBoxClassNames() {
   document.getElementById("box-2").className = "box";
   document.getElementById("box-3").className = "box";
   document.getElementById("box-4").className = "box";
-  console.log("reset is working");
 }
 
 /**
@@ -640,7 +638,6 @@ function thumbHint() {
  */
 function hideHint() {
   document.getElementById("thumb-hint").style.display = "none";
-  console.log("hidehint is working");
 }
 
 /**
@@ -652,13 +649,10 @@ function shuffle(array) {
     randomIndex;
 
   while (currentIndex != 0) {
-
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex--;
-
     [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
   }
-
   return array;
 }
 
@@ -696,12 +690,11 @@ function runTest() {
 
   resetBoxClassNames();
 
-  const hidePlayInfo = document.getElementById("play-info").style.display = "none";
-  const showScore = document.getElementById("score-board").style.display = "block";
-  const hideTestModal = document.getElementById("end-test").style.display = "none";
-  const resetScore = document.getElementById("add-score").innerHTML = "0";
-  const resetAttempts = document.getElementById("attempts").innerHTML = "0";
-  console.log(hidePlayInfo, showScore, hideTestModal, resetScore, resetAttempts);
+  document.getElementById("play-info").style.display = "none";
+  document.getElementById("score-board").style.display = "block";
+  document.getElementById("end-test").style.display = "none";
+  document.getElementById("add-score").innerHTML = "0";
+  document.getElementById("attempts").innerHTML = "0";
 
   makeMatch();
 }
