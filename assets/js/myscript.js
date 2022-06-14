@@ -17,8 +17,6 @@ function setToggle() {
   }
 }   
 
-  
-
 /** 
  * Mutes all Audio elements on page
  * Site is muted by default
@@ -157,27 +155,25 @@ function qSound() {
  * Switches all audio elements between muted and unmuted states
  * */
 function soundToggle() {
-  let soundOnOff = document.getElementById("sound-on-off");
-  let soundIcon = document.getElementById("sound-icon");
-  let sndBtnIcon = document.getElementById("snd-btn-icon");
+  const sounds = document.querySelectorAll("audio");
+  const soundOnOff = document.getElementById("sound-on-off");
+  const soundIcon = document.getElementById("sound-icon");
+  const sndBtnIcon = document.getElementById("snd-btn-icon");
 
   if (soundOnOff.innerHTML === "OFF") {
     soundOnOff.innerHTML = "ON";
     soundIcon.className = "fa-solid fa-volume-low";
     sndBtnIcon.className = "fa-solid fa-volume-low";
-    const sounds = document.querySelectorAll("audio");
+    
     for (const sound of sounds) {
       sound.muted = false;
       localStorage.setItem("toggle", "ON");
-      let sndToggleState = localStorage.getItem("toggle");
-      console.log(sndToggleState);
+      sndToggleState = localStorage.getItem("toggle");
     }
-
-    } else {
+  } else {
     soundOnOff.innerHTML = "OFF";
     soundIcon.className = "fa-solid fa-volume-xmark";
     sndBtnIcon.className = "fa-solid fa-volume-xmark";
-    const sounds = document.querySelectorAll("audio");
     for (const sound of sounds) {
       sound.muted = true;
       localStorage.setItem("toggle", "OFF");
