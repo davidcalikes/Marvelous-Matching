@@ -1,10 +1,7 @@
 /*exported playAnimals, playShapes, playShapes, playColours, playPop, playBack, qSound, testToggle, startGame, startGame2, startGame3, checkCard1, checkCard2, checkCard3, checkCard4, thumbSound, thumbHint, muteOnload */
 
-// *** FUNCTIONS AND STATEMENTS RELATING TO SITE SOUNDS ***
-
 // Statement that retrieves the position of the sound toggle switch from local storage and stores it in a variable
 let sndToggleState = localStorage.getItem("toggle");
-console.log("Sound =", sndToggleState);
 
 setToggle();
 
@@ -15,19 +12,12 @@ setToggle();
 function setToggle() {
   if (sndToggleState === "ON") {
     soundToggle();
-
   } else {
-    if (sndToggleState === "OFF") {
       muteAudio();
-
-    } else {
-      if (sndToggleState === null) {
-        muteAudio();
-
-      }
-    }
   }
-}
+}   
+
+  
 
 /** 
  * Mutes all Audio elements on page
