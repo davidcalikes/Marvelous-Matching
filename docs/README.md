@@ -764,13 +764,35 @@ I corrected the code and all pages now return no html errors.
 
 <img src="./readme_images/css_pass.png">
 
-* The JavaScript .js file was passed through the JSHINT validator and returned multiple warnings.
+<br>
 
-<img src="./readme_images/jshint_errors.png">
+* The JavaScript file was passed through the JSHINT validator during development and returned multiple warnings.
 
-I altered the code and all pages now return no warnings.
+<img src="./readme_images/jshint_0.png">
 
-<img src="./readme_images/jshint_val.png">
+I corrected all of the missing semi-colon syntax errors.
+
+<img src="./readme_images/jshint_1.png">
+
+Towards the end of the project I had developed more warnings in JSHINT.
+
+<img src="./readme_images/jshint_3.png">
+
+I corrected these errors by removing unnecessary variables from certain functions and using statements instead.
+
+<img src="./readme_images/jshint_4.png">
+ 
+ I carefully and systematically removed any unused statements and verbose code from the .js file. 
+
+ <img src="./readme_images/jshint_5.png">
+
+ The only messages from the linter at the end of this process were about the "unused variables" in the .js file. These are simply the function names that are called inline from the DOM. I catologued all of these functions in line1 at the top of the .js page.
+
+
+
+
+
+
 
 <br>
 
