@@ -5,7 +5,7 @@ Marvelous Matching is a browser based matching game for pre-school infants and c
 
 Designed and tested within a special learning environment with professional guidance from teachers and support staff, Marvelous Matching is a valuable classroom and homeschool, educational resource. 
 
-Thoughtfully designed, the game provides a fun, engaging and satisfying learning experience for its intended audience. 
+Thoughtfully designed, the game provides a fun, and satisfying learning experience for its intended audience. 
 
 <img src="./readme_images/mockup.png">
 
@@ -158,7 +158,7 @@ After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the 
 
     * The site will provide users with the ability to control the sounds of the site.
 
-    * The site will provide users with the ability to chart their progress by enabling a "Test Mode" function.
+    * The site will provide users with the ability to test their progress by enabling a "Test Mode" function.
     
     * The site will provide users with disabilities the opportunity to participate in active learning.
 
@@ -195,7 +195,7 @@ After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the 
 
     <img src="./readme_images/color_scheme1.png">
 
-    The background gradient used is a standard style prevelent throughout early learning environments. Calming, like a clear blue sky, the background presents a contrasting perspective for the content of the game area and is not distracting.
+    The background gradient used is a standard style prevelent throughout early learning media. Calming, like a clear blue sky, the background presents a contrasting perspective for the content of the game area and is not distracting.
     
     <img src="./readme_images/wiggles_background.png">
 
@@ -219,7 +219,7 @@ After consultation with St Mary's Class 5 teacher Caoimhe Brady, we reached the 
     <br>
 
 
-     * The darker blue colour is used for navigation links. (This color was also featured on the website of St Mary's School so I used it here as it may provide reassurance as a color some users are familiar with)
+     * The darker blue color is used for navigation links. (This color was also featured on the website of St Mary's School so I used it here as it may provide reassurance as a color some users are familiar with)
      
      <br>
 
@@ -260,9 +260,9 @@ Below are some features the site currently has to offer and also some features w
 
     * The Main Logo is acts as a hero image for the Menu/Landing page. 
     
-    * The Main Logo contains bold, easy to read text using cartoon images that will engage the intended user.
+    * The Main Logo contains bold, easy to read text using cartoon images that will engage the intended audience.
 
-    * The Main Logo contains the alternative (US) spelling of Marvelous consistent with the "synthetic phonics" approach to spelling. 
+    * The Main Logo contains the alternative (US) spelling of Marvelous consistent with the principles of "synthetic phonics". 
  
     <br>
 
@@ -278,7 +278,7 @@ Below are some features the site currently has to offer and also some features w
 
     * The Menu Page Navigation Bar is fully responsive across various screen sizes.
 
-    * The links of the Menu Page Navigation Bar change background color when the user moves a cursor over each element. This provides intuitive visual feedback for the user that the item can be clicked. 
+    * The links of the Menu Page Navigation Bar change background color when the user moves a cursor over each link. This provides intuitive visual feedback for the user that the item can be clicked. 
     
     <br>
 
@@ -302,7 +302,7 @@ Below are some features the site currently has to offer and also some features w
 
     * The Game Navigation Bar contains button links to the three different categories of matching game availiable to the user.
 
-    * The Buttons are brightly colored and color coded to each game.
+    * The Buttons are brightly colored and color coded to each games start modal.
 
     * Each button contains a rounded border that changes color when user moves a cursor over the element. This provides intuitive visual feedback for the user that the item can be clicked.
 
@@ -328,7 +328,7 @@ Below are some features the site currently has to offer and also some features w
 
     * The Sound Toggle Switch provides user feedback to its state in two ways. By changing its speaker icon and by changing its text content. 
 
-    * The switch is set to OFF by default to enhance user experience.
+    * The switch is set to OFF by default concomitant with the principles of user experience design.
 
     * The switch will maintain its state across the different games and pages saving the users preferred option.
 
@@ -356,7 +356,7 @@ Below are some features the site currently has to offer and also some features w
 
     * The Start Game Modal has a blue textured background to indicate it is informative.  
 
-    * The Start Game Modal contains a distinctive button that will make the modal disappear then fire a function to run the game when when clicked. 
+    * The Start Game Modal contains a distinctive button that will make the modal disappear then fire a JavaScript function to run the game when when clicked. 
 
     <br>
 
@@ -378,7 +378,7 @@ Below are some features the site currently has to offer and also some features w
 
     * The Game Page Nav Bar provides the user access to the sound toggle switch, a link to return to the main menu and a switch to enable and disable the 'Test Mode' function.
 
-    * The Game Page Nav Bar is fully responsive provides visual user feedback upon hover events.
+    * The Game Page Nav Bar is fully responsive and provides visual user feedback upon hover events.
 
     * The Game page nav bar maintains a style consitent with the rest of the site.
 
@@ -398,13 +398,13 @@ Below are some features the site currently has to offer and also some features w
     * Each box will react to a tap or click event.
 
     * Each box will change border color when hovered over to provide visual feedback for the user.
+    
+    * Incorrect answers result in the image being replaced with a 'try again' message (pictured above) and error sound effect.
 
     * Correct answers display a congratulatory modal element that has a button to reset the game.
     <img src="./readme_images/song_congrats_modal.png">
     
     * The Animals game congratulatory modal has a  'play song' feature that allows the user to play a short animal song. This feature is entirely user controlled and is easy to identify thanks to its flashing animation and hover effect.
-
-    * Incorrect answers result in the image being replaced with a 'try again' message (pictured above) and error sound effect.
 
     * The Upper Game area is fully responsive across a broad variety of screen sizes.
 
@@ -471,9 +471,11 @@ Below are some features the site currently has to offer and also some features w
 
 - __Possible Future Features__
 
-    For copyright reasons, it was not possible for me to integrate content from the Phonics and Maths programmes used within the school. Because of this, I did not include any numbers or letter matching categories. It was the consencus of teaching staff that using images or sounds that didn't match the current programmes would be confusing for the pupils. 
+    For copyright reasons, it was not possible for me to integrate content from the Phonics and Maths programmes used within the school. Because of this, I did not include any numbers or letter matching categories. It was the consensus of teaching staff that using images or sounds that didn't match the current programmes would be confusing for the pupils. 
 
     In future versions of Marvelous Matching however, it may be possible to include a feature that allows teachers and support staff to upload content to the game themselves. This would mean that they could use the appropriate literature for each category and be able to teach even more learning outcomes from a single application.
+
+    In doing this I would have to take extra consideration with reagrds to how the site would process user input error handling. 
 
     I would also like to add an Irish language translator feature at some point that would present the site in Irish.
 
@@ -509,7 +511,7 @@ Below are some features the site currently has to offer and also some features w
     * Various android tablet devices.
     <img src="./readme_images/android_tablet.png">
 
-    I also used Google Dev-tools to test the sites responsivness by emulating the sites appearance across other device screen sizes.
+    I also used Google Dev-tools to test the sites responsivness by emulating the apps appearance across other device screen sizes.
 
     <img src="./readme_images/dev_tools.png">
 
@@ -569,13 +571,13 @@ I resolved this issue by including an element on each page (pictured above) and 
 
 *  Main Menu Buttons Testing
 
-I had initially intended to have a simple sound function that would play a sound when a click event called it from the DOM. I encountered a problem however when using sounds when loading pages, the pages would often load and clip the sound before it is heard or sometimes it might not be heard at all. 
+I had initially intended to have a simple sound function that would play a sound when a click event called it from the DOM. I encountered a problem however when using sounds when loading pages, the pages would often load and clip the sound before it had finished playing and sometimes it might not be heard at all. 
 
 I fixed this error by developing a function that loads each page only after the sound effect has ended.
 
 * About page Testing
 
-I tested the link to the about page on the menu page and it opened at the correct destination. The About page nav links work, images load and the text content is free from gramattical errors.
+I tested the link to the about page on the menu page and it opened at the correct destination. The About page nav links work, images load and the text content is free from grammatical errors.
 
 * Footer Testing
 
@@ -667,11 +669,11 @@ The results of sequence testing returned no errors.
 
 - __Manual Testing__
 
-* Marvelous Matching was tested by the pupils of St Mary's Special School in Drumcar, Co.Louth in the North East Of Ireland. Under the supervision and guidance of Vice-Principal Mr Declan McCoy, 4 Classes took part in testing the application: 
+* Marvelous Matching was tested by the pupils and staff of St Mary's Special School in Drumcar, Co.Louth in the North East Of Ireland. Under the supervision and guidance of Vice-Principal Declan McCoy, 4 Classes took part in testing the application: 
 
     * Class 5: Teacher -- Caoimhe Brady.
     * Class 7: Teacher -- Colin McKee.
-    * The Rainbow Class: Teacher -- Rosin Donnelly.
+    * The Rainbow Class: Teacher -- Roisin Donnelly.
     * Declan's Class: Teaching Vice-Principal -- Declan McCoy.
 
 The following feedback was recieved from each class:
@@ -739,7 +741,7 @@ I decided to make the start game modal more intuitive to use by changing the ins
 
 <img src="./readme_images/new_animal_modal.png">
 
-I achieved this by adding a grayscale filter to the images that were confusing to the user and removing the box-shadow effect to make them more 2 dimensional and less functional.
+I achieved this by adding a grayscale filter to the images that were confusing to the user and removing the box-shadow effect to make them more 2 dimensional and less functional looking.
 
 <br>
 
@@ -760,6 +762,8 @@ I corrected the code and all pages now return no html errors.
 
 <img src="./readme_images/index_val_passed.png">
 
+<br>
+
 * The CSS stylesheet was passed through the Jigsaw Validator and returned no errors.
 
 <img src="./readme_images/css_pass.png">
@@ -774,11 +778,11 @@ I corrected all of the missing semi-colon syntax errors.
 
 <img src="./readme_images/jshint_1.png">
 
-Towards the end of the project I had developed more warnings in JSHINT.
+ Towards the end of the project I had developed more warnings in JSHINT.
 
 <img src="./readme_images/jshint_3.png">
 
-I corrected these errors by removing unnecessary variables from certain functions and using statements instead.
+ I corrected these errors by removing unnecessary variables from certain functions and using statements instead.
 
 <img src="./readme_images/jshint_4.png">
  
@@ -789,14 +793,9 @@ I corrected these errors by removing unnecessary variables from certain function
  The only messages from the linter at the end of this process were about the "unused variables" in the .js file. These are simply the function names that are called inline from the DOM. I catologued all of these functions in line1 at the top of the .js page.
 
 
-
-
-
-
-
 <br>
 
-- __Performance Testing__
+- __Performance & Accessibility Testing__
 
     I then used the WCAG color contrast checker tool and it returned one contrast error with the green button colour of the menu page.
 
@@ -804,7 +803,7 @@ I corrected these errors by removing unnecessary variables from certain function
 
     This was addressed by implementing a darker green colour for the menu buttons.
 
-    <img src="./readme_images/contrast_error.png">
+    <img src="./readme_images/contrast_fix.png">
 
     I used the WCAG tool extensively throughout the site and made changes accordingly.
 
@@ -922,7 +921,7 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
 
     * I used code found in this article for retrieving random items from an array: https://www.w3schools.com/jsref/jsref_slice_array.asp
 
-    * The addScore and addAttempt functions of myscript.js are loosely based on elements within the Code Institute's Love Maths code along project.
+    * The addScore and addAttempt functions of myscript.js are based on elements within the Code Institute's Love Maths code along project.
 
     * I used this code to solve the audio issue mentioned in bugfixes  https://stackoverflow.com/questions/45330912/why-wont-my-button-play-my-sound-and-go-to-the-link)
 
@@ -949,6 +948,10 @@ The live link can be found here - https://davidcalikes.github.io/Marvelous-Match
     * Colin Mckee
 
         Colin has one of the toughest jobs in our school and has reserves of patience one can only marvel at. Thanks Colly, I understand how difficult it is to introduce anything new into the routine for Class 7 and I really appreciate the effort.
+
+    * Roisin Donnelly
+
+        Thanks to Roisin and all in the Rainbow class who had a very stressful day on the day of testing but still managed to provide feedback.
 
     * Saoirse Calikes
 
