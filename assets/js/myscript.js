@@ -47,6 +47,7 @@ function muteAudio() {
  * Waits until sound has ended before loading page to prevent audio clipping
  * */
 function playAnimals() {
+  loadingModal();
   const sound = document.getElementById("animals");
   sound.play();
   sound.addEventListener('ended', function () {
@@ -60,6 +61,7 @@ function playAnimals() {
  * Waits until sound has ended before loading page to prevent audio clipping
  * */
 function playShapes() {
+  loadingModal();
   const sound = document.getElementById("shapes");
   sound.play();
   sound.addEventListener('ended', function () {
@@ -73,6 +75,7 @@ function playShapes() {
  * Waits until sound has ended before loading page to prevent audio clipping
  * */
 function playColours() {
+  loadingModal();
   const sound = document.getElementById("colours");
   sound.play();
   sound.addEventListener('ended', function () {
@@ -95,6 +98,7 @@ function playPop() {
  * Waits until sound has ended before loading page to prevent audio clipping
  * */
 function playBack() {
+  loadingModal();
   const sound = document.getElementById("back-btn");
   sound.play();
   sound.addEventListener("ended", function () {
@@ -843,4 +847,10 @@ function endTest() {
   console.log("Final Score =", getFinalScr, "/10");
   document.getElementById("final-score").innerHTML = getFinalScr;
   console.log("endtest is working");
+}
+
+function loadingModal() {
+  loadModal = document.getElementById("loading").style.display = "block";
+  console.log(loadModal, "loading modal is working");
+
 }

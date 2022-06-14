@@ -254,7 +254,7 @@ Below are some features the site currently has to offer and also some features w
 
 - __Main Logo__
 
-    * The Main Logo of the sight is colorful, indicative, and visually pleasing.
+    * The Main Logo of the site is colorful, indicative, and visually pleasing.
 
     * The Main Logo is available across all five pages of the site.
 
