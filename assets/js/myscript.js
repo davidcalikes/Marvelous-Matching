@@ -219,13 +219,9 @@ function runGame() {
   document.getElementById("q-thumb").src = quizList[Math.floor(Math.random() * quizList.length)];
 
   let quizPic = document.getElementById("q-thumb").getAttribute('src');
-  
 
   // Uses quizzPic variable to duplicate image to floating congratsBox element"
   document.getElementById("float-pic").src = quizPic;
-  
-
-  let question = document.getElementById("question-txt").innerHTML;
 
   if (quizPic === "assets/images/animal_sheep.webp") {
     document.getElementById("question-txt").innerHTML = "Where is the sheep?";
@@ -296,8 +292,6 @@ function runGame2() {
   // Uses quizzPic variable to duplicate image to floating congratsBox element"
   document.getElementById("float-pic").src = quizPic;
 
-  let question = document.getElementById("question-txt").innerHTML;
-
   if (quizPic === "assets/images/shapes_circle.webp") {
     document.getElementById("question-txt").innerHTML = "Where is the circle?";
     document.getElementById("q-sound").src = "assets/audio/q_circle.mp3";
@@ -350,8 +344,6 @@ function runGame3() {
 
   // Uses quizzPic variable to duplicate image to floating congratsBox element"
   document.getElementById("float-pic").src = quizPic;
-
-  let question = document.getElementById("question-txt").innerHTML;
 
   if (quizPic === "assets/images/colours_black.webp") {
     document.getElementById("question-txt").innerHTML = "Where is the colour black?";
