@@ -819,8 +819,6 @@ There is an intermittant audio bug that occurs when a user interacts with an aud
 
 Initially the audio will play as normal but will not play the same audio file again properly until after 3 or 4 seconds. Even though it doesn't affect the operation in a special educational setting (as users would normally require time to consider their answers), I am still trying to find a solution to this issue that appears to be widely known as a fault within the ios operating system.
 
-<img src="./readme_images/ios_bug.png">
-
 <br>
 
 - __Other Known Bugs__
