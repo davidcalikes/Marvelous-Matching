@@ -1,6 +1,6 @@
 /*exported playAnimals, playShapes, playShapes, playColours, playPop, playBack, qSound, testToggle, startGame, startGame2, startGame3, checkCard1, checkCard2, checkCard3, checkCard4, thumbSound, thumbHint, muteOnload */
 
-// Functions and statements relating to site sounds
+// *** FUNCTIONS AND STATEMENTS RELATING TO SITE SOUNDS ***
 
 // Statement that retrieves the position of the sound toggle switch from local storage and stores it in a variable
 let sndToggleState = localStorage.getItem("toggle");
