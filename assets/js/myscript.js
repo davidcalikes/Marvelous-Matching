@@ -37,6 +37,7 @@ function playAnimals() {
   const sound = document.getElementById("animals");
   sound.play();
   sound.addEventListener('ended', function () {
+  document.getElementById("loading").style.display = "none";
   location.href = 'animals.html';
   });
 }
