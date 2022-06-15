@@ -1,5 +1,5 @@
 /*exported playAnimals, playShapes, playShapes, playColours, playPop, playBack, playAboutBack, playSong, qSound, testToggle, startGame, startGame2, startGame3, checkCard1, checkCard2, checkCard3, checkCard4, thumbSound, thumbHint, muteOnload */
-
+document.getElementById("loading").style.display = "flex";
 // Statement that retrieves the position of the sound toggle switch from local storage and stores it in a variable
 let sndToggleState = localStorage.getItem("toggle");
 
@@ -696,6 +696,3 @@ function loadingModal() {
   document.getElementById("loading").style.display = "block";
 }
 
-if(performance.navigation.type == 2) {
-  location.reload(true);
-}
