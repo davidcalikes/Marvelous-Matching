@@ -862,7 +862,9 @@ Initially the audio will play as normal but will not play the same audio file ag
 
 - __Other Known Bugs__
 
-There are currently no other known bugs, but I will add them to this section in the future if and when they appear.
+There is a bug that appears on mobile/touchscreen devices when a user navigates via the back button on the browser. On mobile touchscreen devices only the loading modal style display property is still set to block and block. The user can make this dissapear by simply refreshing the page again but i will continue to look for a more fluid solution to this problem that will enhance the user experience"
+
+I will add any other bugs to this section in the future if and when they appear.
 
 
 # Deployment
