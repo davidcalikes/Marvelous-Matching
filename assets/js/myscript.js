@@ -52,6 +52,7 @@ function playShapes() {
   const sound = document.getElementById("shapes");
   sound.play();
   sound.addEventListener('ended', function () {
+  document.getElementById("loading").style.display = "none";
   location.href = 'shapes.html';
   });
 }
@@ -66,6 +67,7 @@ function playColours() {
   const sound = document.getElementById("colours");
   sound.play();
   sound.addEventListener('ended', function () {
+  document.getElementById("loading").style.display = "none";
   location.href = 'colours.html';
   });
 }
@@ -89,6 +91,7 @@ function playBack() {
   const sound = document.getElementById("back-btn");
   sound.play();
   sound.addEventListener("ended", function () {
+  document.getElementById("loading").style.display = "none";
   location.href = "index.html";
   });
 }
@@ -103,6 +106,7 @@ function playBack() {
   const sound = document.getElementById("about-back-button");
   sound.play();
   sound.addEventListener("ended", function () {
+  document.getElementById("loading").style.display = "none";
   location.href = "index.html";
   });
 }
