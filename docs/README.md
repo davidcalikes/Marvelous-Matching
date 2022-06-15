@@ -849,6 +849,11 @@ To improve the user experience, I have included a pop-up modal that displays a c
 <img src="./readme_images/load_pig.png">
 
 <br>
+There was a bug that appeared on mobile/touchscreen devices when a user would navigates via the back button on the browser. On mobile touchscreen devices only the loading modal style display property would still be set to block.
+
+I fixed this bug by adding another statement that resets the loader after each event listener ended in each of the playSound functions.
+
+<br>
 
 - __Unfixed Bugs__
 
@@ -862,7 +867,7 @@ Initially the audio will play as normal but will not play the same audio file ag
 
 - __Other Known Bugs__
 
-There is a bug that appears on mobile/touchscreen devices when a user navigates via the back button on the browser. On mobile touchscreen devices only the loading modal style display property is still set to block and block. The user can make this dissapear by simply refreshing the page again but i will continue to look for a more fluid solution to this problem that will enhance the user experience"
+There are no other known bugs.
 
 I will add any other bugs to this section in the future if and when they appear.
 
