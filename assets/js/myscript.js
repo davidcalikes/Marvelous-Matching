@@ -695,3 +695,7 @@ function loadingModal() {
   
   document.getElementById("loading").style.display = "block";
 }
+
+if(performance.navigation.type == 2) {
+  location.reload(true);
+}
